@@ -1,0 +1,153 @@
+/* line 6, ../sass/theme-auxis.scss */
+#header {
+  height: 40px;
+}
+
+/* line 10, ../sass/theme-auxis.scss */
+#navigation {
+  background-color: #e01b4d;
+}
+
+/* line 15, ../sass/theme-auxis.scss */
+#content, .navigation-wrapper, .footer-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+/* line 21, ../sass/theme-auxis.scss */
+#footer {
+  background-color: #999999;
+}
+
+/* line 46, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+.content-wrapper:before, .content-wrapper:after, .navigation-wrapper:before, .navigation-wrapper:after, .footer-wrapper:before, .footer-wrapper:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+.content-wrapper:after, .navigation-wrapper:after, .footer-wrapper:after {
+  clear: both;
+}
+
+/* line 30, ../sass/theme-auxis.scss */
+.content-wrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 35, ../sass/theme-auxis.scss */
+.block-info {
+  margin-top: 30px;
+}
+
+/* line 39, ../sass/theme-auxis.scss */
+.block-slider {
+  float: left;
+  width: 500%;
+  margin-left: 0%;
+  margin-right: -500%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: #efefef;
+}
+
+/* line 43, ../sass/theme-auxis.scss */
+.block-news {
+  float: left;
+  width: 200%;
+  margin-left: 500%;
+  margin-right: -700%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: #455067;
+}
+
+/* line 48, ../sass/theme-auxis.scss */
+.block-info {
+  clear: both;
+  float: left;
+  width: 700%;
+  margin-left: 0%;
+  margin-right: -700%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: #008800;
+}
+
+/* line 54, ../sass/theme-auxis.scss */
+.block-logo {
+  float: left;
+  width: 200%;
+  margin-left: 0%;
+  margin-right: -200%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  padding-left: 10px;
+}
+
+/* line 59, ../sass/theme-auxis.scss */
+.block-nav {
+  float: left;
+  width: 500%;
+  margin-left: 200%;
+  margin-right: -700%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 63, ../sass/theme-auxis.scss */
+.block-footer-menu {
+  float: left;
+  width: 500%;
+  margin-left: 0%;
+  margin-right: -500%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  padding-left: 10px;
+}
+
+/* line 68, ../sass/theme-auxis.scss */
+.block-footer-search {
+  float: left;
+  width: 200%;
+  margin-left: 500%;
+  margin-right: -700%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}

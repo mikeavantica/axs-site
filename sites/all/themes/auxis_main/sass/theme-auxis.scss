@@ -1,0 +1,70 @@
+@import "zen";
+
+$zen-column-count: 7; // Set the total number of columns in the grid.
+$zen-gutter-width: 10px;
+
+#header {
+  height: 40px;
+}
+
+#navigation {
+  background-color: #e01b4d;
+
+}
+
+#content, .navigation-wrapper, .footer-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+#footer {
+  //min-height: 180px;
+  background-color: #999999;
+}
+
+.content-wrapper, .navigation-wrapper, .footer-wrapper {
+  @include zen-grid-container; // Apply this mixin to the container.
+}
+
+.content-wrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.block-info {
+  margin-top: 30px;
+}
+
+.block-slider {
+  @include zen-grid-item(5, 1);
+  background-color: #efefef;
+}
+.block-news {
+  @include zen-grid-item(2, 6);
+  background-color: #455067;
+}
+
+.block-info {
+  @include zen-clear(both);
+  @include zen-grid-item(7, 1);
+  background-color: #008800;
+}
+
+.block-logo {
+  @include zen-grid-item(2, 1);
+  padding-left: 10px;
+}
+
+.block-nav {
+  @include zen-grid-item(5, 3);
+}
+
+.block-footer-menu {
+  @include zen-grid-item(5, 1);
+  padding-left: 10px;
+}
+
+.block-footer-search {
+  @include zen-grid-item(2, 6);
+}
