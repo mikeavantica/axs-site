@@ -130,3 +130,22 @@ function STARTERKIT_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+function auxis_main_menu_link__menu_block__1(array $variables) {
+    $element = $variables['element'];
+    $sub_menu = '';
+    $custom_class = 'class=""';
+
+    //print_r($element);
+
+    if ($element['#below']) {
+        $sub_menu = drupal_render($element['#below']);
+    }
+    $output = l($element['#title'], $element['#href'], $element['#localized_options']);
+
+    if (array_search('active', $element['#attributes']['class'])>0) {
+        $custom_class = 'class="Selected"';
+    }
+
+    return '<li ' . $custom_class . '>'  . $output . $sub_menu . "</li>\n";
+}

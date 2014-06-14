@@ -49,8 +49,8 @@ stylesheets[all][] = system.messages.css
 stylesheets[all][] = system.theme.css
 
 ; Then we add our own stylesheet.
-;stylesheets[all][] = css/jquery-mmenu/mmenu.css
-;stylesheets[all][] = css/jquery-mmenu/jquery.mmenu.css
+stylesheets[all][] = css/jquery-mmenu/mmenu.css
+stylesheets[all][] = css/jquery-mmenu/jquery.mmenu.css
 stylesheets[all][] = css/styles.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
@@ -67,9 +67,8 @@ stylesheets[all][] = css/styles.css
 
 ; Optionally add some JavaScripts to your theme.
 
-;scripts[] = js/jquery-1.11.1.min.js
-;scripts[] = js/jquery-mmenu/jquery.mmenu.min.js
-;scripts[] = js/script.js
+scripts[] = js/jquery-mmenu/jquery.mmenu.min.js
+scripts[] = js/script.js
 
 ; This section lists the regions defined in Zen's default page.tpl.php and
 ; maintenance-page.tpl.php files. The name in brackets is the machine name of
@@ -87,6 +86,7 @@ stylesheets[all][] = css/styles.css
 ;   <?php print $header_top; ?>
 
 ;regions[header]         = Header
+regions[mmenu]           = Sliding Menu Mobile
 ;regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[help]           = Help

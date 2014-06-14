@@ -19,9 +19,15 @@
 
             <?php if ($main_menu): ?>
 
-                <!--a href="#main-mmenu"></a>
+                <a href="#main-mmenu"></a>
 
-                <nav id="main-mmenu">
+                <?php if ($page['mmenu']): ?>
+                    <div class="mmenu">
+                        <?php print render($page['mmenu']); ?>
+                    </div> <!-- /.Sliding Menu Mobile -->
+                <?php endif; ?>
+
+                <!--nav id="main-mmenu">
                     <ul>
                         <li class="Selected"><a href="index.html">Home</a></li>
                         <li><a href="horizontal-submenus.html">About Us</a></li>
