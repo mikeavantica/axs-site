@@ -1,70 +1,38 @@
 @import "zen";
 
-$zen-column-count: 7; // Set the total number of columns in the grid.
-$zen-gutter-width: 10px;
+body {
+  background-color: #ffffff;
+  -webkit-text-size-adjust: none;
+}
 
 #header {
-  height: 40px;
-}
-
-#navigation {
   background-color: #e01b4d;
-
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-#content, .navigation-wrapper, .footer-wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
+.header {
+  margin-bottom: 10px;
+}
+
+.nav-logo {
+  padding: 5px 10px 5px 10px;
 }
 
 #footer {
-  //min-height: 180px;
   background-color: #999999;
 }
 
-.content-wrapper, .navigation-wrapper, .footer-wrapper {
-  @include zen-grid-container; // Apply this mixin to the container.
+.news-info {
+  color: #ffffff;
+  background-color: #999999;
+  padding: 0.2em;
 }
 
-.content-wrapper {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.news-info {
+  margin-bottom: 5px;
 }
 
-.block-info {
-  margin-top: 30px;
-}
-
-.block-slider {
-  @include zen-grid-item(5, 1);
-  background-color: #efefef;
-}
-.block-news {
-  @include zen-grid-item(2, 6);
-  background-color: #455067;
-}
-
-.block-info {
-  @include zen-clear(both);
-  @include zen-grid-item(7, 1);
-  background-color: #008800;
-}
-
-.block-logo {
-  @include zen-grid-item(2, 1);
-  padding-left: 10px;
-}
-
-.block-nav {
-  @include zen-grid-item(5, 3);
-}
-
-.block-footer-menu {
-  @include zen-grid-item(5, 1);
-  padding-left: 10px;
-}
-
-.block-footer-search {
-  @include zen-grid-item(2, 6);
+.news-clients {
+  border: 2px solid #999999;
 }

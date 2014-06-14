@@ -9,9 +9,9 @@
 ?>
 <?php if ($content): ?>
   <footer id="footer" class="<?php print $classes; ?>">
-      <div class="footer-wrapper">
-          <div class="block-footer-menu">footer menu</div>
-          <div class="block-footer-search">search</div>
+      <div id="footer-content">
+          <div class="block-menu">footer menu</div>
+          <div class="block-search">search</div>
       </div>
   </footer>
 <?php endif; ?>

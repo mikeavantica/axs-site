@@ -98,11 +98,14 @@ $font-monospace:   $courier;
 $indent-amount: 30px;
 
 // The height of the navigation container.
-$nav-height: 5em;
+$nav-height: 3em;
 
 // Tab styling.
 $tabs-container-bg: #fff;
 $tabs-border: #bbb;
+
+// The max width of the page
+$page-max-width: 1200px;
 
 
 // =============================================================================

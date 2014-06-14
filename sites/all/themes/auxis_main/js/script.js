@@ -19,8 +19,12 @@ Drupal.behaviors.my_custom_behavior = {
 
     // Place your code here.
 
+      jQuery(function () {
+          jQuery('nav#main-mmenu').mmenu({
+          });
+      });
+
   }
 };
-
 
 })(jQuery, Drupal, this, this.document);
