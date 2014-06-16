@@ -27,15 +27,146 @@
                     </div> <!-- /.Sliding Menu Mobile -->
                 <?php endif; ?>
 
-                <!--nav id="main-mmenu">
-                    <ul>
-                        <li class="Selected"><a href="index.html">Home</a></li>
-                        <li><a href="horizontal-submenus.html">About Us</a></li>
-                    </ul>
-                </nav-->
+                <div id="menu-wrapper">
 
-                <nav id="main-menu" role="navigation" tabindex="-1">
-                    <?php
+                    <ul class="mm-nav">
+                        <li><a href="#">Home</a></li>
+                        <li>
+                            <a href="#">Managment Consulting</a>
+                            <div>
+                                <div class="mm-nav-column">
+                                    <h3>Home</h3>
+                                    <ul>
+                                        <li><a href="#">Pampers Diapers</a></li>
+                                        <li><a href="#">Huggies Diapers</a></li>
+                                        <li><a href="#">Seventh Generation</a></li>
+                                        <li><a href="#">Diapers</a></li>
+                                        <li><a href="#">Derbies</a></li>
+                                        <li><a href="#">Driving shoes</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                        <li><a href="#">Loafers</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="mm-nav-column">
+                                    <h3>Home</h3>
+                                    <ul>
+                                        <li><a href="#">Driving shoes</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                        <li><a href="#">Loafers</a></li>
+                                    </ul>
+
+                                    <h3>Home</h3>
+                                    <ul>
+                                        <li><a href="#">Driving shoes</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                        <li><a href="#">Loafers</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="mm-nav-column">
+                                    <h3>Home</h3>
+                                    <ul>
+                                        <li><a href="#">Pampers Diapers</a></li>
+                                        <li><a href="#">Huggies Diapers</a></li>
+                                        <li><a href="#">Seventh Generation</a></li>
+                                        <li><a href="#">Diapers</a></li>
+                                        <li><a href="#">Derbies</a></li>
+                                        <li><a href="#">Driving shoes</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                        <li><a href="#">Loafers</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="mm-nav-column">
+                                    <h3 class="orange">Related Categories</h3>
+                                    <ul>
+                                        <li><a href="#">Pampers Diapers</a></li>
+                                        <li><a href="#">Huggies Diapers</a></li>
+                                        <li><a href="#">Diapers</a></li>
+                                    </ul>
+
+                                    <h3 class="orange">Brands</h3>
+                                    <ul>
+                                        <li><a href="#">Driving shoes</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Technology Services</a></li>
+                        <li>
+                            <a href="#">BPO</a>
+                            <div>
+                                <div class="mm-nav-column">
+                                    <h3 class="orange">Related Categories</h3>
+                                    <ul>
+                                        <li><a href="#">Pampers Diapers</a></li>
+                                        <li><a href="#">Huggies Diapers</a></li>
+                                        <li><a href="#">Diapers</a></li>
+                                    </ul>
+
+                                    <h3 class="orange">Brands</h3>
+                                    <ul>
+                                        <li><a href="#">Driving shoes</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="mm-nav-column">
+                                    <h3>Home</h3>
+                                    <ul>
+                                        <li><a href="#">Pampers Diapers</a></li>
+                                        <li><a href="#">Huggies Diapers</a></li>
+                                        <li><a href="#">Seventh Generation</a></li>
+                                        <li><a href="#">Diapers</a></li>
+                                        <li><a href="#">Derbies</a></li>
+                                        <li><a href="#">Driving shoes</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                        <li><a href="#">Loafers</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="mm-nav-column">
+                                    <h3>Home</h3>
+                                    <ul>
+                                        <li><a href="#">Driving shoes</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                        <li><a href="#">Loafers</a></li>
+                                    </ul>
+
+                                    <h3>Home</h3>
+                                    <ul>
+                                        <li><a href="#">Driving shoes</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                        <li><a href="#">Loafers</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="mm-nav-column">
+                                    <h3>Home</h3>
+                                    <ul>
+                                        <li><a href="#">Pampers Diapers</a></li>
+                                        <li><a href="#">Huggies Diapers</a></li>
+                                        <li><a href="#">Seventh Generation</a></li>
+                                        <li><a href="#">Diapers</a></li>
+                                        <li><a href="#">Derbies</a></li>
+                                        <li><a href="#">Driving shoes</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                        <li><a href="#">Loafers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Viewpoints</a></li>
+                        <li><a href="#">Client Results</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+
+                </div>
+
+                <!--nav id="main-menu" role="navigation" tabindex="-1">
+                    <php
                     // This code snippet is hard to modify. We recommend turning off the
                     // "Main menu" on your sub-theme's settings form, deleting this PHP
                     // code block, and, instead, using the "Menu block" module.
@@ -51,7 +182,7 @@
                             'class' => array('element-invisible'),
                         ),
                     )); ?>
-                </nav>
+                </nav-->
             <?php endif; ?>
 
             <?php print render($page['navigation']); ?>

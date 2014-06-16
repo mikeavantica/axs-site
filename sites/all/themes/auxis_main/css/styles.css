@@ -111,7 +111,7 @@ audio:not([controls]) {
  */
 /* line 106, ../sass/_normalize.scss */
 html {
-  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   /* 1 */
   font-size: 100%;
   /* 3 */
@@ -1979,4 +1979,217 @@ body {
 /* line 36, ../sass/theme-auxis.scss */
 .news-clients {
   border: 2px solid #999999;
+}
+
+/* line 8, ../sass/theme-auxis-megamenu.scss */
+.mm-nav,
+.mm-nav a,
+.mm-nav ul,
+.mm-nav li,
+.mm-nav div,
+.mm-nav nav,
+.mm-nav form,
+.mm-nav input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+/* line 15, ../sass/theme-auxis-megamenu.scss */
+.mm-nav a {
+  text-decoration: none;
+}
+
+/* line 17, ../sass/theme-auxis-megamenu.scss */
+.mm-nav li {
+  list-style: none;
+}
+
+/* Menu Container */
+/* line 20, ../sass/theme-auxis-megamenu.scss */
+.mm-nav {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  cursor: default;
+  z-index: 500;
+  height: 50px;
+}
+
+/* Menu List */
+/* line 30, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li {
+  display: block;
+  float: left;
+  max-width: 120px;
+}
+
+/* Menu Links */
+/* line 37, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li > a {
+  position: relative;
+  display: block;
+  z-index: 510;
+  height: 50px;
+  padding: 20px 10px 16px 10px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  font-weight: 300;
+  font-size: 13px;
+  color: #fcfcfc;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 64, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li:hover > a {
+  color: #e01b4d;
+  background: #e1e1e1;
+}
+
+/* line 69, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li:first-child > a {
+  border-left: none;
+}
+
+/* Search Form */
+/* line 75, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li.mm-nav-search > form {
+  position: relative;
+  width: inherit;
+  height: 54px;
+  z-index: 510;
+  border-left: 1px solid #4b4441;
+}
+
+/* line 83, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li.mm-nav-search input[type="text"] {
+  display: block;
+  float: left;
+  width: 1px;
+  height: 24px;
+  padding: 15px 0;
+  line-height: 24px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #999999;
+  background: #372f2b;
+  -webkit-transition: all .3s ease 1s;
+  -moz-transition: all .3s ease 1s;
+  -o-transition: all .3s ease 1s;
+  -ms-transition: all .3s ease 1s;
+  transition: all .3s ease 1s;
+}
+
+/* line 106, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li.mm-nav-search input[type="text"]:focus {
+  color: #fcfcfc;
+}
+
+/* line 109, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li.mm-nav-search input[type="text"]:focus,
+.mm-nav > li.mm-nav-search:hover input[type="text"] {
+  width: 110px;
+  padding: 15px 20px;
+  -webkit-transition: all .3s ease .1s;
+  -moz-transition: all .3s ease .1s;
+  -o-transition: all .3s ease .1s;
+  -ms-transition: all .3s ease .1s;
+  transition: all .3s ease .1s;
+}
+
+/* line 120, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li.mm-nav-search input[type="submit"] {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 54px;
+  padding: 0 25px;
+  cursor: pointer;
+  border-radius: 0 3px 3px 0;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 139, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li.mm-nav-search input[type="submit"]:hover {
+  background-color: #4b4441;
+}
+
+/* Menu Dropdown */
+/* line 142, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li > div {
+  text-align: left;
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 86px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  background: #e1e1e1;
+  border-radius: 0 0 3px 3px;
+  border-bottom: 1px solid #e01b4d;
+  border-left: 1px solid #e01b4d;
+  border-right: 1px solid #e01b4d;
+  -webkit-transition: all .3s ease .15s;
+  -moz-transition: all .3s ease .15s;
+  -o-transition: all .3s ease .15s;
+  -ms-transition: all .3s ease .15s;
+  transition: all .3s ease .15s;
+}
+
+/* line 167, ../sass/theme-auxis-megamenu.scss */
+.mm-nav > li:hover > div {
+  opacity: 1;
+  visibility: visible;
+  overflow: visible;
+}
+
+/* Menu Content Styles */
+/* line 174, ../sass/theme-auxis-megamenu.scss */
+.mm-nav .mm-nav-column {
+  float: left;
+  width: 20%;
+  padding: 2.5%;
+}
+
+/* line 180, ../sass/theme-auxis-megamenu.scss */
+.mm-nav .mm-nav-column h3 {
+  margin: 20px 0 10px 0;
+  line-height: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #e01b4d;
+  text-transform: uppercase;
+}
+
+/* line 191, ../sass/theme-auxis-megamenu.scss */
+.mm-nav .mm-nav-column h3.orange {
+  color: #ff722b;
+}
+
+/* line 193, ../sass/theme-auxis-megamenu.scss */
+.mm-nav .mm-nav-column li a {
+  display: block;
+  line-height: 26px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  color: #000000;
+}
+
+/* line 203, ../sass/theme-auxis-megamenu.scss */
+.mm-nav .mm-nav-column li a:hover {
+  color: #666666;
 }
