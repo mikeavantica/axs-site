@@ -1,3 +1,4 @@
+@import "_init";
 @import "compass";
 
 body {
@@ -24,6 +25,7 @@ body {
 
 #footer {
   background-color: #8D9C97;
+  min-height: 250px;
 }
 
 .news-info {
@@ -55,10 +57,56 @@ body {
   }
 }
 
-.dkpmenu .mm-nav > li > div {
-  min-width: 200px;
+.content-details {
+  padding: 0 0 10px 0;
+  a {
+    color: #169588;
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0 0 1.5em 0;
+  }
 }
 
-.dkpmenu .mm-nav .mm-nav-column {
-  width: 100%;
+
+#footer-content {
+  font-family: $arial;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 82%;
+
+  h2 {
+    display: none;
+  }
+
+  .level-1 {
+    margin-top: 10px;
+  }
+  .level-1 > a {
+    font-weight:bold;
+  }
+  .block {
+    margin: 0px;
+    color: #ffffff;
+
+    ul.menu {
+      line-height: 16px;
+      padding: 0px;
+      li {
+        list-style: none;
+        a {
+          color: #ffffff;
+          text-decoration: none;
+        }
+        ul {
+          padding: 0px;
+
+          li {
+          }
+        }
+      }
+    }
+  }
 }
+

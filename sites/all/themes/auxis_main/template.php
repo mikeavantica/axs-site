@@ -156,7 +156,6 @@ function auxis_main_menu_tree__menu_block__2($variables)
     return '<ul class="nav-menu">' . $variables['tree'] . '</ul>';
 }
 
-
 function auxis_main_menu_link__menu_block__2(array $variables)
 {
     $element = $variables['element'];
@@ -190,4 +189,21 @@ function auxis_main_menu_link__menu_block__2(array $variables)
     }
 
     return '<li' . drupal_attributes($element['#attributes']) . '>' . $item_title . $output . $sub_menu . "</li>\n";
+}
+
+
+
+function auxis_main_menu_link__menu_block__3(array $variables)
+{
+    $element = $variables['element'];
+    $sub_menu = '';
+
+    $element['#attributes']['class'][] = 'level-' . $element['#original_link']['depth'];
+    if (
+
+    $element['#below']) {
+        $sub_menu = drupal_render($element['#below']);
+    }
+    $output = l($element['#title'], $element['#href'], $element['#localized_options']);
+    return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }

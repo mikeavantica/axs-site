@@ -407,9 +407,9 @@ ul {
   #content .content-details {
     clear: both;
     float: right;
-    width: 100%;
+    width: 120%;
     margin-right: 0%;
-    margin-left: -100%;
+    margin-left: -120%;
     margin-top: 30px;
   }
   /* line 361, ../sass/layouts/_responsive.scss */

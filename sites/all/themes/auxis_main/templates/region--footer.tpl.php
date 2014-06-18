@@ -10,8 +10,7 @@
 <?php if ($content): ?>
   <footer id="footer" class="<?php print $classes; ?>">
       <div id="footer-content">
-          <div class="block-menu">footer menu</div>
-          <div class="block-search">search</div>
+          <?php print $content; ?>
       </div>
   </footer>
 <?php endif; ?>

@@ -1045,9 +1045,9 @@ table {
   #content .content-details {
     clear: both;
     float: left;
-    width: 100%;
+    width: 120%;
     margin-left: 0%;
-    margin-right: -100%;
+    margin-right: -120%;
     margin-top: 30px;
   }
   /* line 361, ../sass/layouts/_responsive.scss */
@@ -2128,75 +2128,123 @@ tr.selected td {
 }
 /* SMACSS theme rules */
 /* @import "theme-A"; */
-/* line 3, ../sass/theme-auxis.scss */
+/* line 4, ../sass/theme-auxis.scss */
 body {
   background-color: #ffffff;
   -webkit-text-size-adjust: none;
 }
 
-/* line 8, ../sass/theme-auxis.scss */
+/* line 9, ../sass/theme-auxis.scss */
 #header {
   background-color: #e01b4d;
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 17, ../sass/theme-auxis.scss */
+/* line 18, ../sass/theme-auxis.scss */
 .header {
   margin-bottom: 10px;
 }
 
-/* line 21, ../sass/theme-auxis.scss */
+/* line 22, ../sass/theme-auxis.scss */
 .nav-logo {
   padding: 5px 10px 5px 10px;
 }
 
-/* line 25, ../sass/theme-auxis.scss */
+/* line 26, ../sass/theme-auxis.scss */
 #footer {
   background-color: #8D9C97;
+  min-height: 250px;
 }
 
-/* line 29, ../sass/theme-auxis.scss */
+/* line 31, ../sass/theme-auxis.scss */
 .news-info {
   color: #ffffff;
   background-color: #8D9C97;
   padding: 0.2em;
 }
 
-/* line 35, ../sass/theme-auxis.scss */
+/* line 37, ../sass/theme-auxis.scss */
 .news-info {
   margin-bottom: 5px;
 }
 
-/* line 39, ../sass/theme-auxis.scss */
+/* line 41, ../sass/theme-auxis.scss */
 .news-clients {
   border: 2px solid #8D9C97;
 }
 
-/* line 43, ../sass/theme-auxis.scss */
+/* line 45, ../sass/theme-auxis.scss */
 .dkp-menu-wrapper {
   display: none;
 }
 
-/* line 47, ../sass/theme-auxis.scss */
+/* line 49, ../sass/theme-auxis.scss */
 .mm-menu.mm-ismenu {
   color: #1C201F;
   background-color: #8D9C97;
 }
 
-/* line 53, ../sass/theme-auxis.scss */
+/* line 55, ../sass/theme-auxis.scss */
 .mm-menu .menu a.active {
   color: #ffffff;
 }
 
-/* line 58, ../sass/theme-auxis.scss */
-.dkpmenu .mm-nav > li > div {
-  min-width: 200px;
+/* line 60, ../sass/theme-auxis.scss */
+.content-details {
+  padding: 0 0 10px 0;
+}
+/* line 62, ../sass/theme-auxis.scss */
+.content-details a {
+  color: #169588;
+  text-decoration: none;
+}
+/* line 67, ../sass/theme-auxis.scss */
+.content-details p {
+  margin: 0 0 1.5em 0;
 }
 
-/* line 62, ../sass/theme-auxis.scss */
-.dkpmenu .mm-nav .mm-nav-column {
-  width: 100%;
+/* line 73, ../sass/theme-auxis.scss */
+#footer-content {
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 82%;
+}
+/* line 79, ../sass/theme-auxis.scss */
+#footer-content h2 {
+  display: none;
+}
+/* line 83, ../sass/theme-auxis.scss */
+#footer-content .level-1 {
+  margin-top: 10px;
+}
+/* line 86, ../sass/theme-auxis.scss */
+#footer-content .level-1 > a {
+  font-weight: bold;
+}
+/* line 89, ../sass/theme-auxis.scss */
+#footer-content .block {
+  margin: 0px;
+  color: #ffffff;
+}
+/* line 93, ../sass/theme-auxis.scss */
+#footer-content .block ul.menu {
+  line-height: 16px;
+  padding: 0px;
+}
+/* line 96, ../sass/theme-auxis.scss */
+#footer-content .block ul.menu li {
+  list-style: none;
+}
+/* line 98, ../sass/theme-auxis.scss */
+#footer-content .block ul.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 102, ../sass/theme-auxis.scss */
+#footer-content .block ul.menu li ul {
+  padding: 0px;
 }
 
 /* Mega menu CSS for Auxis Website */
@@ -2336,234 +2384,10 @@ body {
   line-height: 18px;
   font-weight: bold;
   font-size: 14px;
-  color: #048759;
+  color: #169588;
   text-transform: uppercase;
 }
 /* line 141, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .last .sub-nav {
   right: 0px;
-}
-
-/* line 8, ../sass/theme-auxis-megamenu.scss */
-.mm-nav,
-.mm-nav a,
-.mm-nav ul,
-.mm-nav li,
-.mm-nav div,
-.mm-nav nav,
-.mm-nav form,
-.mm-nav input {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
-}
-
-/* line 15, ../sass/theme-auxis-megamenu.scss */
-.mm-nav a {
-  text-decoration: none;
-}
-
-/* line 17, ../sass/theme-auxis-megamenu.scss */
-.mm-nav li {
-  list-style: none;
-}
-
-/* Menu Container */
-/* line 20, ../sass/theme-auxis-megamenu.scss */
-.mm-nav {
-  text-align: center;
-  display: inline-block;
-  position: relative;
-  cursor: default;
-  z-index: 500;
-  height: 50px;
-}
-
-/* Menu List */
-/* line 30, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li {
-  display: block;
-  float: left;
-  max-width: 120px;
-}
-
-/* Menu Links */
-/* line 37, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li > a {
-  position: relative;
-  display: block;
-  z-index: 510;
-  height: 50px;
-  padding: 20px 10px 16px 10px;
-  text-transform: uppercase;
-  word-wrap: break-word;
-  font-weight: 300;
-  font-size: 13px;
-  color: #fcfcfc;
-  text-shadow: 1px 1px 1px #000000;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-/* line 64, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li:hover > a {
-  font-weight: 300;
-  color: #000000;
-  text-shadow: 1px 1px 1px #ffffff;
-  background: #EDF2EA;
-}
-
-/* line 71, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li:first-child > a {
-  border-left: none;
-}
-
-/* Search Form */
-/* line 77, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li.mm-nav-search > form {
-  position: relative;
-  width: inherit;
-  height: 54px;
-  z-index: 510;
-  border-left: 1px solid #4b4441;
-}
-
-/* line 85, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li.mm-nav-search input[type="text"] {
-  display: block;
-  float: left;
-  width: 1px;
-  height: 24px;
-  padding: 15px 0;
-  line-height: 24px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  color: #999999;
-  background: #372f2b;
-  -webkit-transition: all .3s ease 1s;
-  -moz-transition: all .3s ease 1s;
-  -o-transition: all .3s ease 1s;
-  -ms-transition: all .3s ease 1s;
-  transition: all .3s ease 1s;
-}
-
-/* line 108, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li.mm-nav-search input[type="text"]:focus {
-  color: #fcfcfc;
-}
-
-/* line 111, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li.mm-nav-search input[type="text"]:focus,
-.mm-nav > li.mm-nav-search:hover input[type="text"] {
-  width: 110px;
-  padding: 15px 20px;
-  -webkit-transition: all .3s ease .1s;
-  -moz-transition: all .3s ease .1s;
-  -o-transition: all .3s ease .1s;
-  -ms-transition: all .3s ease .1s;
-  transition: all .3s ease .1s;
-}
-
-/* line 122, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li.mm-nav-search input[type="submit"] {
-  display: block;
-  float: left;
-  width: 20px;
-  height: 54px;
-  padding: 0 25px;
-  cursor: pointer;
-  border-radius: 0 3px 3px 0;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-/* line 141, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li.mm-nav-search input[type="submit"]:hover {
-  background-color: #4b4441;
-}
-
-/* Menu Dropdown */
-/* line 144, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li > div {
-  text-align: left;
-  position: absolute;
-  display: block;
-  width: 100%;
-  top: 86px;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  overflow: hidden;
-  background: #EDF2EA;
-  border-radius: 0 0 5px 5px;
-  border-bottom: 1px solid #000000;
-  border-left: 1px solid #000000;
-  border-right: 1px solid #000000;
-  -webkit-transition: all .3s ease .15s;
-  -moz-transition: all .3s ease .15s;
-  -o-transition: all .3s ease .15s;
-  -ms-transition: all .3s ease .15s;
-  transition: all .3s ease .15s;
-}
-
-/* line 169, ../sass/theme-auxis-megamenu.scss */
-.mm-nav > li:hover > div {
-  opacity: 1;
-  visibility: visible;
-  overflow: visible;
-}
-
-/* Menu Content Styles */
-/* line 176, ../sass/theme-auxis-megamenu.scss */
-.mm-nav .mm-nav-column {
-  float: left;
-  width: 20%;
-  padding: 2.5%;
-}
-
-/* line 184, ../sass/theme-auxis-megamenu.scss */
-.mm-nav .mm-nav-column ul {
-  padding-left: 20px;
-}
-/* line 186, ../sass/theme-auxis-megamenu.scss */
-.mm-nav .mm-nav-column ul li {
-  list-style-type: square;
-}
-/* line 189, ../sass/theme-auxis-megamenu.scss */
-.mm-nav .mm-nav-column ul li ul li {
-  list-style-type: disc;
-}
-
-/* line 199, ../sass/theme-auxis-megamenu.scss */
-.mm-nav .mm-nav-column h3 {
-  margin: 20px 0 10px 0;
-  line-height: 18px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  color: #B70532;
-  text-transform: uppercase;
-}
-
-/* line 210, ../sass/theme-auxis-megamenu.scss */
-.mm-nav .mm-nav-column li a {
-  display: block;
-  line-height: 26px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 13px;
-  color: #000000;
-}
-
-/* line 220, ../sass/theme-auxis-megamenu.scss */
-.mm-nav .mm-nav-column li a:hover {
-  color: #666666;
 }
