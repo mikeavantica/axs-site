@@ -191,12 +191,15 @@ $zen-auto-include-item-base: false;
 /**
  * Use 5 grid columns for larger screens.
  */
-@media all and (min-width: 960px) {
-
+@media all and (min-width: 960px) and (max-width: 1040px) {
   $zen-column-count: 5;
 
   .dkp.dkp-menu-wrapper {
     display: inline-block;
+    font-size: 80%;
+      .nav-item > a {
+        padding: 20px 4px 20px 4px;
+      }
   }
 
   #footer-content {
@@ -316,11 +319,128 @@ $zen-auto-include-item-base: false;
 /**
  * Use 5 grid columns for larger screens.
  */
-@media all and (min-width: 960px) and (max-width: 1040px) {
-  .dkp-menu {
-    .nav-item > a {
-      //max-width: 120px;
-      //padding: 20px 5px 20px 5px;
+@media all and (min-width: 1040px) {
+  $zen-column-count: 5;
+
+  .dkp.dkp-menu-wrapper {
+    display: inline-block;
+    font-size: 90%;
+    .dkp-menu {
+      .nav-item > a {
+      }
+    }
+  }
+
+  #footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $page-max-width;
+  }
+  #content {
+    .content-slider {
+      @include zen-grid-item(3, 1);
+    }
+
+    .content-news {
+      @include zen-grid-item(2, 4);
+
+      .news-info {
+        margin-bottom: 10px;
+      }
+      .news-info, .news-clients {
+        margin-left: 30px;
+      }
+    }
+
+    .content-details {
+      @include zen-clear(both);
+      @include zen-grid-item(5, 1);
+      margin-top: 30px;
+    }
+
+    .features {
+      @include zen-clear(both);
+      $zen-column-count: 6;
+      @include zen-grid-container();
+      @include zen-grid-item(6, 1);
+      margin-bottom: 30px;
+
+      .feature-a {
+        @include zen-grid-item(2, 1);
+      }
+
+      .feature-b {
+        @include zen-grid-item(2, 3);
+      }
+
+      .feature-c {
+        @include zen-grid-item(2, 5);
+      }
+    }
+
+    .details {
+      @include zen-clear(both);
+      @include zen-grid-item(5, 1);
+    }
+  }
+
+  /**
+   * The layout when there is only one sidebar, the left one.
+   */
+  .sidebar-first {
+    /* Span 4 columns, starting in 2nd column from left. */
+    #content {
+      @include zen-grid-item(4, 2);
+    }
+
+    /* Span 1 column, starting in 1st column from left. */
+    .region-sidebar-first {
+      @include zen-grid-item(1, 1);
+    }
+  }
+
+  /**
+   * The layout when there is only one sidebar, the right one.
+   */
+  .sidebar-second {
+    /* Span 4 columns, starting in 1st column from left. */
+    #content {
+      @include zen-grid-item(4, 1);
+    }
+
+    /* Span 1 column, starting in 5th column from left. */
+    .region-sidebar-second {
+      @include zen-grid-item(1, 5);
+    }
+  }
+
+  /**
+   * The layout when there are two sidebars.
+   */
+  .two-sidebars {
+    /* Span 3 columns, starting in 2nd column from left. */
+    #content {
+      @include zen-grid-item(3, 2);
+    }
+
+    /* Span 1 column, starting in 1st column from left. */
+    .region-sidebar-first {
+      @include zen-grid-item(1, 1);
+    }
+
+    /* Span 1 column, starting in 5th column from left. */
+    .region-sidebar-second {
+      @include zen-grid-item(1, 5);
+    }
+  }
+
+  #footer-content {
+    .block-menu {
+      @include zen-grid-item(3, 1);
+    }
+
+    .block-search {
+      @include zen-grid-item(2, 4);
     }
   }
 }
