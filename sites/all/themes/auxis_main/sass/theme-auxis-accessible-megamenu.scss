@@ -1,0 +1,139 @@
+@import "_init";
+@import "compass/css3";
+
+/* Mega menu CSS for Auxis Website */
+
+.dkp-menu {
+
+  font-family: $base-font-family;
+
+  /* mega menu list */
+  .nav-menu {
+    display: block;
+    position: relative;
+    //list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 15;
+  }
+
+  /* a top level navigation item in the mega menu */
+  .nav-item {
+    //list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* first descendant link within a top level navigation item */
+  .nav-item > a {
+    text-transform: uppercase;
+    word-wrap: break-word;
+    font-weight: 300;
+    color: #fcfcfc;
+    text-shadow: 1px 1px 1px #000000;
+    height: 46px;
+    max-width: 120px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 0 -1px 0;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+  }
+
+  /* focus/open states of first descendant link within a top level
+     navigation item */
+  .nav-item > a:focus,
+  .nav-item > a.open,
+  .nav-item > a:hover {
+    color: #fcfcfc;
+    text-shadow: 1px 1px 1px #000000;
+    border-left: 2px solid #B70532;
+    border-right: 2px solid #E01B4C;
+  }
+
+  /* open state of first descendant link within a top level
+     navigation item */
+  .nav-item > a.open,
+  .nav-item > a:hover {
+    @include background-image(linear-gradient(left top, #B70532, #E01B4C));
+    border-bottom: none;
+    z-index: 1;
+  }
+
+  /* sub-navigation panel */
+  .sub-nav {
+    position: absolute;
+    display: none;
+    top: 87px;
+    margin-top: -1px;
+    padding: 0.5em 1em;
+    border-left: 2px solid #B70532;
+    border-right: 2px solid #B70532;
+    border-bottom: 2px solid #B70532;
+    border-radius: 0 0 4px 4px;
+    @include background-image(linear-gradient(left top, #f5f8fa, #e3e5e5));
+    @include box-shadow(rgba(0, 0, 0, .5) 4px 4px 15px 1px);
+  }
+
+  /* sub-navigation panel open state */
+  .sub-nav.open {
+    display: block;
+  }
+
+  /* list of items within sub-navigation panel */
+
+  .sub-nav ul,
+  .sub-nav ul li.level-2{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sub-nav ul li.level-2{
+    padding-right: 10px;
+    ul {
+      margin-left: 15px;
+    }
+  }
+
+  /* list item within sub-navigation panel */
+  .sub-nav li {
+    //display: block;
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sub-nav li a {
+    display: block;
+    line-height: 26px;
+
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+  }
+
+  .sub-nav li a:hover {
+    color: #E01B4C;
+  }
+
+  .sub-nav-group {
+      h3 {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        line-height: 18px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #048759;
+        text-transform: uppercase;
+      }
+  }
+
+}

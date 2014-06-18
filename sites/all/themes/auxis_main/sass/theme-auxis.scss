@@ -1,4 +1,4 @@
-@import "zen";
+@import "compass";
 
 body {
   background-color: #ffffff;
@@ -6,6 +6,9 @@ body {
 }
 
 #header {
+  // Same as above but with a #ccc at the halfway point
+  //background-color: #e01b4d;
+  //@include background-image(linear-gradient(#B70532, #e01b4d, #E01B4C ));
   background-color: #e01b4d;
   padding-left: 0px;
   padding-right: 0px;
@@ -20,12 +23,12 @@ body {
 }
 
 #footer {
-  background-color: #999999;
+  background-color: #8D9C97;
 }
 
 .news-info {
   color: #ffffff;
-  background-color: #999999;
+  background-color: #8D9C97;
   padding: 0.2em;
 }
 
@@ -34,5 +37,28 @@ body {
 }
 
 .news-clients {
-  border: 2px solid #999999;
+  border: 2px solid #8D9C97;
+}
+
+.dkp-menu-wrapper {
+  display: none;
+}
+
+.mm-menu.mm-ismenu {
+    color: #1C201F;
+    background-color: #8D9C97;
+}
+
+.mm-menu {
+  .menu a.active {
+    color: #ffffff;
+  }
+}
+
+.dkpmenu .mm-nav > li > div {
+  min-width: 200px;
+}
+
+.dkpmenu .mm-nav .mm-nav-column {
+  width: 100%;
 }

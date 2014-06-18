@@ -11,34 +11,55 @@ body {
   padding-right: 0px;
 }
 
-/* line 14, ../sass/theme-auxis.scss */
+/* line 17, ../sass/theme-auxis.scss */
 .header {
   margin-bottom: 10px;
 }
 
-/* line 18, ../sass/theme-auxis.scss */
+/* line 21, ../sass/theme-auxis.scss */
 .nav-logo {
   padding: 5px 10px 5px 10px;
 }
 
-/* line 22, ../sass/theme-auxis.scss */
+/* line 25, ../sass/theme-auxis.scss */
 #footer {
-  background-color: #999999;
+  background-color: #8D9C97;
 }
 
-/* line 26, ../sass/theme-auxis.scss */
+/* line 29, ../sass/theme-auxis.scss */
 .news-info {
   color: #ffffff;
-  background-color: #999999;
+  background-color: #8D9C97;
   padding: 0.2em;
 }
 
-/* line 32, ../sass/theme-auxis.scss */
+/* line 35, ../sass/theme-auxis.scss */
 .news-info {
   margin-bottom: 5px;
 }
 
-/* line 36, ../sass/theme-auxis.scss */
+/* line 39, ../sass/theme-auxis.scss */
 .news-clients {
-  border: 2px solid #999999;
+  border: 2px solid #8D9C97;
+}
+
+/* line 47, ../sass/theme-auxis.scss */
+.mm-menu.mm-ismenu {
+  color: #1C201F;
+  background-color: #8D9C97;
+}
+
+/* line 53, ../sass/theme-auxis.scss */
+.mm-menu .menu a.active {
+  color: #ffffff;
+}
+
+/* line 58, ../sass/theme-auxis.scss */
+.dkpmenu .mm-nav > li > div {
+  min-width: 200px;
+}
+
+/* line 62, ../sass/theme-auxis.scss */
+.dkpmenu .mm-nav .mm-nav-column {
+  width: 100%;
 }

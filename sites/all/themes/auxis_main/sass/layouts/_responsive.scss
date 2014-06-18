@@ -74,7 +74,7 @@ $zen-auto-include-item-base: false;
 
   #navigation {
     /* Move the navbar up inside #main's padding. */
-    background-color: #e01b4d;
+    //background-color: #e01b4d;
     margin-left: auto;
     margin-right: auto;
     max-width: $page-max-width;
@@ -84,10 +84,6 @@ $zen-auto-include-item-base: false;
     margin-left: auto;
     margin-right: auto;
     max-width: $page-max-width;
-  }
-
-  #footer {
-    background-color: #999999;
   }
 
   .dkp.nav-logo {
@@ -199,6 +195,10 @@ $zen-auto-include-item-base: false;
 
   $zen-column-count: 5;
 
+  .dkp.dkp-menu-wrapper {
+    display: inline-block;
+  }
+
   #footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -309,6 +309,18 @@ $zen-auto-include-item-base: false;
 
     .block-search {
       @include zen-grid-item(2, 4);
+    }
+  }
+}
+
+/**
+ * Use 5 grid columns for larger screens.
+ */
+@media all and (min-width: 960px) and (max-width: 1040px) {
+  .dkp-menu {
+    .nav-item > a {
+      //max-width: 120px;
+      //padding: 20px 5px 20px 5px;
     }
   }
 }
