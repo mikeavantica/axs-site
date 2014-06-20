@@ -181,7 +181,6 @@ function auxis_main_menu_link__menu_block__2(array $variables)
     }
 
     $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-
     if ($depth == 2) {
         if (isset($element['#localized_options']['attributes']['title'])) {
             $item_title = '<h3>'.$element['#localized_options']['attributes']['title'].'</h3>';

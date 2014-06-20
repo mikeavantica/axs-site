@@ -61,7 +61,7 @@ $zen-auto-include-item-base: false;
 /* Navigation bar */
 @media all and (min-width: 480px) {
 
-  #header {
+  .header {
     margin-top: $nav-height;
     padding-left: 0px;
     padding-right: 0px;
@@ -105,7 +105,7 @@ $zen-auto-include-item-base: false;
 
   $zen-column-count: 3;
 
-  #header {
+  .header {
     margin-top: 0px;
     padding: 0px;
     margin-bottom: 10px;
@@ -135,7 +135,7 @@ $zen-auto-include-item-base: false;
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  .sidebar-second {
+  .not-front.sidebar-second {
     /* Span 2 columns, starting in 1st column from left. */
     #content {
       @include zen-grid-item(2, 1);
@@ -194,6 +194,10 @@ $zen-auto-include-item-base: false;
 @media all and (min-width: 960px) and (max-width: 1040px) {
   $zen-column-count: 5;
 
+  a[href="#main-mmenu"] {
+    display: none;
+  }
+
   .dkp.dkp-menu-wrapper {
     display: inline-block;
     font-size: 80%;
@@ -229,6 +233,11 @@ $zen-auto-include-item-base: false;
       margin-top: 30px;
     }
 
+    .details {
+      @include zen-clear(both);
+      @include zen-grid-item(5, 1);
+    }
+
     .features {
       @include zen-clear(both);
       $zen-column-count: 6;
@@ -247,11 +256,6 @@ $zen-auto-include-item-base: false;
       .feature-c {
         @include zen-grid-item(2, 5);
       }
-    }
-
-    .details {
-      @include zen-clear(both);
-      @include zen-grid-item(5, 1);
     }
   }
 
@@ -273,7 +277,7 @@ $zen-auto-include-item-base: false;
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  .sidebar-second {
+  .not-front.sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     #content {
       @include zen-grid-item(4, 1);
@@ -288,22 +292,23 @@ $zen-auto-include-item-base: false;
   /**
    * The layout when there are two sidebars.
    */
-  .two-sidebars {
+  .not-front.two-sidebars {
+    $zen-column-count: 5;
     /* Span 3 columns, starting in 2nd column from left. */
-    #content {
-      @include zen-grid-item(3, 2);
-    }
+      #content {
+        @include zen-grid-item(3, 2);
+      }
 
-    /* Span 1 column, starting in 1st column from left. */
-    .region-sidebar-first {
-      @include zen-grid-item(1, 1);
-    }
+      /* Span 1 column, starting in 1st column from left. */
+      .region-sidebar-first {
+        @include zen-grid-item(1, 1);
+      }
 
-    /* Span 1 column, starting in 5th column from left. */
-    .region-sidebar-second {
-      @include zen-grid-item(1, 5);
-    }
-  }
+      /* Span 1 column, starting in 5th column from left. */
+      .region-sidebar-second {
+        @include zen-grid-item(1, 5);
+      }
+   }
 
   #footer-content {
     .block-menu {
@@ -314,6 +319,22 @@ $zen-auto-include-item-base: false;
       @include zen-grid-item(2, 4);
     }
   }
+
+  .not-front {
+    .dkp.dummy_header {
+      display: block;
+      height: 45px;
+
+      .dummy {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+        width: 60%;
+        height: 100%;
+        margin-top: 5px;
+      }
+    }
+  }
 }
 
 /**
@@ -321,6 +342,10 @@ $zen-auto-include-item-base: false;
  */
 @media all and (min-width: 1040px) {
   $zen-column-count: 5;
+
+  a[href="#main-mmenu"] {
+    display: none;
+  }
 
   .dkp.dkp-menu-wrapper {
     display: inline-block;
@@ -402,7 +427,7 @@ $zen-auto-include-item-base: false;
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  .sidebar-second {
+  .not-front.sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     #content {
       @include zen-grid-item(4, 1);
@@ -417,7 +442,8 @@ $zen-auto-include-item-base: false;
   /**
    * The layout when there are two sidebars.
    */
-  .two-sidebars {
+  .not-front.two-sidebars {
+    $zen-column-count: 5;
     /* Span 3 columns, starting in 2nd column from left. */
     #content {
       @include zen-grid-item(3, 2);
@@ -443,4 +469,35 @@ $zen-auto-include-item-base: false;
       @include zen-grid-item(2, 4);
     }
   }
+
+  .not-front {
+    .dkp.dummy_header {
+      display: block;
+      height: 45px;
+
+      .dummy {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+        width: 60%;
+        height: 100%;
+        margin-top: 5px;
+      }
+    }
+
+    .menu-block-4 {
+      margin-left: 30%;
+    }
+
+    footer.internal-footer {
+      .footer-internal-menu {
+        float: left;
+      }
+      .copy {
+        float: right;
+        margin-top: 25px;
+      }
+    }
+  }
+
 }

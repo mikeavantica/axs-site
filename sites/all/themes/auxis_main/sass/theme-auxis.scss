@@ -6,16 +6,13 @@ body {
   -webkit-text-size-adjust: none;
 }
 
-#header {
+.header {
   // Same as above but with a #ccc at the halfway point
-  //background-color: #e01b4d;
-  //@include background-image(linear-gradient(#B70532, #e01b4d, #E01B4C ));
-  background-color: #e01b4d;
+  //background-color: $auxis-brand-red;
+  //@include background-image(linear-gradient(#B70532, $auxis-brand-red, #E01B4C ));
+  background-color: $auxis-brand-red;
   padding-left: 0px;
   padding-right: 0px;
-}
-
-.header {
   margin-bottom: 10px;
 }
 
@@ -23,14 +20,14 @@ body {
   padding: 5px 10px 5px 10px;
 }
 
-#footer {
-  background-color: #8D9C97;
+footer {
+  background-color: $auxis-brand-light-gray;
   min-height: 250px;
 }
 
 .news-info {
   color: #ffffff;
-  background-color: #8D9C97;
+  background-color: $auxis-brand-light-gray;
   padding: 0.2em;
 }
 
@@ -39,7 +36,7 @@ body {
 }
 
 .news-clients {
-  border: 2px solid #8D9C97;
+  border: 2px solid $auxis-brand-light-gray;
 }
 
 .dkp-menu-wrapper {
@@ -48,7 +45,7 @@ body {
 
 .mm-menu.mm-ismenu {
     color: #1C201F;
-    background-color: #8D9C97;
+    background-color: $auxis-brand-light-gray;
 }
 
 .mm-menu {

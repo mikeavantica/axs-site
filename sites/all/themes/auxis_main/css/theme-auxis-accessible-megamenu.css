@@ -54,16 +54,16 @@
   color: #fcfcfc;
   text-shadow: 1px 1px 1px #000000;
   border-left: 2px solid #B70532;
-  border-right: 2px solid #E01B4C;
+  border-right: 2px solid #e01b4d;
 }
 /* line 62, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .nav-item > a.open,
 .dkp-menu .nav-item > a:hover {
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #b70532), color-stop(100%, #e01b4c));
-  background-image: -webkit-linear-gradient(left top, #b70532, #e01b4c);
-  background-image: -moz-linear-gradient(left top, #b70532, #e01b4c);
-  background-image: -o-linear-gradient(left top, #b70532, #e01b4c);
-  background-image: linear-gradient(left top, #b70532, #e01b4c);
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #b70532), color-stop(100%, #e01b4d));
+  background-image: -webkit-linear-gradient(left top, #b70532, #e01b4d);
+  background-image: -moz-linear-gradient(left top, #b70532, #e01b4d);
+  background-image: -o-linear-gradient(left top, #b70532, #e01b4d);
+  background-image: linear-gradient(left top, #b70532, #e01b4d);
   border-bottom: none;
   z-index: 1;
 }
@@ -125,7 +125,7 @@
 /* line 123, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav li a:hover {
   text-decoration: underline;
-  color: #E01B4C;
+  color: #e01b4d;
 }
 /* line 129, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav-group h3 {

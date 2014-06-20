@@ -14,7 +14,10 @@
 
         <div id="navigation">
             <?php if ($logo): ?>
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="dkp nav-logo header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
+                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"
+                   class="dkp nav-logo header__logo" id="logo"><img src="<?php print $logo; ?>"
+                                                                    alt="<?php print t('Home'); ?>"
+                                                                    class="header__logo-image"/></a>
             <?php endif; ?>
 
             <?php if ($main_menu): ?>
@@ -77,19 +80,6 @@
                 </div>
             </div>
         </div>
-
-        <?php
-        // Render the sidebars to see if there's anything in them.
-        $sidebar_first = render($page['sidebar_first']);
-        $sidebar_second = render($page['sidebar_second']);
-        ?>
-
-        <?php if ($sidebar_first || $sidebar_second): ?>
-            <aside class="sidebars">
-                <?php print $sidebar_first; ?>
-                <?php print $sidebar_second; ?>
-            </aside>
-        <?php endif; ?>
 
     </div>
 

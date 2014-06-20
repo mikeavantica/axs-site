@@ -53,14 +53,14 @@
     color: #fcfcfc;
     text-shadow: 1px 1px 1px #000000;
     border-left: 2px solid #B70532;
-    border-right: 2px solid #E01B4C;
+    border-right: 2px solid $auxis-brand-red;
   }
 
   /* open state of first descendant link within a top level
      navigation item */
   .nav-item > a.open,
   .nav-item > a:hover {
-    @include background-image(linear-gradient(left top, #B70532, #E01B4C));
+    @include background-image(linear-gradient(left top, #B70532, $auxis-brand-red));
     border-bottom: none;
     z-index: 1;
   }
@@ -122,7 +122,7 @@
 
   .sub-nav li a:hover {
     text-decoration: underline;
-    color: #E01B4C;
+    color: $auxis-brand-red;
   }
 
   .sub-nav-group {
@@ -133,7 +133,7 @@
         line-height: 18px;
         font-weight: bold;
         font-size: 14px;
-        color: #169588;
+        color: $auxis-brand-teal;
         text-transform: uppercase;
       }
   }

@@ -9,50 +9,44 @@
 ?>
 
 <div id="page">
+    <div class="dkp dummy_header"><div class="dummy"></div></div>
 
-  <header class="header" id="header" role="banner">
+    <header class="dkp header" id="header" role="banner">
+        <div id="navigation">
 
-    <?php if ($logo): ?>
-      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
-    <?php endif; ?>
+            <?php if ($logo): ?>
+                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"
+                   class="dkp nav-logo header__logo" id="logo"><img src="<?php print $logo; ?>"
+                                                                    alt="<?php print t('Home'); ?>"
+                                                                    class="header__logo-image"/></a>
+            <?php endif; ?>
 
-    <?php if ($site_name || $site_slogan): ?>
-      <div class="header__name-and-slogan" id="name-and-slogan">
-        <?php if ($site_name): ?>
-          <h1 class="header__site-name" id="site-name">
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
-          </h1>
-        <?php endif; ?>
+            <?php if ($main_menu): ?>
 
-        <?php if ($site_slogan): ?>
-          <div class="header__site-slogan" id="site-slogan"><?php print $site_slogan; ?></div>
-        <?php endif; ?>
-      </div>
-    <?php endif; ?>
+                <a href="#main-mmenu"></a>
 
-    <?php if ($secondary_menu): ?>
-      <nav class="header__secondary-menu" id="secondary-menu" role="navigation">
-        <?php print theme('links__system_secondary_menu', array(
-          'links' => $secondary_menu,
-          'attributes' => array(
-            'class' => array('links', 'inline', 'clearfix'),
-          ),
-          'heading' => array(
-            'text' => $secondary_menu_heading,
-            'level' => 'h2',
-            'class' => array('element-invisible'),
-          ),
-        )); ?>
-      </nav>
-    <?php endif; ?>
+                <?php if ($page['mmenu']): ?>
+                    <div class="mmenu">
+                        <?php print render($page['mmenu']); ?>
+                    </div> <!-- /.Sliding Menu Mobile -->
+                <?php endif; ?>
 
-    <?php print render($page['header']); ?>
+                <?php if ($page['dkpmenu']): ?>
+                    <div class="dkp dkp-menu-wrapper">
+                        <?php print render($page['dkpmenu']); ?>
+                    </div> <!-- /.Desktop Menu -->
+                <?php endif; ?>
 
-  </header>
+            <?php endif; ?>
+
+            <?php print render($page['navigation']); ?>
+
+        </div>
+    </header>
 
   <div id="main">
 
-    <div id="content" class="column" role="main">
+    <div id="content" class="main-content column" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
       <a id="main-content"></a>
@@ -71,33 +65,6 @@
       <?php print $feed_icons; ?>
     </div>
 
-    <div id="navigation">
-
-      <?php if ($main_menu): ?>
-        <nav id="main-menu" role="navigation" tabindex="-1">
-          <?php
-          // This code snippet is hard to modify. We recommend turning off the
-          // "Main menu" on your sub-theme's settings form, deleting this PHP
-          // code block, and, instead, using the "Menu block" module.
-          // @see https://drupal.org/project/menu_block
-          print theme('links__system_main_menu', array(
-            'links' => $main_menu,
-            'attributes' => array(
-              'class' => array('links', 'inline', 'clearfix'),
-            ),
-            'heading' => array(
-              'text' => t('Main menu'),
-              'level' => 'h2',
-              'class' => array('element-invisible'),
-            ),
-          )); ?>
-        </nav>
-      <?php endif; ?>
-
-      <?php print render($page['navigation']); ?>
-
-    </div>
-
     <?php
       // Render the sidebars to see if there's anything in them.
       $sidebar_first  = render($page['sidebar_first']);
@@ -113,8 +80,16 @@
 
   </div>
 
-  <?php print render($page['footer']); ?>
-
+    <footer id="footer" class="internal-footer">
+        <?php if ($page['footer_internal_menu']): ?>
+            <div class="footer-internal-menu">
+                <?php print render($page['footer_internal_menu']); ?>
+            </div> <!-- /.Sliding Menu Mobile -->
+        <?php endif; ?>
+        <div class="copy">
+            Copyright © <?php echo date("Y"); ?> | Auxis Inc. All Right
+        </div>
+    </footer>
 </div>
 
 <?php print render($page['bottom']); ?>
