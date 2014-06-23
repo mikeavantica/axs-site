@@ -49,7 +49,8 @@
      navigation item */
   .nav-item > a:focus,
   .nav-item > a.open,
-  .nav-item > a:hover {
+  .nav-item > a:hover,
+  .nav-item > a.active-trail {
     color: #fcfcfc;
     text-shadow: 1px 1px 1px #000000;
     border-left: 2px solid #B70532;
@@ -59,7 +60,8 @@
   /* open state of first descendant link within a top level
      navigation item */
   .nav-item > a.open,
-  .nav-item > a:hover {
+  .nav-item > a:hover,
+  .nav-item > a.active-trail{
     @include background-image(linear-gradient(left top, #B70532, $auxis-brand-red));
     border-bottom: none;
     z-index: 1;
@@ -88,24 +90,26 @@
   /* list of items within sub-navigation panel */
 
   .sub-nav ul,
-  .sub-nav ul li.level-2{
+  .sub-nav ul li.level-2.title-block{
     display: inline-block;
     vertical-align: top;
     margin: 0;
-    padding: 0;
+    padding: 0px;
+    ul {
+      margin-left: 20px;
+      li.level-4 {
+        list-style: circle;
+      }
+    }
   }
 
   .sub-nav ul li.level-2{
-    padding-right: 10px;
-    ul {
-      margin-left: 15px;
-    }
+    margin-left: 10px;
   }
 
   /* list item within sub-navigation panel */
   .sub-nav li {
-    //display: block;
-    list-style-type: square;
+    list-style: square;
     margin: 0;
     padding: 0;
   }
@@ -132,6 +136,7 @@
         float: left;
         line-height: 18px;
         font-weight: bold;
+        width: 100%;
         font-size: 14px;
         color: $auxis-brand-teal;
         text-transform: uppercase;
@@ -140,6 +145,14 @@
 
   .last .sub-nav {
     right: 0px;
+  }
+
+  .menu__item {
+    .sub-nav {
+      a.active {
+        color: $auxis-brand-red;
+      }
+    }
   }
 
 }

@@ -187,10 +187,12 @@ function auxis_main_menu_link__menu_block__2(array $variables)
         }
     }
 
+    if (!empty($item_title)) {
+        $element['#attributes']['class'][] = 'title-block';
+    }
+
     return '<li' . drupal_attributes($element['#attributes']) . '>' . $item_title . $output . $sub_menu . "</li>\n";
 }
-
-
 
 function auxis_main_menu_link__menu_block__3(array $variables)
 {
