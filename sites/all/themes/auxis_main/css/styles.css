@@ -668,7 +668,7 @@ table {
 
   /* line 89, ../sass/layouts/_responsive.scss */
   .dkp.nav-logo {
-    padding: 5px 10px 5px 0px;
+    padding: 5px 10px 0px 30px;
   }
 
   /* line 93, ../sass/layouts/_responsive.scss */
@@ -826,7 +826,7 @@ table {
   }
   /* line 204, ../sass/layouts/_responsive.scss */
   .dkp.dkp-menu-wrapper .nav-item > a {
-    padding: 20px 4px 20px 4px;
+    padding: 17px 4px 17px 4px;
   }
 
   /* line 209, ../sass/layouts/_responsive.scss */
@@ -2197,7 +2197,7 @@ body {
 
 /* line 19, ../sass/theme-auxis.scss */
 .nav-logo {
-  padding: 5px 10px 5px 10px;
+  padding: 5px 10px 0px 40px;
 }
 
 /* line 23, ../sass/theme-auxis.scss */
@@ -2338,7 +2338,7 @@ footer {
   text-decoration: none;
   position: relative;
   display: inline-block;
-  padding: 20px 5px 20px 5px;
+  padding: 18px 5px 17px 5px;
   text-align: center;
   vertical-align: top;
   margin: 0 0 -1px 0;
@@ -2371,7 +2371,7 @@ footer {
 .dkp-menu .sub-nav {
   position: absolute;
   display: none;
-  top: 86px;
+  top: 81px;
   margin-top: -1px;
   padding: 0.5em 1em;
   border-left: 2px solid #B70532;

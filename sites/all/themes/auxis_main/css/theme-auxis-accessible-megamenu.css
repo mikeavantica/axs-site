@@ -40,7 +40,7 @@
   text-decoration: none;
   position: relative;
   display: inline-block;
-  padding: 20px 5px 20px 5px;
+  padding: 18px 5px 17px 5px;
   text-align: center;
   vertical-align: top;
   margin: 0 0 -1px 0;
@@ -73,7 +73,7 @@
 .dkp-menu .sub-nav {
   position: absolute;
   display: none;
-  top: 86px;
+  top: 81px;
   margin-top: -1px;
   padding: 0.5em 1em;
   border-left: 2px solid #B70532;
