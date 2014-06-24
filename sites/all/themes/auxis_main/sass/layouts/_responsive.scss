@@ -310,6 +310,10 @@ $zen-auto-include-item-base: false;
       }
    }
 
+  .dkp.nav-logo {
+    padding: 5px 10px 0px 0px;
+  }
+
   #footer-content {
     .block-menu {
       @include zen-grid-item(3, 1);
@@ -468,6 +472,10 @@ $zen-auto-include-item-base: false;
     .block-search {
       @include zen-grid-item(2, 4);
     }
+  }
+
+  .dkp.nav-logo {
+    padding: 5px 10px 0px 0px;
   }
 
   .not-front {
