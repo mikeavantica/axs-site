@@ -202,8 +202,12 @@ $zen-auto-include-item-base: false;
     display: inline-block;
     font-size: 80%;
       .nav-item > a {
-        padding: 17px 4px 17px 4px;
+        padding: 25px 4px 53px 4px;
       }
+  }
+
+  .dkp .dkp-menu .sub-nav {
+    top:79px;
   }
 
   #footer-content {
