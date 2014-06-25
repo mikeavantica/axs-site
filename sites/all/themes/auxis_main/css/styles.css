@@ -2306,6 +2306,11 @@ footer {
   padding: 0px;
 }
 
+/* line 111, ../sass/theme-auxis.scss */
+.content-slider .block-title {
+  display: none;
+}
+
 /* Mega menu CSS for Auxis Website */
 /* line 6, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu {

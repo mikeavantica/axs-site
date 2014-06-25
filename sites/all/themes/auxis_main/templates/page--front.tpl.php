@@ -47,7 +47,9 @@
 
         <div id="content" class="column" role="main">
             <div class="content-slider">
-                <img src="<?php echo drupal_get_path('theme', 'auxis_main'); ?>/images/slider.png">
+                <?php if ($page['content_slider']): ?>
+                    <?php print render($page['content_slider']); ?>
+                <?php endif; ?>
             </div>
             <div class="content-news">
                 <div class="news-info">news</div>

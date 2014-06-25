@@ -112,3 +112,8 @@ footer {
 #footer-content .block ul.menu li ul {
   padding: 0px;
 }
+
+/* line 111, ../sass/theme-auxis.scss */
+.content-slider .block-title {
+  display: non;
+}

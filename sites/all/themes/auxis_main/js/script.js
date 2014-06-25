@@ -51,6 +51,8 @@ Drupal.behaviors.my_custom_behavior = {
           openClass: "open"
       });
 
+      jQuery('.carousel').carousel()
+
   }
 };
 

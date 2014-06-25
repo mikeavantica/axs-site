@@ -88,13 +88,14 @@ scripts[] = js/script.js
 
 ;regions[header]         = Header
 regions[mmenu]           = Sliding Menu Mobile
-regions[dkpmenu]         = Menu Deskto
+regions[dkpmenu]         = Menu Desktop
 regions[footer_internal_menu] = Footer Internal Menu
 
 ;regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
+regions[content_slider] = Content Slider
 regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
