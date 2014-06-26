@@ -26,18 +26,16 @@
 
 $view = views_get_current_view();
 ?>
-
 <?php
     $active = ($view->row_index == 0) ? 'active' : '';
 
     foreach ($fields as $id => $field):?>
-    <div class="item <?php echo $active; ?>">
-        <?php print $field->content; ?>
-        <div class="carousel-caption">
-            Uno
+        <div class="item <?php echo $active; ?>">
+            <?php print $field->content; ?>
+            <div class="dkp carousel-caption">
+                <h1>Title</h1>
+                <h2>Sub Title</h2>
+            </div>
         </div>
-    </div>
-<?php endforeach; ?>
-
-
+    <?php endforeach; ?>
 

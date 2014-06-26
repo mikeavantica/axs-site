@@ -186,6 +186,19 @@ $zen-auto-include-item-base: false;
       }
     }
   }
+
+  .content-slider {
+    .dkp.carousel-caption {
+      right: 40%;
+      h1 {
+        line-height: 1.5em;
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1em;
+      }
+    }
+  }
 }
 
 /**
@@ -340,6 +353,18 @@ $zen-auto-include-item-base: false;
         width: 60%;
         height: 100%;
         margin-top: 5px;
+      }
+    }
+  }
+
+  .content-slider {
+    .dkp.carousel-caption {
+      h1 {
+        line-height: 1.5em;
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1em;
       }
     }
   }
@@ -508,6 +533,18 @@ $zen-auto-include-item-base: false;
       .copy {
         float: right;
         margin-top: 25px;
+      }
+    }
+  }
+
+  .content-slider {
+    .dkp.carousel-caption {
+      h1 {
+        line-height: 1.5em;
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1em;
       }
     }
   }
