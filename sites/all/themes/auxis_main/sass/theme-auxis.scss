@@ -4,6 +4,7 @@
 body {
   background-color: #ffffff;
   -webkit-text-size-adjust: none;
+  color: $auxis-brand-light-gray-b;
 }
 
 .header {
@@ -154,8 +155,8 @@ footer {
     padding-left: 2%;
     padding-bottom: 0px;
     padding-top: 1%;
-    right: 25%;
-    left: 5%;
+    //right: 25%;
+    //left: 5%;
     z-index: 0;
     bottom: 10%;
     background-color: $auxis-brand-teal;

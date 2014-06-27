@@ -1,6 +1,6 @@
 /* line 4, ../sass/theme-auxis-inner-pages.scss */
 .not-front {
-  background-color: #979696;
+  background-color: #848485;
 }
 /* line 7, ../sass/theme-auxis-inner-pages.scss */
 .not-front .main-content {
@@ -10,7 +10,7 @@
 .not-front footer {
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
-  background-color: #e01b4d;
+  background-color: #df004a;
   min-height: 50px;
   font-size: 90%;
 }
@@ -70,12 +70,12 @@
 .not-front .breadcrumb a {
   font-size: 90%;
   text-decoration: none;
-  color: #169588;
+  color: #0f9386;
 }
 /* line 74, ../sass/theme-auxis-inner-pages.scss */
 .not-front .title {
   color: #ffffff;
-  background-color: #169588;
+  background-color: #0f9386;
   padding: 10px;
 }
 /* line 81, ../sass/theme-auxis-inner-pages.scss */

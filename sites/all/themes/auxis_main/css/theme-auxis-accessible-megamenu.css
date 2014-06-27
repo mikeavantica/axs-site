@@ -55,17 +55,17 @@
   color: #fcfcfc;
   text-shadow: 1px 1px 1px #000000;
   border-left: 2px solid #B70532;
-  border-right: 2px solid #e01b4d;
+  border-right: 2px solid #df004a;
 }
 /* line 64, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .nav-item > a.open,
 .dkp-menu .nav-item > a:hover,
 .dkp-menu .nav-item > a.active-trail {
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #b70532), color-stop(100%, #e01b4d));
-  background-image: -webkit-linear-gradient(left top, #b70532, #e01b4d);
-  background-image: -moz-linear-gradient(left top, #b70532, #e01b4d);
-  background-image: -o-linear-gradient(left top, #b70532, #e01b4d);
-  background-image: linear-gradient(left top, #b70532, #e01b4d);
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #b70532), color-stop(100%, #df004a));
+  background-image: -webkit-linear-gradient(left top, #b70532, #df004a);
+  background-image: -moz-linear-gradient(left top, #b70532, #df004a);
+  background-image: -o-linear-gradient(left top, #b70532, #df004a);
+  background-image: linear-gradient(left top, #b70532, #df004a);
   border-bottom: none;
   z-index: 1;
 }
@@ -113,7 +113,7 @@
 }
 /* line 106, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav ul li.level-2 {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 /* line 111, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav li {
@@ -133,7 +133,7 @@
 /* line 127, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav li a:hover {
   text-decoration: underline;
-  color: #e01b4d;
+  color: #df004a;
 }
 /* line 133, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav-group h3 {
@@ -144,7 +144,7 @@
   font-weight: bold;
   width: 100%;
   font-size: 14px;
-  color: #169588;
+  color: #0f9386;
   text-transform: uppercase;
 }
 /* line 146, ../sass/theme-auxis-accessible-megamenu.scss */
@@ -153,5 +153,5 @@
 }
 /* line 152, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu__item .sub-nav a.active {
-  color: #e01b4d;
+  color: #df004a;
 }
