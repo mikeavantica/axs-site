@@ -86,3 +86,25 @@
 .not-front .header {
   margin: 0px;
 }
+/* line 90, ../sass/theme-auxis-inner-pages.scss */
+.not-front .left-col .block-title {
+  display: none;
+}
+/* line 94, ../sass/theme-auxis-inner-pages.scss */
+.not-front .left-col ul.menu {
+  padding: 0px;
+}
+/* line 96, ../sass/theme-auxis-inner-pages.scss */
+.not-front .left-col ul.menu li {
+  list-style: none;
+  padding-bottom: 5%;
+}
+/* line 99, ../sass/theme-auxis-inner-pages.scss */
+.not-front .left-col ul.menu li a {
+  color: #0f9386;
+}
+/* line 103, ../sass/theme-auxis-inner-pages.scss */
+.not-front .left-col ul.menu li a.active {
+  font-weight: 800;
+  text-decoration: underline;
+}

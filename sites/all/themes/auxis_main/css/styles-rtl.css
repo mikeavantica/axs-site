@@ -214,7 +214,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
-    width: 560px;
+    width: 590px;
     height: 100%;
     margin-top: 5px;
   }
@@ -387,20 +387,37 @@ ul {
   /**
    * Footer of the layout
    */
-  /* line 377, ../sass/layouts/_responsive.scss */
-  #footer .internal-footer .footer-internal-menu {
-    float: left;
+  /* line 375, ../sass/layouts/_responsive.scss */
+  #footer {
+    padding-top: 25px;
   }
-  /* line 380, ../sass/layouts/_responsive.scss */
-  #footer .internal-footer .copy {
+  /* line 379, ../sass/layouts/_responsive.scss */
+  #footer .footer-internal-menu {
     float: right;
-    margin-top: 25px;
+    width: 80%;
+    margin-right: 0%;
+    margin-left: -80%;
+  }
+  /* line 381, ../sass/layouts/_responsive.scss */
+  #footer .footer-internal-menu ul.menu {
+    margin: 0px;
+  }
+  /* line 385, ../sass/layouts/_responsive.scss */
+  #footer .copy {
+    float: right;
+    width: 20%;
+    margin-right: 80%;
+    margin-left: -100%;
   }
 
   /**
    * The Internal Body Layout.
    */
-  /* line 392, ../sass/layouts/_responsive.scss */
+  /* line 395, ../sass/layouts/_responsive.scss */
+  body.not-front .breadcrumb {
+    margin-bottom: 10px;
+  }
+  /* line 399, ../sass/layouts/_responsive.scss */
   body.not-front .left-col {
     float: right;
     width: 20%;
@@ -408,7 +425,24 @@ ul {
     margin-left: -20%;
     padding: 0 1% 1% 1%;
   }
-  /* line 396, ../sass/layouts/_responsive.scss */
+  /* line 403, ../sass/layouts/_responsive.scss */
+  body.not-front .left-col ul.menu {
+    padding: 0px;
+  }
+  /* line 405, ../sass/layouts/_responsive.scss */
+  body.not-front .left-col ul.menu li {
+    list-style: none;
+  }
+  /* line 407, ../sass/layouts/_responsive.scss */
+  body.not-front .left-col ul.menu li a {
+    color: #ffffff;
+  }
+  /* line 411, ../sass/layouts/_responsive.scss */
+  body.not-front .left-col ul.menu li a.active {
+    font-weight: 800;
+    text-decoration: underline;
+  }
+  /* line 419, ../sass/layouts/_responsive.scss */
   body.not-front .article {
     background-color: #ffffff;
     padding: 0 1% 1% 1%;
@@ -417,7 +451,7 @@ ul {
     margin-right: 20%;
     margin-left: -80%;
   }
-  /* line 401, ../sass/layouts/_responsive.scss */
+  /* line 425, ../sass/layouts/_responsive.scss */
   body.not-front .right-col {
     float: right;
     width: 20%;

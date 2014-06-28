@@ -231,7 +231,7 @@ $zen-auto-include-item-base: false;
       margin-left: auto;
       margin-right: auto;
       background-color: #ffffff;
-      width: $inner-page-max-width;
+      width: $inner-page-max-width + 30;
       height: 100%;
       margin-top: 5px;
     }
@@ -373,14 +373,17 @@ $zen-auto-include-item-base: false;
    * Footer of the layout
    */
   #footer {
-    .internal-footer {
-      .footer-internal-menu {
-        float: left;
+    $zen-column-count: 5;
+    padding-top: 25px;
+
+    .footer-internal-menu {
+      @include zen-grid-item(4, 1);
+      ul.menu {
+        margin: 0px;
       }
-      .copy {
-        float: right;
-        margin-top: 25px;
-      }
+    }
+    .copy {
+      @include zen-grid-item(1, 5);
     }
   }
 
@@ -389,15 +392,36 @@ $zen-auto-include-item-base: false;
    */
   body.not-front {
     $zen-column-count: 5;
+    .breadcrumb {
+      margin-bottom: 10px;
+    }
+
     .left-col {
       @include zen-grid-item(1, 1);
       padding: 0 1% 1% 1%;
+
+      ul.menu {
+        padding: 0px;
+        li {
+          list-style: none;
+          a {
+            color: #ffffff;
+          }
+
+          a.active {
+            font-weight: $auxis-font-weight-bold;
+            text-decoration: underline;
+          }
+        }
+      }
     }
+
     .article {
       background-color: #ffffff;
       padding: 0 1% 1% 1%;
       @include zen-grid-item(3, 2);
     }
+
     .right-col {
       @include zen-grid-item(1, 5);
       padding: 0 1% 1% 1%;

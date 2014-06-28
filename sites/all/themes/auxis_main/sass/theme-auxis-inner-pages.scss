@@ -86,4 +86,26 @@
     margin: 0px;
   }
 
+  .left-col {
+    .block-title {
+      display: none;
+    }
+
+    ul.menu {
+      padding: 0px;
+      li {
+        list-style: none;
+        padding-bottom: 5%;
+        a {
+          color: $auxis-brand-teal;
+        }
+
+        a.active {
+          font-weight: $auxis-font-weight-bold;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
 }
