@@ -84,6 +84,8 @@ $zen-auto-include-item-base: false;
     margin-left: auto;
     margin-right: auto;
     max-width: $page-max-width;
+
+
   }
 
   .dkp.nav-logo {
@@ -193,8 +195,7 @@ $zen-auto-include-item-base: false;
       right: 20%;
 
       h1 {
-        line-height: 1.5em;
-        font-size: 1.5em;
+        font-size: 1.2em;
       }
       h2 {
         font-size: 1em;
@@ -206,179 +207,7 @@ $zen-auto-include-item-base: false;
 /**
  * Use 5 grid columns for larger screens.
  */
-@media all and (min-width: 960px) and (max-width: 1040px) {
-  $zen-column-count: 5;
-
-  a[href="#main-mmenu"] {
-    display: none;
-  }
-
-  .dkp.dkp-menu-wrapper {
-    display: inline-block;
-    font-size: 80%;
-      .nav-item > a {
-        padding: 25px 4px 53px 4px;
-      }
-  }
-
-  .dkp .dkp-menu .sub-nav {
-    top:79px;
-  }
-
-  #footer-content {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: $page-max-width;
-  }
-  #content {
-
-    .content-slider {
-      @include zen-grid-item(3, 1);
-    }
-
-    .content-news {
-      @include zen-grid-item(2, 4);
-
-      .news-info {
-        margin-bottom: 10px;
-      }
-      .news-info, .news-clients {
-        margin-left: 30px;
-      }
-    }
-
-    .content-details {
-      @include zen-clear(both);
-      @include zen-grid-item(5, 1);
-      margin-top: 30px;
-    }
-
-    .details {
-      @include zen-clear(both);
-      @include zen-grid-item(5, 1);
-    }
-
-    .features {
-      @include zen-clear(both);
-      $zen-column-count: 6;
-      @include zen-grid-container();
-      @include zen-grid-item(6, 1);
-      margin-bottom: 30px;
-
-      .feature-1 {
-        @include zen-grid-item(2, 1);
-      }
-
-      .feature-2 {
-        @include zen-grid-item(2, 3);
-      }
-
-      .feature-3 {
-        @include zen-grid-item(2, 5);
-      }
-    }
-  }
-
-  /**
-   * The layout when there is only one sidebar, the left one.
-   */
-  .sidebar-first {
-    /* Span 4 columns, starting in 2nd column from left. */
-    #content {
-      @include zen-grid-item(4, 2);
-    }
-
-    /* Span 1 column, starting in 1st column from left. */
-    .region-sidebar-first {
-      @include zen-grid-item(1, 1);
-    }
-  }
-
-  /**
-   * The layout when there is only one sidebar, the right one.
-   */
-  .not-front.sidebar-second {
-    /* Span 4 columns, starting in 1st column from left. */
-    #content {
-      @include zen-grid-item(4, 1);
-    }
-
-    /* Span 1 column, starting in 5th column from left. */
-    .region-sidebar-second {
-      @include zen-grid-item(1, 5);
-    }
-  }
-
-  /**
-   * The layout when there are two sidebars.
-   */
-  .not-front.two-sidebars {
-    $zen-column-count: 5;
-    /* Span 3 columns, starting in 2nd column from left. */
-      #content {
-        @include zen-grid-item(3, 2);
-      }
-
-      /* Span 1 column, starting in 1st column from left. */
-      .region-sidebar-first {
-        @include zen-grid-item(1, 1);
-      }
-
-      /* Span 1 column, starting in 5th column from left. */
-      .region-sidebar-second {
-        @include zen-grid-item(1, 5);
-      }
-   }
-
-  .dkp.nav-logo {
-    padding: 5px 8% 0px 0px;
-  }
-
-  #footer-content {
-    .block-menu {
-      @include zen-grid-item(3, 1);
-    }
-
-    .block-search {
-      @include zen-grid-item(2, 4);
-    }
-  }
-
-  .not-front {
-    .dkp.dummy_header {
-      display: block;
-      height: 45px;
-
-      .dummy {
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #ffffff;
-        width: 60%;
-        height: 100%;
-        margin-top: 5px;
-      }
-    }
-  }
-
-  .content-slider {
-    .dkp.carousel-caption {
-      left: 10%;
-      right: 20%;
-      h1 {
-        line-height: 1.5em;
-        font-size: 1.5em;
-      }
-      h2 {
-        font-size: 1em;
-      }
-    }
-  }
-}
-
-/**
- * Use 5 grid columns for larger screens.
- */
-@media all and (min-width: 1040px) {
+@media all and (min-width: 960px) {
 
   a[href="#main-mmenu"] {
     display: none;
@@ -401,6 +230,10 @@ $zen-auto-include-item-base: false;
   #content {
     $zen-column-count: 5;
 
+    .block {
+      margin: 0px;
+    }
+
     .content-slider {
       @include zen-grid-item(4, 1);
     }
@@ -409,7 +242,6 @@ $zen-auto-include-item-base: false;
       @include zen-grid-item(1, 5);
 
       .news-info, .news-clients {
-        text-align: center;
         margin-left: 10%;
       }
 
@@ -418,7 +250,8 @@ $zen-auto-include-item-base: false;
         height: 126px;
       }
 
-      .news-clients {
+      .dkp.news-clients {
+        text-align: center;
         height: 115px;
       }
     }
@@ -427,13 +260,13 @@ $zen-auto-include-item-base: false;
       $zen-column-count: 6;
       @include zen-clear(both);
       @include zen-grid-item(6, 1);
-      margin-top: 30px;
+      margin-top: 10px;
 
       .features {
         @include zen-clear(both);
         @include zen-grid-container();
         @include zen-grid-item(6, 1);
-        margin-bottom: 30px;
+        margin-bottom:10px;
 
         .feature-1 {
           @include zen-grid-item(2, 1);
@@ -453,6 +286,50 @@ $zen-auto-include-item-base: false;
       @include zen-clear(both);
       @include zen-grid-item(5, 1);
     }
+
+    .content-slider {
+      .dkp.carousel-caption {
+        left: 10%;
+        right: 20%;
+
+        h1 {
+          line-height: 1.5em;
+          font-size: 1.5em;
+        }
+        h2 {
+          font-size: 1em;
+        }
+      }
+    }
+
+    .dkp.features {
+      .block-title {
+        display: none;
+      }
+      .feature {
+        vertical-align: top;
+        img {
+          display: block;
+          float: left;
+          padding-right: 3%;
+        }
+        a {
+          float: left;
+          color: $auxis-brand-gray-fonts;
+          font-weight: $auxis-font-weight-bold;
+          width: 43%;
+        }
+        a:last-child {
+
+        }
+        p {
+          float: left;
+          margin: 0px;
+          width: 43%;
+        }
+      }
+    }
+
   }
 
   /**
@@ -549,48 +426,4 @@ $zen-auto-include-item-base: false;
       }
     }
   }
-
-  .content-slider {
-    .dkp.carousel-caption {
-      left: 10%;
-      right: 20%;
-
-      h1 {
-        line-height: 1.5em;
-        font-size: 1.5em;
-      }
-      h2 {
-        font-size: 1em;
-      }
-    }
-  }
-
-  .dkp.features {
-    .block-title {
-      display: none;
-    }
-    .feature {
-      vertical-align: top;
-      img {
-        display: block;
-        float: left;
-        padding-right: 3%;
-      }
-      a {
-        float: left;
-        color: $auxis-brand-gray-fonts;
-        font-weight: $auxis-font-weight-bold;
-        width: 43%;
-      }
-      a:last-child {
-
-      }
-      p {
-        float: left;
-        margin: 0px;
-        width: 43%;
-      }
-    }
-  }
-
 }

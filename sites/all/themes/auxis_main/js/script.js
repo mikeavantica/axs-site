@@ -54,7 +54,7 @@ Drupal.behaviors.my_custom_behavior = {
       jQuery('.carousel').carousel();
 
       // Function to load the title and sub tile in the front end slider
-      jQuery( '#carousel-slider-generic' ).each(function( index ) {
+      jQuery( '#carousel-slider-generic .item' ).each(function( index ) {
           var title = jQuery(this).find("img").attr("title");
           var sub_title = jQuery(this).find("img").attr("alt");
           if (title.length > 0) {

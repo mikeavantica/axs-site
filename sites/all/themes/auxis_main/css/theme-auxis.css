@@ -28,7 +28,7 @@ body {
 }
 /* line 27, ../sass/theme-auxis.scss */
 .features .feature {
-  margin-bottom: 1;
+  margin-bottom: 1.5em;
 }
 /* line 29, ../sass/theme-auxis.scss */
 .features .feature img {
@@ -79,93 +79,92 @@ footer {
 }
 /* line 71, ../sass/theme-auxis.scss */
 .news-clients .carousel {
-  margin-left: 25%;
-  margin-right: 25%;
+  text-align: center;
 }
 
-/* line 77, ../sass/theme-auxis.scss */
+/* line 76, ../sass/theme-auxis.scss */
 .dkp-menu-wrapper {
   display: none;
 }
 
-/* line 81, ../sass/theme-auxis.scss */
+/* line 80, ../sass/theme-auxis.scss */
 .mm-menu.mm-ismenu {
   color: #1C201F;
   background-color: #848485;
 }
 
-/* line 87, ../sass/theme-auxis.scss */
+/* line 86, ../sass/theme-auxis.scss */
 .mm-menu .menu a.active {
   color: #ffffff;
 }
 
-/* line 92, ../sass/theme-auxis.scss */
+/* line 91, ../sass/theme-auxis.scss */
 .content-details {
   padding: 0 0 10px 0;
 }
-/* line 94, ../sass/theme-auxis.scss */
+/* line 93, ../sass/theme-auxis.scss */
 .content-details a {
   color: #169588;
   text-decoration: none;
 }
-/* line 99, ../sass/theme-auxis.scss */
+/* line 98, ../sass/theme-auxis.scss */
 .content-details p {
   margin: 0 0 1.5em 0;
 }
 
-/* line 105, ../sass/theme-auxis.scss */
+/* line 104, ../sass/theme-auxis.scss */
 #footer-content {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 82%;
 }
-/* line 111, ../sass/theme-auxis.scss */
+/* line 110, ../sass/theme-auxis.scss */
 #footer-content h2 {
   display: none;
 }
-/* line 115, ../sass/theme-auxis.scss */
+/* line 114, ../sass/theme-auxis.scss */
 #footer-content .level-1 {
   margin-top: 10px;
 }
-/* line 118, ../sass/theme-auxis.scss */
+/* line 117, ../sass/theme-auxis.scss */
 #footer-content .level-1 > a {
-  font-weight: bold;
+  font-weight: 800;
 }
-/* line 121, ../sass/theme-auxis.scss */
+/* line 120, ../sass/theme-auxis.scss */
 #footer-content .block {
   margin: 0px;
   color: #ffffff;
 }
-/* line 125, ../sass/theme-auxis.scss */
+/* line 124, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu {
   line-height: 16px;
   padding: 0px;
 }
-/* line 128, ../sass/theme-auxis.scss */
+/* line 127, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li {
   list-style: none;
 }
-/* line 130, ../sass/theme-auxis.scss */
+/* line 129, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 134, ../sass/theme-auxis.scss */
+/* line 133, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li ul {
   padding: 0px;
 }
 
-/* line 145, ../sass/theme-auxis.scss */
+/* line 144, ../sass/theme-auxis.scss */
 .content-news {
   margin-bottom: 1.5em;
 }
 
-/* line 151, ../sass/theme-auxis.scss */
+/* line 150, ../sass/theme-auxis.scss */
 .content-slider .block-title {
   display: none;
 }
-/* line 155, ../sass/theme-auxis.scss */
+/* line 154, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .item {
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -173,7 +172,7 @@ footer {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/* line 164, ../sass/theme-auxis.scss */
+/* line 163, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .active.left,
 .content-slider .carousel.c-fade .active.right {
   left: 0;
@@ -181,21 +180,21 @@ footer {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 172, ../sass/theme-auxis.scss */
+/* line 171, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .next,
 .content-slider .carousel.c-fade .prev {
   left: 0;
   z-index: 1;
 }
-/* line 177, ../sass/theme-auxis.scss */
+/* line 176, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .carousel-control {
   z-index: 3;
 }
-/* line 181, ../sass/theme-auxis.scss */
+/* line 180, ../sass/theme-auxis.scss */
 .content-slider .carousel-indicators {
   display: none;
 }
-/* line 185, ../sass/theme-auxis.scss */
+/* line 184, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption {
   text-align: left;
   padding-left: 2%;
@@ -205,14 +204,14 @@ footer {
   bottom: 10%;
   background-color: #0f9386;
 }
-/* line 196, ../sass/theme-auxis.scss */
+/* line 195, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h1 {
   font-size: 100%;
   line-height: 1em;
   padding: 0px;
   margin: 0px;
 }
-/* line 203, ../sass/theme-auxis.scss */
+/* line 202, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h2 {
   font-size: 50%;
   padding: 0px;

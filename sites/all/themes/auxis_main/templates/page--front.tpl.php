@@ -53,7 +53,7 @@
             </div>
             <div class="content-news">
                 <div class="news-info">news</div>
-                <div class="news-clients">
+                <div class="dkp news-clients">
                     <?php if ($page['content_slider_client']): ?>
                         <?php print render($page['content_slider_client']); ?>
                     <?php endif; ?>
