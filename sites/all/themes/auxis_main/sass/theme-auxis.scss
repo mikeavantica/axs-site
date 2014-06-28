@@ -5,6 +5,10 @@ body {
   background-color: #ffffff;
   -webkit-text-size-adjust: none;
   color: $auxis-brand-gray-fonts;
+
+  p, pre {
+    margin: 1.5em 0 0 0;
+  }
 }
 
 .header {

@@ -4,8 +4,12 @@ body {
   -webkit-text-size-adjust: none;
   color: #5b5b5b;
 }
+/* line 9, ../sass/theme-auxis.scss */
+body p, body pre {
+  margin: 1.5em 0 0 0;
+}
 
-/* line 10, ../sass/theme-auxis.scss */
+/* line 14, ../sass/theme-auxis.scss */
 .header {
   background-color: #df004a;
   padding-left: 0px;
@@ -13,49 +17,49 @@ body {
   margin-bottom: 10px;
 }
 
-/* line 18, ../sass/theme-auxis.scss */
+/* line 22, ../sass/theme-auxis.scss */
 .hide {
   display: none;
 }
 
-/* line 22, ../sass/theme-auxis.scss */
+/* line 26, ../sass/theme-auxis.scss */
 .features {
   margin-bottom: 1.5em;
 }
-/* line 24, ../sass/theme-auxis.scss */
+/* line 28, ../sass/theme-auxis.scss */
 .features .block-title {
   display: none;
 }
-/* line 27, ../sass/theme-auxis.scss */
+/* line 31, ../sass/theme-auxis.scss */
 .features .feature {
   margin-bottom: 1.5em;
 }
-/* line 29, ../sass/theme-auxis.scss */
+/* line 33, ../sass/theme-auxis.scss */
 .features .feature img {
   display: none;
 }
-/* line 32, ../sass/theme-auxis.scss */
+/* line 36, ../sass/theme-auxis.scss */
 .features .feature a {
   color: #5b5b5b;
   font-weight: 800;
 }
-/* line 36, ../sass/theme-auxis.scss */
+/* line 40, ../sass/theme-auxis.scss */
 .features .feature p {
   margin: 0px;
 }
 
-/* line 42, ../sass/theme-auxis.scss */
+/* line 46, ../sass/theme-auxis.scss */
 .nav-logo {
   padding: 5px 10px 0px 40px;
 }
 
-/* line 46, ../sass/theme-auxis.scss */
+/* line 50, ../sass/theme-auxis.scss */
 footer {
   background-color: #848485;
   min-height: 250px;
 }
 
-/* line 51, ../sass/theme-auxis.scss */
+/* line 55, ../sass/theme-auxis.scss */
 .news-info {
   color: #ffffff;
   background-color: #848485;
@@ -63,108 +67,108 @@ footer {
   margin-bottom: 5px;
 }
 
-/* line 58, ../sass/theme-auxis.scss */
+/* line 62, ../sass/theme-auxis.scss */
 .news-clients {
   border: 2px solid #848485;
 }
-/* line 61, ../sass/theme-auxis.scss */
+/* line 65, ../sass/theme-auxis.scss */
 .news-clients h2 {
   font-size: 90%;
   text-align: center;
   font-weight: 800;
 }
-/* line 67, ../sass/theme-auxis.scss */
+/* line 71, ../sass/theme-auxis.scss */
 .news-clients .carousel-indicators, .news-clients .carousel-control {
   display: none;
 }
-/* line 71, ../sass/theme-auxis.scss */
+/* line 75, ../sass/theme-auxis.scss */
 .news-clients .carousel {
   text-align: center;
 }
 
-/* line 76, ../sass/theme-auxis.scss */
+/* line 80, ../sass/theme-auxis.scss */
 .dkp-menu-wrapper {
   display: none;
 }
 
-/* line 80, ../sass/theme-auxis.scss */
+/* line 84, ../sass/theme-auxis.scss */
 .mm-menu.mm-ismenu {
   color: #1C201F;
   background-color: #848485;
 }
 
-/* line 86, ../sass/theme-auxis.scss */
+/* line 90, ../sass/theme-auxis.scss */
 .mm-menu .menu a.active {
   color: #ffffff;
 }
 
-/* line 91, ../sass/theme-auxis.scss */
+/* line 95, ../sass/theme-auxis.scss */
 .content-details {
   padding: 0 0 10px 0;
 }
-/* line 93, ../sass/theme-auxis.scss */
+/* line 97, ../sass/theme-auxis.scss */
 .content-details a {
   color: #169588;
   text-decoration: none;
 }
-/* line 98, ../sass/theme-auxis.scss */
+/* line 102, ../sass/theme-auxis.scss */
 .content-details p {
   margin: 0 0 1.5em 0;
 }
 
-/* line 104, ../sass/theme-auxis.scss */
+/* line 108, ../sass/theme-auxis.scss */
 #footer-content {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 82%;
 }
-/* line 110, ../sass/theme-auxis.scss */
+/* line 114, ../sass/theme-auxis.scss */
 #footer-content h2 {
   display: none;
 }
-/* line 114, ../sass/theme-auxis.scss */
+/* line 118, ../sass/theme-auxis.scss */
 #footer-content .level-1 {
   margin-top: 10px;
 }
-/* line 117, ../sass/theme-auxis.scss */
+/* line 121, ../sass/theme-auxis.scss */
 #footer-content .level-1 > a {
   font-weight: 800;
 }
-/* line 120, ../sass/theme-auxis.scss */
+/* line 124, ../sass/theme-auxis.scss */
 #footer-content .block {
   margin: 0px;
   color: #ffffff;
 }
-/* line 124, ../sass/theme-auxis.scss */
+/* line 128, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu {
   line-height: 16px;
   padding: 0px;
 }
-/* line 127, ../sass/theme-auxis.scss */
+/* line 131, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li {
   list-style: none;
 }
-/* line 129, ../sass/theme-auxis.scss */
+/* line 133, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 133, ../sass/theme-auxis.scss */
+/* line 137, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li ul {
   padding: 0px;
 }
 
-/* line 144, ../sass/theme-auxis.scss */
+/* line 148, ../sass/theme-auxis.scss */
 .content-news {
   margin-bottom: 1.5em;
 }
 
-/* line 150, ../sass/theme-auxis.scss */
+/* line 154, ../sass/theme-auxis.scss */
 .content-slider .block-title {
   display: none;
 }
-/* line 154, ../sass/theme-auxis.scss */
+/* line 158, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .item {
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -172,7 +176,7 @@ footer {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/* line 163, ../sass/theme-auxis.scss */
+/* line 167, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .active.left,
 .content-slider .carousel.c-fade .active.right {
   left: 0;
@@ -180,21 +184,21 @@ footer {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 171, ../sass/theme-auxis.scss */
+/* line 175, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .next,
 .content-slider .carousel.c-fade .prev {
   left: 0;
   z-index: 1;
 }
-/* line 176, ../sass/theme-auxis.scss */
+/* line 180, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .carousel-control {
   z-index: 3;
 }
-/* line 180, ../sass/theme-auxis.scss */
+/* line 184, ../sass/theme-auxis.scss */
 .content-slider .carousel-indicators {
   display: none;
 }
-/* line 184, ../sass/theme-auxis.scss */
+/* line 188, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption {
   text-align: left;
   padding-left: 2%;
@@ -204,14 +208,14 @@ footer {
   bottom: 10%;
   background-color: #0f9386;
 }
-/* line 195, ../sass/theme-auxis.scss */
+/* line 199, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h1 {
   font-size: 100%;
   line-height: 1em;
   padding: 0px;
   margin: 0px;
 }
-/* line 202, ../sass/theme-auxis.scss */
+/* line 206, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h2 {
   font-size: 50%;
   padding: 0px;
