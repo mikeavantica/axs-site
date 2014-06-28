@@ -231,6 +231,7 @@ $zen-auto-include-item-base: false;
     max-width: $page-max-width;
   }
   #content {
+
     .content-slider {
       @include zen-grid-item(3, 1);
     }
@@ -264,15 +265,15 @@ $zen-auto-include-item-base: false;
       @include zen-grid-item(6, 1);
       margin-bottom: 30px;
 
-      .feature-a {
+      .feature-1 {
         @include zen-grid-item(2, 1);
       }
 
-      .feature-b {
+      .feature-2 {
         @include zen-grid-item(2, 3);
       }
 
-      .feature-c {
+      .feature-3 {
         @include zen-grid-item(2, 5);
       }
     }
@@ -330,7 +331,7 @@ $zen-auto-include-item-base: false;
    }
 
   .dkp.nav-logo {
-    padding: 5px 10px 0px 0px;
+    padding: 5px 8% 0px 0px;
   }
 
   #footer-content {
@@ -378,7 +379,6 @@ $zen-auto-include-item-base: false;
  * Use 5 grid columns for larger screens.
  */
 @media all and (min-width: 1040px) {
-  $zen-column-count: 5;
 
   a[href="#main-mmenu"] {
     display: none;
@@ -399,44 +399,53 @@ $zen-auto-include-item-base: false;
     max-width: $page-max-width;
   }
   #content {
+    $zen-column-count: 5;
+
     .content-slider {
-      @include zen-grid-item(3, 1);
+      @include zen-grid-item(4, 1);
     }
 
     .content-news {
-      @include zen-grid-item(2, 4);
+      @include zen-grid-item(1, 5);
+
+      .news-info, .news-clients {
+        text-align: center;
+        margin-left: 10%;
+      }
 
       .news-info {
         margin-bottom: 10px;
+        height: 126px;
       }
-      .news-info, .news-clients {
-        margin-left: 30px;
+
+      .news-clients {
+        height: 115px;
       }
     }
 
     .content-details {
+      $zen-column-count: 6;
       @include zen-clear(both);
       @include zen-grid-item(6, 1);
       margin-top: 30px;
-    }
 
-    .features {
-      @include zen-clear(both);
-      $zen-column-count: 6;
-      @include zen-grid-container();
-      @include zen-grid-item(6, 1);
-      margin-bottom: 30px;
+      .features {
+        @include zen-clear(both);
+        @include zen-grid-container();
+        @include zen-grid-item(6, 1);
+        margin-bottom: 30px;
 
-      .feature-a {
-        @include zen-grid-item(2, 1);
-      }
+        .feature-1 {
+          @include zen-grid-item(2, 1);
+        }
 
-      .feature-b {
-        @include zen-grid-item(2, 3);
-      }
+        .feature-2 {
+          @include zen-grid-item(2, 3);
+        }
 
-      .feature-c {
-        @include zen-grid-item(2, 5);
+        .feature-3 {
+          @include zen-grid-item(2, 5);
+        }
       }
     }
 
@@ -508,7 +517,7 @@ $zen-auto-include-item-base: false;
   }
 
   .dkp.nav-logo {
-    padding: 5px 10px 0px 0px;
+    padding: 5px 5% 0px 0px;
   }
 
   .not-front {
@@ -552,6 +561,34 @@ $zen-auto-include-item-base: false;
       }
       h2 {
         font-size: 1em;
+      }
+    }
+  }
+
+  .dkp.features {
+    .block-title {
+      display: none;
+    }
+    .feature {
+      vertical-align: top;
+      img {
+        display: block;
+        float: left;
+        padding-right: 3%;
+      }
+      a {
+        float: left;
+        color: $auxis-brand-gray-fonts;
+        font-weight: $auxis-font-weight-bold;
+        width: 43%;
+      }
+      a:last-child {
+
+      }
+      p {
+        float: left;
+        margin: 0px;
+        width: 43%;
       }
     }
   }

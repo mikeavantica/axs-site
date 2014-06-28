@@ -53,32 +53,21 @@
             </div>
             <div class="content-news">
                 <div class="news-info">news</div>
-                <div class="news-clients">clients</div>
+                <div class="news-clients">
+                    <?php if ($page['content_slider_client']): ?>
+                        <?php print render($page['content_slider_client']); ?>
+                    <?php endif; ?>
+                </div>
             </div>
             <div class="content-details">
-                <div class="features">
-                    <div class="feature-a">feature a</div>
-                    <div class="feature-b">feature b</div>
-                    <div class="feature-c">feature c</div>
+                <div class="dkp features">
+                    <?php if ($page['content_highlight_block']): ?>
+                        <?php print render($page['content_highlight_block']); ?>
+                    <?php endif; ?>
                 </div>
 
                 <div class="details">
-                    <?php print render($page['highlighted']); ?>
-                    <?php print $breadcrumb; ?>
-                    <a id="main-content"></a>
-                    <?php print render($title_prefix); ?>
-                    <?php if ($title): ?>
-                        <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
-                    <?php endif; ?>
-                    <?php print render($title_suffix); ?>
-                    <?php print $messages; ?>
-                    <?php print render($tabs); ?>
-                    <?php print render($page['help']); ?>
-                    <?php if ($action_links): ?>
-                        <ul class="action-links"><?php print render($action_links); ?></ul>
-                    <?php endif; ?>
-                    <?php print render($page['content']); ?>
-                    <?php print $feed_icons; ?>
+                    <!-- no more details-->
                 </div>
             </div>
         </div>

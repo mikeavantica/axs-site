@@ -28,7 +28,7 @@
  */
 ?>
 <?php if ($rows): ?>
-    <div id="carousel-slider-generic" class="carousel slide c-fade" data-ride="carousel">
+    <div id="carousel-slider-client-generic" class="carousel slide c-fade" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>

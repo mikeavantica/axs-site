@@ -4,13 +4,11 @@
 body {
   background-color: #ffffff;
   -webkit-text-size-adjust: none;
-  color: $auxis-brand-light-gray-b;
+  color: $auxis-brand-gray-fonts;
 }
 
 .header {
   // Same as above but with a #ccc at the halfway point
-  //background-color: $auxis-brand-red;
-  //@include background-image(linear-gradient(#B70532, $auxis-brand-red, #E01B4C ));
   background-color: $auxis-brand-red;
   padding-left: 0px;
   padding-right: 0px;
@@ -21,27 +19,59 @@ body {
   display: none;
 }
 
+.features {
+  margin-bottom: 1.5em;
+  .block-title {
+    display: none;
+  }
+  .feature {
+    margin-bottom: 1.5em;
+    img {
+      display: none;
+    }
+    a {
+      color: $auxis-brand-gray-fonts;
+      font-weight: $auxis-font-weight-bold;
+    }
+    p {
+      margin: 0px;
+    }
+  }
+}
+
 .nav-logo {
   padding: 5px 10px 0px 40px;
 }
 
 footer {
-  background-color: $auxis-brand-light-gray;
+  background-color: $auxis-brand-gray-background;
   min-height: 250px;
 }
 
 .news-info {
   color: #ffffff;
-  background-color: $auxis-brand-light-gray;
+  background-color: $auxis-brand-gray-background;
   padding: 0.2em;
-}
-
-.news-info {
   margin-bottom: 5px;
 }
 
 .news-clients {
-  border: 2px solid $auxis-brand-light-gray;
+  border: 2px solid $auxis-brand-gray-background;
+
+  h2 {
+    font-size: 90%;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .carousel-indicators, .carousel-control {
+    display: none;
+  }
+
+  .carousel {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 }
 
 .dkp-menu-wrapper {
@@ -50,7 +80,7 @@ footer {
 
 .mm-menu.mm-ismenu {
     color: #1C201F;
-    background-color: $auxis-brand-light-gray;
+    background-color: $auxis-brand-gray-background;
 }
 
 .mm-menu {
@@ -112,13 +142,15 @@ footer {
   }
 }
 
-.content-slider {
-  .block-title {
-    display: none;
-  }
+.content-news {
+  margin-bottom: 1.5em;
 }
 
 .content-slider {
+
+  .block-title {
+    display: none;
+  }
 
   .carousel.c-fade .item {
     -webkit-transition: opacity 1s ease-in-out;

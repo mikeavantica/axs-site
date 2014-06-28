@@ -108,14 +108,16 @@ $tabs-container-bg: #fff;
 $tabs-border: #bbb;
 
 // The max width of the page
-$page-max-width: 1200px;
+$page-max-width: 1000px; // original 1200
 
 // Auxis branding Colors
 $auxis-brand-red: #DF004A;
 $auxis-brand-teal: #0F9386;
-$auxis-brand-light-gray: #848485;
-$auxis-brand-light-gray-b: #5B5B5B;
+$auxis-brand-gray-background: #848485;
+$auxis-brand-gray-fonts: #5B5B5B;
 
+// Font weight
+$auxis-font-weight-bold: 800;
 
 // =============================================================================
 // Partials to be shared with all .scss files.
