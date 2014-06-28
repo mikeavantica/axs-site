@@ -9,7 +9,9 @@
 ?>
 
 <div id="page">
-    <div class="dkp dummy_header"><div class="dummy"></div></div>
+    <div id="dummy" class="dummy_header">
+        <div class="dummy"></div>
+    </div>
 
     <header class="dkp header" id="header" role="banner">
         <div id="navigation">
@@ -44,41 +46,45 @@
         </div>
     </header>
 
-  <div id="main">
+    <div id="main">
 
-    <div id="content" class="main-content column" role="main">
-      <?php print render($page['highlighted']); ?>
-      <?php print $breadcrumb; ?>
-      <a id="main-content"></a>
-      <?php print render($title_prefix); ?>
-      <?php if ($title): ?>
-        <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
-      <?php print render($tabs); ?>
-      <?php print render($page['help']); ?>
-      <?php if ($action_links): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
-      <?php print render($page['content']); ?>
-      <?php print $feed_icons; ?>
+        <div id="content" class="main-content column" role="main">
+            <div class="article">content</div>
+            <div class="left-col">left</div>
+            <div class="right-col">right</div>
+
+
+            <?php print render($page['highlighted']); ?>
+            <?php print $breadcrumb; ?>
+            <?php print render($title_prefix); ?>
+            <?php if ($title): ?>
+                <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
+            <?php endif; ?>
+            <?php print render($title_suffix); ?>
+            <?php print $messages; ?>
+            <?php print render($tabs); ?>
+            <?php print render($page['help']); ?>
+            <?php if ($action_links): ?>
+                <ul class="action-links"><?php print render($action_links); ?></ul>
+            <?php endif; ?>
+            <?php print render($page['content']); ?>
+            <?php print $feed_icons; ?>
+        </div>
+
+        <?php
+        // Render the sidebars to see if there's anything in them.
+        $sidebar_first = render($page['sidebar_first']);
+        $sidebar_second = render($page['sidebar_second']);
+        ?>
+
+        <?php if ($sidebar_first || $sidebar_second): ?>
+            <aside class="sidebars">
+                <?php print $sidebar_first; ?>
+                <?php print $sidebar_second; ?>
+            </aside>
+        <?php endif; ?>
+
     </div>
-
-    <?php
-      // Render the sidebars to see if there's anything in them.
-      $sidebar_first  = render($page['sidebar_first']);
-      $sidebar_second = render($page['sidebar_second']);
-    ?>
-
-    <?php if ($sidebar_first || $sidebar_second): ?>
-      <aside class="sidebars">
-        <?php print $sidebar_first; ?>
-        <?php print $sidebar_second; ?>
-      </aside>
-    <?php endif; ?>
-
-  </div>
 
     <footer id="footer" class="internal-footer">
         <?php if ($page['footer_internal_menu']): ?>

@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="content-details">
-                <div class="dkp features">
+                <div class="features">
                     <?php if ($page['content_highlight_block']): ?>
                         <?php print render($page['content_highlight_block']); ?>
                     <?php endif; ?>

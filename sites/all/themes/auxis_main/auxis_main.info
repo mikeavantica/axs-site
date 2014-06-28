@@ -98,8 +98,8 @@ regions[content]        = Content
 regions[content_slider] = Content Slider
 regions[content_slider_client] = Content Slider for Client
 regions[content_highlight_block] = Front Page Area Highlights
-regions[sidebar_first]  = First sidebar
-regions[sidebar_second] = Second sidebar
+; regions[sidebar_first]  = First sidebar
+; regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
 regions[bottom]         = Page bottom
 
