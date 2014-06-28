@@ -1038,86 +1038,30 @@ table {
   /**
    * The Internal Body Layout.
    */
-  /**
-   * The layout when there is only one sidebar, the left one.
-   */
-  /* line 397, ../sass/layouts/_responsive.scss */
-  .sidebar-first {
-    /* Span 4 columns, starting in 2nd column from left. */
-    /* Span 1 column, starting in 1st column from left. */
-  }
-  /* line 399, ../sass/layouts/_responsive.scss */
-  .sidebar-first #content {
+  /* line 392, ../sass/layouts/_responsive.scss */
+  body.not-front .left-col {
     float: left;
-    width: 133.33333%;
-    margin-left: 33.33333%;
-    margin-right: -166.66667%;
-  }
-  /* line 404, ../sass/layouts/_responsive.scss */
-  .sidebar-first .region-sidebar-first {
-    float: left;
-    width: 33.33333%;
+    width: 20%;
     margin-left: 0%;
-    margin-right: -33.33333%;
+    margin-right: -20%;
+    padding: 0 1% 1% 1%;
   }
-
-  /**
-   * The layout when there is only one sidebar, the right one.
-   */
-  /* line 412, ../sass/layouts/_responsive.scss */
-  .not-front.sidebar-second {
-    /* Span 4 columns, starting in 1st column from left. */
-    /* Span 1 column, starting in 5th column from left. */
-  }
-  /* line 414, ../sass/layouts/_responsive.scss */
-  .not-front.sidebar-second #content {
+  /* line 396, ../sass/layouts/_responsive.scss */
+  body.not-front .article {
+    background-color: #ffffff;
+    padding: 0 1% 1% 1%;
     float: left;
-    width: 133.33333%;
-    margin-left: 0%;
-    margin-right: -133.33333%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: -80%;
   }
-  /* line 419, ../sass/layouts/_responsive.scss */
-  .not-front.sidebar-second .region-sidebar-second {
+  /* line 401, ../sass/layouts/_responsive.scss */
+  body.not-front .right-col {
     float: left;
-    width: 33.33333%;
-    margin-left: 133.33333%;
-    margin-right: -166.66667%;
-  }
-
-  /**
-   * The layout when there are two sidebars.
-   */
-  /* line 427, ../sass/layouts/_responsive.scss */
-  .not-front.two-sidebars {
-    /* Span 3 columns, starting in 2nd column from left. */
-    /* Span 1 column, starting in 1st column from left. */
-    /* Span 1 column, starting in 5th column from left. */
-  }
-  /* line 430, ../sass/layouts/_responsive.scss */
-  .not-front.two-sidebars #content {
-    float: left;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: -75%;
-  }
-  /* line 435, ../sass/layouts/_responsive.scss */
-  .not-front.two-sidebars .region-sidebar-first {
-    float: left;
-    width: 25%;
-    margin-left: 0%;
-    margin-right: -25%;
-  }
-  /* line 440, ../sass/layouts/_responsive.scss */
-  .not-front.two-sidebars .region-sidebar-second {
-    float: left;
-    width: 25%;
-    margin-left: 75%;
+    width: 20%;
+    margin-left: 80%;
     margin-right: -100%;
-  }
-
-  /* line 446, ../sass/layouts/_responsive.scss */
-  .not-front .menu-block-4 {
-    margin-left: 30%;
+    padding: 0 1% 1% 1%;
   }
 }
 /* Component (SMACSS module) rules */

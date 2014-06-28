@@ -49,26 +49,33 @@
     <div id="main">
 
         <div id="content" class="main-content column" role="main">
-            <div class="article">content</div>
-            <div class="left-col">left</div>
-            <div class="right-col">right</div>
-
-
-            <?php print render($page['highlighted']); ?>
-            <?php print $breadcrumb; ?>
-            <?php print render($title_prefix); ?>
-            <?php if ($title): ?>
-                <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
-            <?php endif; ?>
-            <?php print render($title_suffix); ?>
-            <?php print $messages; ?>
-            <?php print render($tabs); ?>
-            <?php print render($page['help']); ?>
-            <?php if ($action_links): ?>
-                <ul class="action-links"><?php print render($action_links); ?></ul>
-            <?php endif; ?>
-            <?php print render($page['content']); ?>
-            <?php print $feed_icons; ?>
+            <div class="article">
+                <?php print render($page['highlighted']); ?>
+                <?php print $breadcrumb; ?>
+                <?php print render($title_prefix); ?>
+                <?php if ($title): ?>
+                    <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
+                <?php endif; ?>
+                <?php print render($title_suffix); ?>
+                <?php print $messages; ?>
+                <?php print render($tabs); ?>
+                <?php print render($page['help']); ?>
+                <?php if ($action_links): ?>
+                    <ul class="action-links"><?php print render($action_links); ?></ul>
+                <?php endif; ?>
+                <?php print render($page['content']); ?>
+                <?php print $feed_icons; ?>
+            </div>
+            <aside class="left-col">
+                <?php if ($page['left_col']): ?>
+                    <?php print render($page['left_col']); ?>
+                <?php endif; ?>
+            </aside>
+            <aside class="right-col">
+                <?php if ($page['right_col']): ?>
+                    <?php print render($page['right_col']); ?>
+                <?php endif; ?>
+            </aside>
         </div>
 
         <?php
