@@ -163,32 +163,28 @@ function auxis_main_menu_link__menu_block__2(array $variables)
     $element = $variables['element'];
     $sub_menu = '';
     $item_title = '';
-
     $element['#attributes']['class'][] = 'level-' . $depth;
+    $isColumn = (array_search('menu-col', $element['#localized_options']['attributes']['class'])) ? true : false;
+    $isMenuFull = (array_search('menu-full', $element['#localized_options']['attributes']['class'])) ? true : false;
+    $style = '';
 
     if ($element['#below']) {
         // Wrap in dropdown-menu.
         unset($element['#below']['#theme_wrappers']);
         if ($depth == 1) {
-            $sub_menu = '<div class="sub-nav"><ul class="sub-nav-group">' . drupal_render($element['#below']) . '</ul></div>';
+            $style = ($isMenuFull == 1) ? 'menu-full' : '';
+            $sub_menu = '<div class="sub-nav '.$style.'"><ul class="sub-nav-group">' . drupal_render($element['#below']) . '</ul></div>';
         } elseif ($depth == 2) {
             $sub_menu = '<ul class="sub-nav-block">' . drupal_render($element['#below']) . '</ul>';
         } else  {
             $sub_menu = '<ul>' . drupal_render($element['#below']) . '</ul>';
 
         }
-
     }
 
     $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-    if ($depth == 2) {
-        if (isset($element['#localized_options']['attributes']['title'])) {
-            $item_title = '<h3>'.$element['#localized_options']['attributes']['title'].'</h3>';
-        }
-    }
-
-    if (!empty($item_title)) {
-        $element['#attributes']['class'][] = 'title-block';
+    if ($isColumn == 1) {
+        $element['#attributes']['class'][] = 'menu-col';
     }
 
     return '<li' . drupal_attributes($element['#attributes']) . '>' . $item_title . $output . $sub_menu . "</li>\n";

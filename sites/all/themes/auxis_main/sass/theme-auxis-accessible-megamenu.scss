@@ -30,15 +30,14 @@
     text-transform: uppercase;
     word-wrap: break-word;
     font-size: 120%;
-    font-weight: 600;
     color: #fcfcfc;
     //text-shadow: 1px 1px 1px #000000;
     height: 45px;
-    max-width: 120px;
+    max-width: 180px;
     text-decoration: none;
     position: relative;
     display: inline-block;
-    padding: 15px 6px 65px 6px;
+    padding: 20px 7px 60px 7px;
     text-align: center;
     vertical-align: top;
     border-left: 2px solid transparent;
@@ -68,10 +67,15 @@
   }
 
   /* sub-navigation panel */
+  .sub-nav.menu-full {
+    left: 0px;
+    width: 100%;
+  }
   .sub-nav {
     position: absolute;
     display: none;
     top: 81px;
+    min-width: 135px;
     margin-top: -1px;
     padding: 0.5em 1em;
     border-left: 2px solid #B70532;
@@ -103,6 +107,10 @@
     }
   }
 
+  .sub-nav.menu-full ul li.level-2{
+    margin-left: 0px;
+  }
+
   .sub-nav ul li.level-2{
     margin-left: 20px;
   }
@@ -129,17 +137,17 @@
     color: $auxis-brand-red;
   }
 
-  .sub-nav-group {
-      h3 {
-        margin: 0px;
-        padding: 0px;
-        float: left;
-        line-height: 18px;
-        font-weight: bold;
-        width: 100%;
-        font-size: 14px;
-        color: $auxis-brand-teal;
-        text-transform: uppercase;
+  ul.sub-nav-group {
+      display: table;
+      li.menu-col {
+        display: inline-table;
+        width: 49%;
+        > a {
+          font-weight: bold;
+          width: 100%;
+          font-size: 14px;
+          color: $auxis-brand-teal;
+          text-transform: uppercase;        }
       }
   }
 

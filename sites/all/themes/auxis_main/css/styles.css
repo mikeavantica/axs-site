@@ -2295,20 +2295,19 @@ footer {
   text-transform: uppercase;
   word-wrap: break-word;
   font-size: 120%;
-  font-weight: 600;
   color: #fcfcfc;
   height: 45px;
-  max-width: 120px;
+  max-width: 180px;
   text-decoration: none;
   position: relative;
   display: inline-block;
-  padding: 15px 6px 65px 6px;
+  padding: 20px 7px 60px 7px;
   text-align: center;
   vertical-align: top;
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
 }
-/* line 53, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 52, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .nav-item > a:focus,
 .dkp-menu .nav-item > a.open,
 .dkp-menu .nav-item > a:hover,
@@ -2317,7 +2316,7 @@ footer {
   border-left: 2px solid #B70532;
   border-right: 2px solid #df004a;
 }
-/* line 64, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 63, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .nav-item > a.open,
 .dkp-menu .nav-item > a:hover,
 .dkp-menu .nav-item > a.active-trail {
@@ -2329,11 +2328,17 @@ footer {
   border-bottom: none;
   z-index: 1;
 }
-/* line 71, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 70, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav.menu-full {
+  left: 0px;
+  width: 100%;
+}
+/* line 74, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav {
   position: absolute;
   display: none;
   top: 81px;
+  min-width: 135px;
   margin-top: -1px;
   padding: 0.5em 1em;
   border-left: 2px solid #B70532;
@@ -2349,11 +2354,11 @@ footer {
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 15px 1px;
   box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 15px 1px;
 }
-/* line 86, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 90, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav.open {
   display: block;
 }
-/* line 93, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 97, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav ul,
 .dkp-menu .sub-nav ul li.level-2.title-block {
   display: inline-block;
@@ -2361,27 +2366,31 @@ footer {
   margin: 0;
   padding: 0px;
 }
-/* line 98, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 102, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav ul ul,
 .dkp-menu .sub-nav ul li.level-2.title-block ul {
   margin-left: 20px;
 }
-/* line 100, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 104, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav ul ul li.level-4,
 .dkp-menu .sub-nav ul li.level-2.title-block ul li.level-4 {
   list-style: circle;
 }
-/* line 106, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 110, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav.menu-full ul li.level-2 {
+  margin-left: 0px;
+}
+/* line 114, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav ul li.level-2 {
   margin-left: 20px;
 }
-/* line 111, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 119, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav li {
   list-style: square;
   margin: 0;
   padding: 0;
 }
-/* line 117, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 125, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav li a {
   display: block;
   line-height: 26px;
@@ -2390,28 +2399,33 @@ footer {
   font-size: 13px;
   color: #000000;
 }
-/* line 127, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 135, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav li a:hover {
   text-decoration: underline;
   color: #df004a;
 }
-/* line 133, ../sass/theme-auxis-accessible-megamenu.scss */
-.dkp-menu .sub-nav-group h3 {
-  margin: 0px;
-  padding: 0px;
-  float: left;
-  line-height: 18px;
+/* line 140, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu ul.sub-nav-group {
+  display: table;
+}
+/* line 142, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu ul.sub-nav-group li.menu-col {
+  display: inline-table;
+  width: 49%;
+}
+/* line 145, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu ul.sub-nav-group li.menu-col > a {
   font-weight: bold;
   width: 100%;
   font-size: 14px;
   color: #0f9386;
   text-transform: uppercase;
 }
-/* line 146, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 154, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .last .sub-nav {
   right: 0px;
 }
-/* line 152, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 160, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu__item .sub-nav a.active {
   color: #df004a;
 }
