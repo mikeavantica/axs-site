@@ -367,28 +367,11 @@ $zen-auto-include-item-base: false;
   }
 
   /**
-   * Footer - Content of the layout
-   */
-  #footer-content {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: $page-max-width;
-
-    .block-menu {
-      @include zen-grid-item(3, 1);
-    }
-
-    .block-search {
-      @include zen-grid-item(2, 4);
-    }
-  }
-
-  /**
    * Footer of the layout
    */
   #footer {
     $zen-column-count: 5;
-    padding-top: 25px;
+    padding-top: 15px;
 
     .footer-internal-menu {
       @include zen-grid-item(4, 1);
@@ -397,6 +380,23 @@ $zen-auto-include-item-base: false;
       }
     }
     .copy {
+      @include zen-grid-item(1, 5);
+    }
+  }
+
+  /**
+   * Footer - Content of the layout
+   */
+  #footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $page-max-width;
+
+    .block-menu {
+      @include zen-grid-item(4, 1);
+    }
+
+    .block-search {
       @include zen-grid-item(1, 5);
     }
   }

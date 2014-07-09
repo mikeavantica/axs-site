@@ -373,49 +373,49 @@ ul {
   }
 
   /**
-   * Footer - Content of the layout
-   */
-  /* line 372, ../sass/layouts/_responsive.scss */
-  #footer-content {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1000px;
-  }
-  /* line 377, ../sass/layouts/_responsive.scss */
-  #footer-content .block-menu {
-    float: right;
-    width: 50%;
-    margin-right: 0%;
-    margin-left: -50%;
-  }
-  /* line 381, ../sass/layouts/_responsive.scss */
-  #footer-content .block-search {
-    float: right;
-    width: 33.33333%;
-    margin-right: 50%;
-    margin-left: -83.33333%;
-  }
-
-  /**
    * Footer of the layout
    */
-  /* line 389, ../sass/layouts/_responsive.scss */
+  /* line 372, ../sass/layouts/_responsive.scss */
   #footer {
-    padding-top: 25px;
+    padding-top: 15px;
   }
-  /* line 393, ../sass/layouts/_responsive.scss */
+  /* line 376, ../sass/layouts/_responsive.scss */
   #footer .footer-internal-menu {
     float: right;
     width: 80%;
     margin-right: 0%;
     margin-left: -80%;
   }
-  /* line 395, ../sass/layouts/_responsive.scss */
+  /* line 378, ../sass/layouts/_responsive.scss */
   #footer .footer-internal-menu ul.menu {
     margin: 0px;
   }
-  /* line 399, ../sass/layouts/_responsive.scss */
+  /* line 382, ../sass/layouts/_responsive.scss */
   #footer .copy {
+    float: right;
+    width: 20%;
+    margin-right: 80%;
+    margin-left: -100%;
+  }
+
+  /**
+   * Footer - Content of the layout
+   */
+  /* line 390, ../sass/layouts/_responsive.scss */
+  #footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+  }
+  /* line 395, ../sass/layouts/_responsive.scss */
+  #footer-content .block-menu {
+    float: right;
+    width: 80%;
+    margin-right: 0%;
+    margin-left: -80%;
+  }
+  /* line 399, ../sass/layouts/_responsive.scss */
+  #footer-content .block-search {
     float: right;
     width: 20%;
     margin-right: 80%;

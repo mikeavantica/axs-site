@@ -71,7 +71,6 @@ body {
 
 footer {
   background-color: $auxis-brand-gray-background;
-  min-height: 250px;
 }
 
 .news-info {
@@ -131,14 +130,17 @@ footer {
   font-family: $arial;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 82%;
+  font-size: 90%;
 
   h2 {
     display: none;
   }
 
   .level-1 {
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 30%;
   }
   .level-1 > a {
     font-weight: $auxis-font-weight-bold;
@@ -148,13 +150,20 @@ footer {
     color: #ffffff;
 
     ul.menu {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
       line-height: 16px;
       padding: 0px;
+      margin: 0px;
       li {
         list-style: none;
+        vertical-align: top;
         a {
           color: #ffffff;
           text-decoration: none;
+        }
+        a:hover {
+          color: $auxis-brand-red;
         }
         ul {
           padding: 0px;
