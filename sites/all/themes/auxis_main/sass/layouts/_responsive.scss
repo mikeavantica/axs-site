@@ -62,7 +62,7 @@ $zen-auto-include-item-base: false;
   @media all and (min-width: 480px) {
 
     .header {
-      margin-top: 30px;
+      margin-top: 15px;
       padding-left: 0px;
       padding-right: 0px;
     }
@@ -92,7 +92,7 @@ $zen-auto-include-item-base: false;
     }
 
     .dkp.header {
-      margin-bottom: 30px;
+      margin-bottom: 15px;
     }
 
   }
@@ -239,7 +239,7 @@ $zen-auto-include-item-base: false;
    */
   #dummy {
     display: block;
-    height: 25px;
+    height: 10px;
 
     .dummy {
       margin-left: auto;
@@ -309,7 +309,7 @@ $zen-auto-include-item-base: false;
       $zen-column-count: 6;
       @include zen-clear(both);
       @include zen-grid-item(6, 1);
-      margin-top: 10px;
+      //margin-top: 10px;
 
       .features {
         @include zen-clear(both);
@@ -418,6 +418,8 @@ $zen-auto-include-item-base: false;
       ul.menu {
         padding: 0px;
         color: #ffffff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         li {
           list-style: none;
           a {
@@ -431,7 +433,7 @@ $zen-auto-include-item-base: false;
 
           ul {
             li {
-              list-style-type: square;
+              list-style: none;
               margin-left: 15px;
               padding: 0px;
               a {

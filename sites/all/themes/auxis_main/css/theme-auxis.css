@@ -3,13 +3,14 @@ body {
   background-color: #ffffff;
   -webkit-text-size-adjust: none;
   color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
 }
-/* line 9, ../sass/theme-auxis.scss */
+/* line 10, ../sass/theme-auxis.scss */
 body p, body pre {
   margin: 1.5em 0 0 0;
 }
 
-/* line 14, ../sass/theme-auxis.scss */
+/* line 15, ../sass/theme-auxis.scss */
 .header {
   background-color: #df004a;
   padding-left: 0px;
@@ -18,71 +19,71 @@ body p, body pre {
   height: 105px;
 }
 
-/* line 23, ../sass/theme-auxis.scss */
+/* line 24, ../sass/theme-auxis.scss */
 .hide {
   display: none;
 }
 
-/* line 27, ../sass/theme-auxis.scss */
+/* line 28, ../sass/theme-auxis.scss */
 .features {
   margin-bottom: 1.5em;
 }
-/* line 29, ../sass/theme-auxis.scss */
+/* line 30, ../sass/theme-auxis.scss */
 .features .block-title {
   display: none;
 }
-/* line 32, ../sass/theme-auxis.scss */
+/* line 33, ../sass/theme-auxis.scss */
 .features .feature {
   margin-bottom: 1.5em;
 }
-/* line 34, ../sass/theme-auxis.scss */
+/* line 35, ../sass/theme-auxis.scss */
 .features .feature img {
   display: none;
 }
-/* line 37, ../sass/theme-auxis.scss */
+/* line 38, ../sass/theme-auxis.scss */
 .features .feature a {
   color: #5b5b5b;
   font-weight: 800;
 }
-/* line 41, ../sass/theme-auxis.scss */
+/* line 42, ../sass/theme-auxis.scss */
 .features .feature p {
   margin: 0px;
 }
 
-/* line 47, ../sass/theme-auxis.scss */
+/* line 48, ../sass/theme-auxis.scss */
 .nav-logo {
   padding: 5px 10px 0px 40px;
 }
-/* line 49, ../sass/theme-auxis.scss */
+/* line 50, ../sass/theme-auxis.scss */
 .nav-logo .logo-container {
   color: #ffffff;
   position: relative;
   height: 105px;
   z-index: 50;
   margin-right: 5px;
-  font-size: 85%;
+  font-size: 80%;
   width: 250px;
 }
-/* line 57, ../sass/theme-auxis.scss */
+/* line 58, ../sass/theme-auxis.scss */
 .nav-logo .logo-container img.header__logo-image {
   position: absolute;
   left: 40px;
   top: 10px;
 }
-/* line 63, ../sass/theme-auxis.scss */
+/* line 64, ../sass/theme-auxis.scss */
 .nav-logo .logo-container span {
   position: absolute;
   bottom: 5px;
   left: 5px;
 }
 
-/* line 71, ../sass/theme-auxis.scss */
+/* line 72, ../sass/theme-auxis.scss */
 footer {
   background-color: #848485;
   min-height: 250px;
 }
 
-/* line 76, ../sass/theme-auxis.scss */
+/* line 77, ../sass/theme-auxis.scss */
 .news-info {
   color: #ffffff;
   background-color: #848485;
@@ -90,108 +91,108 @@ footer {
   margin-bottom: 5px;
 }
 
-/* line 83, ../sass/theme-auxis.scss */
+/* line 84, ../sass/theme-auxis.scss */
 .news-clients {
   border: 2px solid #848485;
 }
-/* line 86, ../sass/theme-auxis.scss */
+/* line 87, ../sass/theme-auxis.scss */
 .news-clients h2 {
   font-size: 90%;
   text-align: center;
   font-weight: 800;
 }
-/* line 92, ../sass/theme-auxis.scss */
+/* line 93, ../sass/theme-auxis.scss */
 .news-clients .carousel-indicators, .news-clients .carousel-control {
   display: none;
 }
-/* line 96, ../sass/theme-auxis.scss */
+/* line 97, ../sass/theme-auxis.scss */
 .news-clients .carousel {
   text-align: center;
 }
 
-/* line 101, ../sass/theme-auxis.scss */
+/* line 102, ../sass/theme-auxis.scss */
 .dkp-menu-wrapper {
   display: none;
 }
 
-/* line 105, ../sass/theme-auxis.scss */
+/* line 106, ../sass/theme-auxis.scss */
 .mm-menu.mm-ismenu {
   color: #1C201F;
   background-color: #848485;
 }
 
-/* line 111, ../sass/theme-auxis.scss */
+/* line 112, ../sass/theme-auxis.scss */
 .mm-menu .menu a.active {
   color: #ffffff;
 }
 
-/* line 116, ../sass/theme-auxis.scss */
+/* line 117, ../sass/theme-auxis.scss */
 .content-details {
   padding: 0 0 10px 0;
 }
-/* line 118, ../sass/theme-auxis.scss */
+/* line 119, ../sass/theme-auxis.scss */
 .content-details a {
   color: #169588;
   text-decoration: none;
 }
-/* line 123, ../sass/theme-auxis.scss */
+/* line 124, ../sass/theme-auxis.scss */
 .content-details p {
   margin: 0 0 1.5em 0;
 }
 
-/* line 129, ../sass/theme-auxis.scss */
+/* line 130, ../sass/theme-auxis.scss */
 #footer-content {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 82%;
 }
-/* line 135, ../sass/theme-auxis.scss */
+/* line 136, ../sass/theme-auxis.scss */
 #footer-content h2 {
   display: none;
 }
-/* line 139, ../sass/theme-auxis.scss */
+/* line 140, ../sass/theme-auxis.scss */
 #footer-content .level-1 {
   margin-top: 10px;
 }
-/* line 142, ../sass/theme-auxis.scss */
+/* line 143, ../sass/theme-auxis.scss */
 #footer-content .level-1 > a {
   font-weight: 800;
 }
-/* line 145, ../sass/theme-auxis.scss */
+/* line 146, ../sass/theme-auxis.scss */
 #footer-content .block {
   margin: 0px;
   color: #ffffff;
 }
-/* line 149, ../sass/theme-auxis.scss */
+/* line 150, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu {
   line-height: 16px;
   padding: 0px;
 }
-/* line 152, ../sass/theme-auxis.scss */
+/* line 153, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li {
   list-style: none;
 }
-/* line 154, ../sass/theme-auxis.scss */
+/* line 155, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 158, ../sass/theme-auxis.scss */
+/* line 159, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li ul {
   padding: 0px;
 }
 
-/* line 169, ../sass/theme-auxis.scss */
+/* line 170, ../sass/theme-auxis.scss */
 .content-news {
   margin-bottom: 1.5em;
 }
 
-/* line 175, ../sass/theme-auxis.scss */
+/* line 176, ../sass/theme-auxis.scss */
 .content-slider .block-title {
   display: none;
 }
-/* line 179, ../sass/theme-auxis.scss */
+/* line 180, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .item {
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -199,7 +200,7 @@ footer {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/* line 188, ../sass/theme-auxis.scss */
+/* line 189, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .active.left,
 .content-slider .carousel.c-fade .active.right {
   left: 0;
@@ -207,21 +208,21 @@ footer {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 196, ../sass/theme-auxis.scss */
+/* line 197, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .next,
 .content-slider .carousel.c-fade .prev {
   left: 0;
   z-index: 1;
 }
-/* line 201, ../sass/theme-auxis.scss */
+/* line 202, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .carousel-control {
   z-index: 3;
 }
-/* line 205, ../sass/theme-auxis.scss */
+/* line 206, ../sass/theme-auxis.scss */
 .content-slider .carousel-indicators, .content-slider .carousel-control {
   display: none;
 }
-/* line 209, ../sass/theme-auxis.scss */
+/* line 210, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption {
   text-align: left;
   padding: 1%;
@@ -229,14 +230,14 @@ footer {
   bottom: 10%;
   background-color: #0f9386;
 }
-/* line 218, ../sass/theme-auxis.scss */
+/* line 219, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h1 {
   font-size: 100%;
   line-height: 1em;
   padding: 0px;
   margin: 0px;
 }
-/* line 225, ../sass/theme-auxis.scss */
+/* line 226, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h2 {
   font-size: 50%;
   padding: 0px;

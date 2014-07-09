@@ -220,7 +220,7 @@ ul {
   /* line 240, ../sass/layouts/_responsive.scss */
   #dummy {
     display: block;
-    height: 25px;
+    height: 10px;
   }
   /* line 244, ../sass/layouts/_responsive.scss */
   #dummy .dummy {
@@ -296,7 +296,6 @@ ul {
     width: 100%;
     margin-right: 0%;
     margin-left: -100%;
-    margin-top: 10px;
   }
   /* line 314, ../sass/layouts/_responsive.scss */
   #content .content-details .features {
@@ -443,32 +442,34 @@ ul {
   body.not-front .left-col ul.menu {
     padding: 0px;
     color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  /* line 421, ../sass/layouts/_responsive.scss */
+  /* line 423, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li {
     list-style: none;
   }
-  /* line 423, ../sass/layouts/_responsive.scss */
+  /* line 425, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a {
     color: #ffffff;
   }
-  /* line 427, ../sass/layouts/_responsive.scss */
+  /* line 429, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a.active {
     font-weight: 800;
     text-decoration: underline;
   }
-  /* line 433, ../sass/layouts/_responsive.scss */
+  /* line 435, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li {
-    list-style-type: square;
+    list-style: none;
     margin-left: 15px;
     padding: 0px;
   }
-  /* line 437, ../sass/layouts/_responsive.scss */
+  /* line 439, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li a {
     color: #ffffff;
     font-size: 90%;
   }
-  /* line 447, ../sass/layouts/_responsive.scss */
+  /* line 449, ../sass/layouts/_responsive.scss */
   body.not-front .article {
     background-color: #ffffff;
     padding: 0 1% 1% 1%;
@@ -477,7 +478,7 @@ ul {
     margin-right: 20%;
     margin-left: -80%;
   }
-  /* line 453, ../sass/layouts/_responsive.scss */
+  /* line 455, ../sass/layouts/_responsive.scss */
   body.not-front .right-col {
     background-color: #848485;
     float: right;

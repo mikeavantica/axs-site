@@ -5,6 +5,7 @@ body {
   background-color: #ffffff;
   -webkit-text-size-adjust: none;
   color: $auxis-brand-gray-fonts;
+  font-family: $google-font-open-sans;
 
   p, pre {
     margin: 1.5em 0 0 0;
@@ -52,7 +53,7 @@ body {
     height: $nav-top-menu-max-height;
     z-index: 50;
     margin-right: 5px;
-    font-size: 85%;
+    font-size: 80%;
     width: 250px;
     img.header__logo-image {
       position: absolute;
