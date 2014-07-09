@@ -129,7 +129,8 @@
 /* line 125, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav li a {
   display: block;
-  line-height: 26px;
+  line-height: 20px;
+  margin-bottom: 10px;
   text-decoration: none;
   font-weight: normal;
   font-size: 13px;
@@ -137,7 +138,6 @@
 }
 /* line 135, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .sub-nav li a:hover {
-  text-decoration: underline;
   color: #df004a;
 }
 /* line 140, ../sass/theme-auxis-accessible-megamenu.scss */
@@ -153,24 +153,25 @@
   font-weight: bold;
   width: 100%;
   font-size: 14px;
-  line-height: 1.3em;
+  line-height: 1.5em;
+  margin-bottom: 10px;
   color: #0f9386;
   text-transform: uppercase;
 }
-/* line 156, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 158, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu-full ul.sub-nav-group li.menu-col {
   width: 30%;
   margin-left: 3%;
 }
-/* line 165, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 167, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu-full-4 ul.sub-nav-group li.menu-col {
   width: 22%;
 }
-/* line 171, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 173, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .last .sub-nav {
   right: 0px;
 }
-/* line 177, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 179, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu__item .sub-nav a.active {
   color: #df004a;
 }
