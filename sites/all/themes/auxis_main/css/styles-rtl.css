@@ -444,32 +444,38 @@ ul {
     color: #ffffff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 100%;
   }
-  /* line 423, ../sass/layouts/_responsive.scss */
+  /* line 424, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li {
     list-style: none;
   }
-  /* line 425, ../sass/layouts/_responsive.scss */
+  /* line 426, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a {
     color: #ffffff;
+    font-weight: 800;
   }
-  /* line 429, ../sass/layouts/_responsive.scss */
+  /* line 431, ../sass/layouts/_responsive.scss */
+  body.not-front .left-col ul.menu li a:hover {
+    text-decoration: none;
+    color: #df004a;
+  }
+  /* line 436, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a.active {
     font-weight: 800;
-    text-decoration: underline;
   }
-  /* line 435, ../sass/layouts/_responsive.scss */
+  /* line 441, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li {
     list-style: none;
-    margin-left: 15px;
     padding: 0px;
   }
-  /* line 439, ../sass/layouts/_responsive.scss */
+  /* line 445, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li a {
-    color: #ffffff;
     font-size: 90%;
+    color: #ffffff;
+    font-weight: normal;
   }
-  /* line 449, ../sass/layouts/_responsive.scss */
+  /* line 457, ../sass/layouts/_responsive.scss */
   body.not-front .article {
     background-color: #ffffff;
     padding: 0 1% 1% 1%;
@@ -478,7 +484,7 @@ ul {
     margin-right: 20%;
     margin-left: -80%;
   }
-  /* line 455, ../sass/layouts/_responsive.scss */
+  /* line 463, ../sass/layouts/_responsive.scss */
   body.not-front .right-col {
     background-color: #848485;
     float: right;

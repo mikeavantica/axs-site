@@ -46,76 +46,43 @@
   color: #FFFFFF;
 }
 /* line 49, ../sass/theme-auxis-inner-pages.scss */
-.not-front .sidebars {
-  color: #FFFFFF;
-}
-/* line 52, ../sass/theme-auxis-inner-pages.scss */
-.not-front .sidebars .block-title {
-  display: none;
-}
-/* line 56, ../sass/theme-auxis-inner-pages.scss */
-.not-front .sidebars ul {
-  padding: 0px;
-}
-/* line 58, ../sass/theme-auxis-inner-pages.scss */
-.not-front .sidebars ul li {
-  list-style: none;
-}
-/* line 63, ../sass/theme-auxis-inner-pages.scss */
-.not-front .sidebars .menu-level-2 > ul > li > a {
-  font-weight: bold;
-}
-/* line 67, ../sass/theme-auxis-inner-pages.scss */
-.not-front .sidebars a {
-  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: normal;
-  font-size: 90%;
-  text-decoration: none;
-  color: #FFFFFF;
-}
-/* line 76, ../sass/theme-auxis-inner-pages.scss */
 .not-front .breadcrumb {
   padding: 5px 0 5px 0;
 }
-/* line 78, ../sass/theme-auxis-inner-pages.scss */
+/* line 51, ../sass/theme-auxis-inner-pages.scss */
 .not-front .breadcrumb a {
   font-size: 90%;
   text-decoration: none;
   color: #0f9386;
 }
-/* line 85, ../sass/theme-auxis-inner-pages.scss */
+/* line 58, ../sass/theme-auxis-inner-pages.scss */
 .not-front .title {
   color: #ffffff;
   background-color: #0f9386;
   padding: 10px;
 }
-/* line 92, ../sass/theme-auxis-inner-pages.scss */
+/* line 65, ../sass/theme-auxis-inner-pages.scss */
 .not-front .dummy_header {
   display: none;
 }
-/* line 96, ../sass/theme-auxis-inner-pages.scss */
+/* line 69, ../sass/theme-auxis-inner-pages.scss */
 .not-front .header {
   margin: 0px;
 }
-/* line 101, ../sass/theme-auxis-inner-pages.scss */
+/* line 74, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col .block-title {
   display: none;
 }
-/* line 105, ../sass/theme-auxis-inner-pages.scss */
+/* line 78, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col ul.menu {
   padding: 0px;
 }
-/* line 107, ../sass/theme-auxis-inner-pages.scss */
+/* line 80, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col ul.menu li {
   list-style: none;
-  padding-bottom: 5%;
+  padding-bottom: 15px;
 }
-/* line 110, ../sass/theme-auxis-inner-pages.scss */
-.not-front .left-col ul.menu li a {
-  color: #0f9386;
-}
-/* line 114, ../sass/theme-auxis-inner-pages.scss */
+/* line 84, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col ul.menu li a.active {
-  font-weight: 800;
-  text-decoration: underline;
+  color: #ffff00;
 }

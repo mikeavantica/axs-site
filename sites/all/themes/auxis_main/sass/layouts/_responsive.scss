@@ -420,25 +420,33 @@ $zen-auto-include-item-base: false;
         color: #ffffff;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        font-size: 100%;
         li {
           list-style: none;
           a {
             color: #ffffff;
+            font-weight: $auxis-font-weight-bold;
+          }
+
+          a:hover {
+            text-decoration: none;
+            color: $auxis-brand-red;
           }
 
           a.active {
             font-weight: $auxis-font-weight-bold;
-            text-decoration: underline;
           }
 
           ul {
             li {
               list-style: none;
-              margin-left: 15px;
+              //margin-left: 15px;
               padding: 0px;
               a {
-                color: #ffffff;
                 font-size: 90%;
+
+                color: #ffffff;
+                font-weight: normal;
               }
             }
           }
