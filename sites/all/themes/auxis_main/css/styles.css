@@ -2467,23 +2467,24 @@ footer {
   font-weight: bold;
   width: 100%;
   font-size: 14px;
+  line-height: 1.3em;
   color: #0f9386;
   text-transform: uppercase;
 }
-/* line 155, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 156, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu-full ul.sub-nav-group li.menu-col {
   width: 30%;
   margin-left: 3%;
 }
-/* line 164, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 165, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu-full-4 ul.sub-nav-group li.menu-col {
   width: 22%;
 }
-/* line 170, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 171, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .last .sub-nav {
   right: 0px;
 }
-/* line 176, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 177, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu__item .sub-nav a.active {
   color: #df004a;
 }
