@@ -46,6 +46,26 @@ body {
 
 .nav-logo {
   padding: 5px 10px 0px 40px;
+  .logo-container {
+    color: #ffffff;
+    position: relative;
+    height: $nav-top-menu-max-height;
+    z-index: 50;
+    margin-right: 5px;
+    font-size: 85%;
+    width: 250px;
+    img.header__logo-image {
+      position: absolute;
+      left: 40px;
+      top: 10px;
+    }
+
+    span {
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+    }
+  }
 }
 
 footer {

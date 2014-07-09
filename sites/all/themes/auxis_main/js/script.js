@@ -57,7 +57,7 @@ Drupal.behaviors.my_custom_behavior = {
       jQuery( '#carousel-slider-generic .item' ).each(function( index ) {
           var title = jQuery(this).find("img").attr("title");
           var sub_title = jQuery(this).find("img").attr("alt");
-          if (title.length > 0) {
+          if (title != null) {
               jQuery(this).find("h1").html(title);
               jQuery(this).find("h2").html(sub_title);
           } else {

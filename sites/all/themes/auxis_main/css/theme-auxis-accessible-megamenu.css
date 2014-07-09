@@ -35,9 +35,9 @@
   font-size: 115%;
   color: #fcfcfc;
   letter-spacing: 2px;
-  padding: 0 12px;
-  height: 83px;
-  max-width: 150px;
+  padding: 0 0.5em;
+  height: 105px;
+  max-width: 140px;
   text-decoration: none;
   position: relative;
   display: table-cell;
@@ -53,7 +53,6 @@
 .dkp-menu .nav-item > a.active-trail {
   color: #fcfcfc;
   border-left: 2px solid #B70532;
-  border-right: 2px solid #df004a;
 }
 /* line 63, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .nav-item > a.open,
@@ -75,7 +74,7 @@
 .dkp-menu .sub-nav {
   position: absolute;
   display: none;
-  top: 84px;
+  top: 106px;
   min-width: 150px;
   margin-top: -1px;
   padding: 0.5em 1em;
@@ -159,17 +158,18 @@
 }
 /* line 155, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu-full ul.sub-nav-group li.menu-col {
-  width: 33%;
+  width: 30%;
+  margin-left: 3%;
 }
-/* line 163, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 164, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu-full-4 ul.sub-nav-group li.menu-col {
   width: 22%;
 }
-/* line 169, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 170, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .last .sub-nav {
   right: 0px;
 }
-/* line 175, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 176, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu__item .sub-nav a.active {
   color: #df004a;
 }

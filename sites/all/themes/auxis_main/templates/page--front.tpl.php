@@ -15,9 +15,14 @@
         <div id="navigation">
             <?php if ($logo): ?>
                 <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"
-                   class="dkp nav-logo header__logo" id="logo"><img src="<?php print $logo; ?>"
-                                                                    alt="<?php print t('Home'); ?>"
-                                                                    class="header__logo-image"/></a>
+                   class="dkp nav-logo header__logo" id="logo">
+                    <div class="logo-container">
+                        <img src="<?php print $logo; ?>"
+                             alt="<?php print t('Home'); ?>"
+                             class="header__logo-image"/>
+                        <span>Grow Your Business, Not Your Backoffice. ™</span>
+                    </div>
+                </a>
             <?php endif; ?>
 
             <?php if ($main_menu): ?>

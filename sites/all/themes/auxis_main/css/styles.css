@@ -683,14 +683,14 @@ table {
  * Use 3 grid columns for smaller screens.
  */
 @media all and (min-width: 480px) and (max-width: 959px) {
-  /* line 109, ../sass/layouts/_responsive.scss */
+  /* line 111, ../sass/layouts/_responsive.scss */
   .header {
     margin-top: 0px;
     padding: 0px;
     margin-bottom: 10px;
   }
 
-  /* line 115, ../sass/layouts/_responsive.scss */
+  /* line 117, ../sass/layouts/_responsive.scss */
   #navigation {
     float: left;
   }
@@ -698,12 +698,12 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 122, ../sass/layouts/_responsive.scss */
+  /* line 124, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 124, ../sass/layouts/_responsive.scss */
+  /* line 126, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     clear: left;
     float: left;
@@ -711,7 +711,7 @@ table {
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-  /* line 130, ../sass/layouts/_responsive.scss */
+  /* line 132, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     clear: left;
     float: left;
@@ -723,19 +723,19 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 139, ../sass/layouts/_responsive.scss */
+  /* line 141, ../sass/layouts/_responsive.scss */
   .not-front.sidebar-second {
     /* Span 2 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 3rd column from left. */
   }
-  /* line 141, ../sass/layouts/_responsive.scss */
+  /* line 143, ../sass/layouts/_responsive.scss */
   .not-front.sidebar-second #content {
     float: left;
     width: 66.66667%;
     margin-left: 0%;
     margin-right: -66.66667%;
   }
-  /* line 146, ../sass/layouts/_responsive.scss */
+  /* line 148, ../sass/layouts/_responsive.scss */
   .not-front.sidebar-second .region-sidebar-second {
     float: left;
     width: 33.33333%;
@@ -746,27 +746,27 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 154, ../sass/layouts/_responsive.scss */
+  /* line 156, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Start a new row and span all 3 columns. */
   }
-  /* line 156, ../sass/layouts/_responsive.scss */
+  /* line 158, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 66.66667%;
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-  /* line 161, ../sass/layouts/_responsive.scss */
+  /* line 163, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 33.33333%;
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-  /* line 166, ../sass/layouts/_responsive.scss */
+  /* line 168, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 100%;
@@ -780,7 +780,7 @@ table {
     /* Span 1 column, starting in the 2nd column from left. */
     /* Span 1 column, starting in the 3rd column from left. */
   }
-  /* line 172, ../sass/layouts/_responsive.scss */
+  /* line 174, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -790,7 +790,7 @@ table {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-  /* line 176, ../sass/layouts/_responsive.scss */
+  /* line 178, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
     width: 33.33333%;
@@ -798,14 +798,14 @@ table {
     margin-right: -33.33333%;
     clear: left;
   }
-  /* line 181, ../sass/layouts/_responsive.scss */
+  /* line 183, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
     width: 33.33333%;
     margin-left: 33.33333%;
     margin-right: -66.66667%;
   }
-  /* line 185, ../sass/layouts/_responsive.scss */
+  /* line 187, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
     width: 33.33333%;
@@ -813,16 +813,16 @@ table {
     margin-right: -100%;
   }
 
-  /* line 192, ../sass/layouts/_responsive.scss */
+  /* line 194, ../sass/layouts/_responsive.scss */
   .content-slider .dkp.carousel-caption {
     left: 12%;
     right: 20%;
   }
-  /* line 196, ../sass/layouts/_responsive.scss */
+  /* line 198, ../sass/layouts/_responsive.scss */
   .content-slider .dkp.carousel-caption h1 {
     font-size: 1.2em;
   }
-  /* line 199, ../sass/layouts/_responsive.scss */
+  /* line 201, ../sass/layouts/_responsive.scss */
   .content-slider .dkp.carousel-caption h2 {
     font-size: 1em;
   }
@@ -831,26 +831,26 @@ table {
  * Use 5 grid columns for larger screens.
  */
 @media all and (min-width: 960px) {
-  /* line 211, ../sass/layouts/_responsive.scss */
+  /* line 213, ../sass/layouts/_responsive.scss */
   a[href="#main-mmenu"] {
     display: none;
   }
 
-  /* line 215, ../sass/layouts/_responsive.scss */
+  /* line 217, ../sass/layouts/_responsive.scss */
   .dkp.dkp-menu-wrapper {
     display: block;
     height: 100%;
     font-size: 90%;
   }
-  /* line 220, ../sass/layouts/_responsive.scss */
+  /* line 222, ../sass/layouts/_responsive.scss */
   .dkp.dkp-menu-wrapper .region-dkpmenu {
     height: 100%;
   }
-  /* line 223, ../sass/layouts/_responsive.scss */
+  /* line 225, ../sass/layouts/_responsive.scss */
   .dkp.dkp-menu-wrapper .region-dkpmenu .block-menu-block {
     height: 100%;
   }
-  /* line 226, ../sass/layouts/_responsive.scss */
+  /* line 228, ../sass/layouts/_responsive.scss */
   .dkp.dkp-menu-wrapper .region-dkpmenu .block-menu-block .dkp-menu {
     height: 100%;
   }
@@ -858,12 +858,12 @@ table {
   /**
    * Dummy Header of the layout
    */
-  /* line 238, ../sass/layouts/_responsive.scss */
+  /* line 240, ../sass/layouts/_responsive.scss */
   #dummy {
     display: block;
     height: 25px;
   }
-  /* line 242, ../sass/layouts/_responsive.scss */
+  /* line 244, ../sass/layouts/_responsive.scss */
   #dummy .dummy {
     margin-left: auto;
     margin-right: auto;
@@ -876,61 +876,61 @@ table {
   /**
    * Header of the layout
    */
-  /* line 256, ../sass/layouts/_responsive.scss */
+  /* line 258, ../sass/layouts/_responsive.scss */
   #header .dkp.nav-logo {
-    padding: 5px 5% 0px 0px;
+    padding: 0;
   }
 
   /**
    * Content of the layout
    */
-  /* line 267, ../sass/layouts/_responsive.scss */
+  /* line 269, ../sass/layouts/_responsive.scss */
   #content .block {
     margin: 0px;
   }
-  /* line 271, ../sass/layouts/_responsive.scss */
+  /* line 273, ../sass/layouts/_responsive.scss */
   #content .content-news {
     float: left;
     width: 20%;
     margin-left: 80%;
     margin-right: -100%;
   }
-  /* line 274, ../sass/layouts/_responsive.scss */
+  /* line 276, ../sass/layouts/_responsive.scss */
   #content .content-news .news-info, #content .content-news .news-clients {
     margin-left: 10%;
   }
-  /* line 278, ../sass/layouts/_responsive.scss */
+  /* line 280, ../sass/layouts/_responsive.scss */
   #content .content-news .news-info {
     margin-bottom: 10px;
     height: 126px;
   }
-  /* line 283, ../sass/layouts/_responsive.scss */
+  /* line 285, ../sass/layouts/_responsive.scss */
   #content .content-news .dkp.news-clients {
     text-align: center;
     height: 115px;
   }
-  /* line 289, ../sass/layouts/_responsive.scss */
+  /* line 291, ../sass/layouts/_responsive.scss */
   #content .content-slider {
     float: left;
     width: 80%;
     margin-left: 0%;
     margin-right: -80%;
   }
-  /* line 292, ../sass/layouts/_responsive.scss */
+  /* line 294, ../sass/layouts/_responsive.scss */
   #content .content-slider .dkp.carousel-caption {
     left: 10%;
     right: 20%;
   }
-  /* line 296, ../sass/layouts/_responsive.scss */
+  /* line 298, ../sass/layouts/_responsive.scss */
   #content .content-slider .dkp.carousel-caption h1 {
     line-height: 1.5em;
     font-size: 1.5em;
   }
-  /* line 300, ../sass/layouts/_responsive.scss */
+  /* line 302, ../sass/layouts/_responsive.scss */
   #content .content-slider .dkp.carousel-caption h2 {
     font-size: 1em;
   }
-  /* line 306, ../sass/layouts/_responsive.scss */
+  /* line 308, ../sass/layouts/_responsive.scss */
   #content .content-details {
     clear: both;
     float: left;
@@ -939,7 +939,7 @@ table {
     margin-right: -100%;
     margin-top: 10px;
   }
-  /* line 312, ../sass/layouts/_responsive.scss */
+  /* line 314, ../sass/layouts/_responsive.scss */
   #content .content-details .features {
     clear: both;
     float: left;
@@ -957,28 +957,28 @@ table {
   #content .content-details .features:after {
     clear: both;
   }
-  /* line 318, ../sass/layouts/_responsive.scss */
+  /* line 320, ../sass/layouts/_responsive.scss */
   #content .content-details .features .feature-1 {
     float: left;
     width: 33.33333%;
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-  /* line 322, ../sass/layouts/_responsive.scss */
+  /* line 324, ../sass/layouts/_responsive.scss */
   #content .content-details .features .feature-2 {
     float: left;
     width: 33.33333%;
     margin-left: 33.33333%;
     margin-right: -66.66667%;
   }
-  /* line 326, ../sass/layouts/_responsive.scss */
+  /* line 328, ../sass/layouts/_responsive.scss */
   #content .content-details .features .feature-3 {
     float: left;
     width: 33.33333%;
     margin-left: 66.66667%;
     margin-right: -100%;
   }
-  /* line 332, ../sass/layouts/_responsive.scss */
+  /* line 334, ../sass/layouts/_responsive.scss */
   #content .details {
     clear: both;
     float: left;
@@ -986,28 +986,28 @@ table {
     margin-left: 0%;
     margin-right: -83.33333%;
   }
-  /* line 338, ../sass/layouts/_responsive.scss */
+  /* line 340, ../sass/layouts/_responsive.scss */
   #content .features .block-title {
     display: none;
   }
-  /* line 341, ../sass/layouts/_responsive.scss */
+  /* line 343, ../sass/layouts/_responsive.scss */
   #content .features .feature {
     vertical-align: top;
   }
-  /* line 343, ../sass/layouts/_responsive.scss */
+  /* line 345, ../sass/layouts/_responsive.scss */
   #content .features .feature img {
     display: block;
     float: left;
     padding-right: 3%;
   }
-  /* line 348, ../sass/layouts/_responsive.scss */
+  /* line 350, ../sass/layouts/_responsive.scss */
   #content .features .feature a {
     float: left;
     color: #5b5b5b;
     font-weight: 800;
     width: 43%;
   }
-  /* line 357, ../sass/layouts/_responsive.scss */
+  /* line 359, ../sass/layouts/_responsive.scss */
   #content .features .feature p {
     float: left;
     margin: 0px;
@@ -1017,20 +1017,20 @@ table {
   /**
    * Footer - Content of the layout
    */
-  /* line 370, ../sass/layouts/_responsive.scss */
+  /* line 372, ../sass/layouts/_responsive.scss */
   #footer-content {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
   }
-  /* line 375, ../sass/layouts/_responsive.scss */
+  /* line 377, ../sass/layouts/_responsive.scss */
   #footer-content .block-menu {
     float: left;
     width: 50%;
     margin-left: 0%;
     margin-right: -50%;
   }
-  /* line 379, ../sass/layouts/_responsive.scss */
+  /* line 381, ../sass/layouts/_responsive.scss */
   #footer-content .block-search {
     float: left;
     width: 33.33333%;
@@ -1041,22 +1041,22 @@ table {
   /**
    * Footer of the layout
    */
-  /* line 387, ../sass/layouts/_responsive.scss */
+  /* line 389, ../sass/layouts/_responsive.scss */
   #footer {
     padding-top: 25px;
   }
-  /* line 391, ../sass/layouts/_responsive.scss */
+  /* line 393, ../sass/layouts/_responsive.scss */
   #footer .footer-internal-menu {
     float: left;
     width: 80%;
     margin-left: 0%;
     margin-right: -80%;
   }
-  /* line 393, ../sass/layouts/_responsive.scss */
+  /* line 395, ../sass/layouts/_responsive.scss */
   #footer .footer-internal-menu ul.menu {
     margin: 0px;
   }
-  /* line 397, ../sass/layouts/_responsive.scss */
+  /* line 399, ../sass/layouts/_responsive.scss */
   #footer .copy {
     float: left;
     width: 20%;
@@ -1067,11 +1067,11 @@ table {
   /**
    * The Internal Body Layout.
    */
-  /* line 407, ../sass/layouts/_responsive.scss */
+  /* line 409, ../sass/layouts/_responsive.scss */
   body.not-front .breadcrumb {
     margin-bottom: 10px;
   }
-  /* line 411, ../sass/layouts/_responsive.scss */
+  /* line 413, ../sass/layouts/_responsive.scss */
   body.not-front .left-col {
     float: left;
     width: 20%;
@@ -1080,24 +1080,36 @@ table {
     background-color: #848485;
     padding: 0 1% 1% 1%;
   }
-  /* line 416, ../sass/layouts/_responsive.scss */
+  /* line 418, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu {
     padding: 0px;
+    color: #ffffff;
   }
-  /* line 418, ../sass/layouts/_responsive.scss */
+  /* line 421, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li {
     list-style: none;
   }
-  /* line 420, ../sass/layouts/_responsive.scss */
+  /* line 423, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a {
     color: #ffffff;
   }
-  /* line 424, ../sass/layouts/_responsive.scss */
+  /* line 427, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a.active {
     font-weight: 800;
     text-decoration: underline;
   }
-  /* line 432, ../sass/layouts/_responsive.scss */
+  /* line 433, ../sass/layouts/_responsive.scss */
+  body.not-front .left-col ul.menu li ul li {
+    list-style-type: square;
+    margin-left: 15px;
+    padding: 0px;
+  }
+  /* line 437, ../sass/layouts/_responsive.scss */
+  body.not-front .left-col ul.menu li ul li a {
+    color: #ffffff;
+    font-size: 90%;
+  }
+  /* line 447, ../sass/layouts/_responsive.scss */
   body.not-front .article {
     background-color: #ffffff;
     padding: 0 1% 1% 1%;
@@ -1106,7 +1118,7 @@ table {
     margin-left: 20%;
     margin-right: -80%;
   }
-  /* line 438, ../sass/layouts/_responsive.scss */
+  /* line 453, ../sass/layouts/_responsive.scss */
   body.not-front .right-col {
     background-color: #848485;
     float: left;
@@ -2071,7 +2083,7 @@ body p, body pre {
   padding-left: 0px;
   padding-right: 0px;
   margin-bottom: 10px;
-  height: 83px;
+  height: 105px;
 }
 
 /* line 23, ../sass/theme-auxis.scss */
@@ -2109,14 +2121,36 @@ body p, body pre {
 .nav-logo {
   padding: 5px 10px 0px 40px;
 }
+/* line 49, ../sass/theme-auxis.scss */
+.nav-logo .logo-container {
+  color: #ffffff;
+  position: relative;
+  height: 105px;
+  z-index: 50;
+  margin-right: 5px;
+  font-size: 85%;
+  width: 250px;
+}
+/* line 57, ../sass/theme-auxis.scss */
+.nav-logo .logo-container img.header__logo-image {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+}
+/* line 63, ../sass/theme-auxis.scss */
+.nav-logo .logo-container span {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
 
-/* line 51, ../sass/theme-auxis.scss */
+/* line 71, ../sass/theme-auxis.scss */
 footer {
   background-color: #848485;
   min-height: 250px;
 }
 
-/* line 56, ../sass/theme-auxis.scss */
+/* line 76, ../sass/theme-auxis.scss */
 .news-info {
   color: #ffffff;
   background-color: #848485;
@@ -2124,108 +2158,108 @@ footer {
   margin-bottom: 5px;
 }
 
-/* line 63, ../sass/theme-auxis.scss */
+/* line 83, ../sass/theme-auxis.scss */
 .news-clients {
   border: 2px solid #848485;
 }
-/* line 66, ../sass/theme-auxis.scss */
+/* line 86, ../sass/theme-auxis.scss */
 .news-clients h2 {
   font-size: 90%;
   text-align: center;
   font-weight: 800;
 }
-/* line 72, ../sass/theme-auxis.scss */
+/* line 92, ../sass/theme-auxis.scss */
 .news-clients .carousel-indicators, .news-clients .carousel-control {
   display: none;
 }
-/* line 76, ../sass/theme-auxis.scss */
+/* line 96, ../sass/theme-auxis.scss */
 .news-clients .carousel {
   text-align: center;
 }
 
-/* line 81, ../sass/theme-auxis.scss */
+/* line 101, ../sass/theme-auxis.scss */
 .dkp-menu-wrapper {
   display: none;
 }
 
-/* line 85, ../sass/theme-auxis.scss */
+/* line 105, ../sass/theme-auxis.scss */
 .mm-menu.mm-ismenu {
   color: #1C201F;
   background-color: #848485;
 }
 
-/* line 91, ../sass/theme-auxis.scss */
+/* line 111, ../sass/theme-auxis.scss */
 .mm-menu .menu a.active {
   color: #ffffff;
 }
 
-/* line 96, ../sass/theme-auxis.scss */
+/* line 116, ../sass/theme-auxis.scss */
 .content-details {
   padding: 0 0 10px 0;
 }
-/* line 98, ../sass/theme-auxis.scss */
+/* line 118, ../sass/theme-auxis.scss */
 .content-details a {
   color: #169588;
   text-decoration: none;
 }
-/* line 103, ../sass/theme-auxis.scss */
+/* line 123, ../sass/theme-auxis.scss */
 .content-details p {
   margin: 0 0 1.5em 0;
 }
 
-/* line 109, ../sass/theme-auxis.scss */
+/* line 129, ../sass/theme-auxis.scss */
 #footer-content {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 82%;
 }
-/* line 115, ../sass/theme-auxis.scss */
+/* line 135, ../sass/theme-auxis.scss */
 #footer-content h2 {
   display: none;
 }
-/* line 119, ../sass/theme-auxis.scss */
+/* line 139, ../sass/theme-auxis.scss */
 #footer-content .level-1 {
   margin-top: 10px;
 }
-/* line 122, ../sass/theme-auxis.scss */
+/* line 142, ../sass/theme-auxis.scss */
 #footer-content .level-1 > a {
   font-weight: 800;
 }
-/* line 125, ../sass/theme-auxis.scss */
+/* line 145, ../sass/theme-auxis.scss */
 #footer-content .block {
   margin: 0px;
   color: #ffffff;
 }
-/* line 129, ../sass/theme-auxis.scss */
+/* line 149, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu {
   line-height: 16px;
   padding: 0px;
 }
-/* line 132, ../sass/theme-auxis.scss */
+/* line 152, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li {
   list-style: none;
 }
-/* line 134, ../sass/theme-auxis.scss */
+/* line 154, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 138, ../sass/theme-auxis.scss */
+/* line 158, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li ul {
   padding: 0px;
 }
 
-/* line 149, ../sass/theme-auxis.scss */
+/* line 169, ../sass/theme-auxis.scss */
 .content-news {
   margin-bottom: 1.5em;
 }
 
-/* line 155, ../sass/theme-auxis.scss */
+/* line 175, ../sass/theme-auxis.scss */
 .content-slider .block-title {
   display: none;
 }
-/* line 159, ../sass/theme-auxis.scss */
+/* line 179, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .item {
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -2233,7 +2267,7 @@ footer {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/* line 168, ../sass/theme-auxis.scss */
+/* line 188, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .active.left,
 .content-slider .carousel.c-fade .active.right {
   left: 0;
@@ -2241,21 +2275,21 @@ footer {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 176, ../sass/theme-auxis.scss */
+/* line 196, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .next,
 .content-slider .carousel.c-fade .prev {
   left: 0;
   z-index: 1;
 }
-/* line 181, ../sass/theme-auxis.scss */
+/* line 201, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .carousel-control {
   z-index: 3;
 }
-/* line 185, ../sass/theme-auxis.scss */
+/* line 205, ../sass/theme-auxis.scss */
 .content-slider .carousel-indicators, .content-slider .carousel-control {
   display: none;
 }
-/* line 189, ../sass/theme-auxis.scss */
+/* line 209, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption {
   text-align: left;
   padding: 1%;
@@ -2263,14 +2297,14 @@ footer {
   bottom: 10%;
   background-color: #0f9386;
 }
-/* line 198, ../sass/theme-auxis.scss */
+/* line 218, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h1 {
   font-size: 100%;
   line-height: 1em;
   padding: 0px;
   margin: 0px;
 }
-/* line 205, ../sass/theme-auxis.scss */
+/* line 225, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h2 {
   font-size: 50%;
   padding: 0px;
@@ -2315,9 +2349,9 @@ footer {
   font-size: 115%;
   color: #fcfcfc;
   letter-spacing: 2px;
-  padding: 0 12px;
-  height: 83px;
-  max-width: 150px;
+  padding: 0 0.5em;
+  height: 105px;
+  max-width: 140px;
   text-decoration: none;
   position: relative;
   display: table-cell;
@@ -2333,7 +2367,6 @@ footer {
 .dkp-menu .nav-item > a.active-trail {
   color: #fcfcfc;
   border-left: 2px solid #B70532;
-  border-right: 2px solid #df004a;
 }
 /* line 63, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .nav-item > a.open,
@@ -2355,7 +2388,7 @@ footer {
 .dkp-menu .sub-nav {
   position: absolute;
   display: none;
-  top: 84px;
+  top: 106px;
   min-width: 150px;
   margin-top: -1px;
   padding: 0.5em 1em;
@@ -2439,17 +2472,18 @@ footer {
 }
 /* line 155, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu-full ul.sub-nav-group li.menu-col {
-  width: 33%;
+  width: 30%;
+  margin-left: 3%;
 }
-/* line 163, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 164, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu-full-4 ul.sub-nav-group li.menu-col {
   width: 22%;
 }
-/* line 169, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 170, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .last .sub-nav {
   right: 0px;
 }
-/* line 175, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 176, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu__item .sub-nav a.active {
   color: #df004a;
 }
