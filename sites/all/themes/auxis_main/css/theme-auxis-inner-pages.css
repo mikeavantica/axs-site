@@ -3,10 +3,21 @@
   background-color: #848485;
 }
 /* line 7, ../sass/theme-auxis-inner-pages.scss */
+.not-front #content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 18, ../sass/theme-auxis-inner-pages.scss */
 .not-front .main-content {
   background-color: #ffffff;
 }
-/* line 11, ../sass/theme-auxis-inner-pages.scss */
+/* line 22, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer {
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
@@ -14,47 +25,47 @@
   min-height: 50px;
   font-size: 90%;
 }
-/* line 18, ../sass/theme-auxis-inner-pages.scss */
+/* line 29, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer .block-title {
   display: none;
 }
-/* line 22, ../sass/theme-auxis-inner-pages.scss */
+/* line 33, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer ul {
   padding: 0px;
 }
-/* line 24, ../sass/theme-auxis-inner-pages.scss */
+/* line 35, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer ul li {
   display: inline-block;
   list-style: none;
   padding-right: 20px;
 }
-/* line 31, ../sass/theme-auxis-inner-pages.scss */
+/* line 42, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer a {
   font-weight: normal;
   text-decoration: none;
   color: #FFFFFF;
 }
-/* line 38, ../sass/theme-auxis-inner-pages.scss */
+/* line 49, ../sass/theme-auxis-inner-pages.scss */
 .not-front .sidebars {
   color: #FFFFFF;
 }
-/* line 41, ../sass/theme-auxis-inner-pages.scss */
+/* line 52, ../sass/theme-auxis-inner-pages.scss */
 .not-front .sidebars .block-title {
   display: none;
 }
-/* line 45, ../sass/theme-auxis-inner-pages.scss */
+/* line 56, ../sass/theme-auxis-inner-pages.scss */
 .not-front .sidebars ul {
   padding: 0px;
 }
-/* line 47, ../sass/theme-auxis-inner-pages.scss */
+/* line 58, ../sass/theme-auxis-inner-pages.scss */
 .not-front .sidebars ul li {
   list-style: none;
 }
-/* line 52, ../sass/theme-auxis-inner-pages.scss */
+/* line 63, ../sass/theme-auxis-inner-pages.scss */
 .not-front .sidebars .menu-level-2 > ul > li > a {
   font-weight: bold;
 }
-/* line 56, ../sass/theme-auxis-inner-pages.scss */
+/* line 67, ../sass/theme-auxis-inner-pages.scss */
 .not-front .sidebars a {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
   font-weight: normal;
@@ -62,48 +73,48 @@
   text-decoration: none;
   color: #FFFFFF;
 }
-/* line 65, ../sass/theme-auxis-inner-pages.scss */
+/* line 76, ../sass/theme-auxis-inner-pages.scss */
 .not-front .breadcrumb {
   padding: 5px 0 5px 0;
 }
-/* line 67, ../sass/theme-auxis-inner-pages.scss */
+/* line 78, ../sass/theme-auxis-inner-pages.scss */
 .not-front .breadcrumb a {
   font-size: 90%;
   text-decoration: none;
   color: #0f9386;
 }
-/* line 74, ../sass/theme-auxis-inner-pages.scss */
+/* line 85, ../sass/theme-auxis-inner-pages.scss */
 .not-front .title {
   color: #ffffff;
   background-color: #0f9386;
   padding: 10px;
 }
-/* line 81, ../sass/theme-auxis-inner-pages.scss */
+/* line 92, ../sass/theme-auxis-inner-pages.scss */
 .not-front .dummy_header {
   display: none;
 }
-/* line 85, ../sass/theme-auxis-inner-pages.scss */
+/* line 96, ../sass/theme-auxis-inner-pages.scss */
 .not-front .header {
   margin: 0px;
 }
-/* line 90, ../sass/theme-auxis-inner-pages.scss */
+/* line 101, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col .block-title {
   display: none;
 }
-/* line 94, ../sass/theme-auxis-inner-pages.scss */
+/* line 105, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col ul.menu {
   padding: 0px;
 }
-/* line 96, ../sass/theme-auxis-inner-pages.scss */
+/* line 107, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col ul.menu li {
   list-style: none;
   padding-bottom: 5%;
 }
-/* line 99, ../sass/theme-auxis-inner-pages.scss */
+/* line 110, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col ul.menu li a {
   color: #0f9386;
 }
-/* line 103, ../sass/theme-auxis-inner-pages.scss */
+/* line 114, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col ul.menu li a.active {
   font-weight: 800;
   text-decoration: underline;

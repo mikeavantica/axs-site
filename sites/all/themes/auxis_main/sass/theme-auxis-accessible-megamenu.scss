@@ -12,6 +12,7 @@
     display: block;
     position: relative;
     //list-style: none;
+    height: 100%;
     margin: 0;
     padding: 0;
     z-index: 15;
@@ -28,18 +29,17 @@
   /* first descendant link within a top level navigation item */
   .nav-item > a {
     text-transform: uppercase;
-    word-wrap: break-word;
-    font-size: 120%;
+    font-size: 115%;
     color: #fcfcfc;
-    //text-shadow: 1px 1px 1px #000000;
-    height: 45px;
-    max-width: 180px;
+    letter-spacing: 2px;
+    padding: 0 12px;
+    height: $nav-top-menu-max-height;
+    max-width: 150px;
     text-decoration: none;
     position: relative;
-    display: inline-block;
-    padding: 20px 7px 60px 7px;
+    display: table-cell;
     text-align: center;
-    vertical-align: top;
+    vertical-align: middle;
     border-left: 2px solid transparent;
     border-right: 2px solid transparent;
   }
@@ -61,28 +61,28 @@
   .nav-item > a.open,
   .nav-item > a:hover,
   .nav-item > a.active-trail{
-    @include background-image(linear-gradient(left top, #B70532, $auxis-brand-red));
+    @include background-image(linear-gradient(180deg, #B70532, $auxis-brand-red));
     border-bottom: none;
     z-index: 1;
   }
 
   /* sub-navigation panel */
-  .sub-nav.menu-full {
+  .sub-nav.menu-full, .sub-nav.menu-full-4 {
     left: 0px;
     width: 100%;
   }
   .sub-nav {
     position: absolute;
     display: none;
-    top: 81px;
-    min-width: 135px;
+    top: 84px;
+    min-width: 150px;
     margin-top: -1px;
     padding: 0.5em 1em;
     border-left: 2px solid #B70532;
     border-right: 2px solid #B70532;
     border-bottom: 2px solid #B70532;
     border-radius: 0 0 4px 4px;
-    @include background-image(linear-gradient(left top, #f5f8fa, #e3e5e5));
+    @include background-image(linear-gradient(180deg, #f5f8fa, #e3e5e5));
     @include box-shadow(rgba(0, 0, 0, .5) 4px 4px 15px 1px);
   }
 
@@ -141,7 +141,6 @@
       display: table;
       li.menu-col {
         display: inline-table;
-        width: 49%;
         > a {
           font-weight: bold;
           width: 100%;
@@ -149,6 +148,22 @@
           color: $auxis-brand-teal;
           text-transform: uppercase;        }
       }
+  }
+
+  .menu-full {
+    ul.sub-nav-group {
+      li.menu-col {
+        width: 33%;
+      }
+    }
+  }
+
+  .menu-full-4 {
+    ul.sub-nav-group {
+      li.menu-col {
+        width: 22%;
+      }
+    }
   }
 
   .last .sub-nav {

@@ -165,14 +165,18 @@ function auxis_main_menu_link__menu_block__2(array $variables)
     $item_title = '';
     $element['#attributes']['class'][] = 'level-' . $depth;
     $isColumn = (array_search('menu-col', $element['#localized_options']['attributes']['class'])) ? true : false;
-    $isMenuFull = (array_search('menu-full', $element['#localized_options']['attributes']['class'])) ? true : false;
+    $menuFull = $element['#localized_options']['attributes']['class'];
     $style = '';
 
     if ($element['#below']) {
         // Wrap in dropdown-menu.
         unset($element['#below']['#theme_wrappers']);
         if ($depth == 1) {
-            $style = ($isMenuFull == 1) ? 'menu-full' : '';
+            if (array_search('menu-full', $menuFull)) {
+                $style = 'menu-full';
+            } else if (array_search('menu-full-4', $menuFull)) {
+                $style = 'menu-full-4';
+            }
             $sub_menu = '<div class="sub-nav '.$style.'"><ul class="sub-nav-group">' . drupal_render($element['#below']) . '</ul></div>';
         } elseif ($depth == 2) {
             $sub_menu = '<ul class="sub-nav-block">' . drupal_render($element['#below']) . '</ul>';

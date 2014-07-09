@@ -18,30 +18,31 @@
 .dkp-menu .nav-menu {
   display: block;
   position: relative;
+  height: 100%;
   margin: 0;
   padding: 0;
   z-index: 15;
 }
-/* line 21, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 22, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .nav-item {
   display: inline-block;
   padding: 0;
   margin: 0;
 }
-/* line 29, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 30, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .nav-item > a {
   text-transform: uppercase;
-  word-wrap: break-word;
-  font-size: 120%;
+  font-size: 115%;
   color: #fcfcfc;
-  height: 45px;
-  max-width: 180px;
+  letter-spacing: 2px;
+  padding: 0 12px;
+  height: 83px;
+  max-width: 150px;
   text-decoration: none;
   position: relative;
-  display: inline-block;
-  padding: 20px 7px 60px 7px;
+  display: table-cell;
   text-align: center;
-  vertical-align: top;
+  vertical-align: middle;
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
 }
@@ -58,16 +59,15 @@
 .dkp-menu .nav-item > a.open,
 .dkp-menu .nav-item > a:hover,
 .dkp-menu .nav-item > a.active-trail {
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #b70532), color-stop(100%, #df004a));
-  background-image: -webkit-linear-gradient(left top, #b70532, #df004a);
-  background-image: -moz-linear-gradient(left top, #b70532, #df004a);
-  background-image: -o-linear-gradient(left top, #b70532, #df004a);
-  background-image: linear-gradient(left top, #b70532, #df004a);
+  background-image: -webkit-linear-gradient(180deg, #b70532, #df004a);
+  background-image: -moz-linear-gradient(180deg, #b70532, #df004a);
+  background-image: -o-linear-gradient(180deg, #b70532, #df004a);
+  background-image: linear-gradient(180deg, #b70532, #df004a);
   border-bottom: none;
   z-index: 1;
 }
 /* line 70, ../sass/theme-auxis-accessible-megamenu.scss */
-.dkp-menu .sub-nav.menu-full {
+.dkp-menu .sub-nav.menu-full, .dkp-menu .sub-nav.menu-full-4 {
   left: 0px;
   width: 100%;
 }
@@ -75,19 +75,18 @@
 .dkp-menu .sub-nav {
   position: absolute;
   display: none;
-  top: 81px;
-  min-width: 135px;
+  top: 84px;
+  min-width: 150px;
   margin-top: -1px;
   padding: 0.5em 1em;
   border-left: 2px solid #B70532;
   border-right: 2px solid #B70532;
   border-bottom: 2px solid #B70532;
   border-radius: 0 0 4px 4px;
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #f5f8fa), color-stop(100%, #e3e5e5));
-  background-image: -webkit-linear-gradient(left top, #f5f8fa, #e3e5e5);
-  background-image: -moz-linear-gradient(left top, #f5f8fa, #e3e5e5);
-  background-image: -o-linear-gradient(left top, #f5f8fa, #e3e5e5);
-  background-image: linear-gradient(left top, #f5f8fa, #e3e5e5);
+  background-image: -webkit-linear-gradient(180deg, #f5f8fa, #e3e5e5);
+  background-image: -moz-linear-gradient(180deg, #f5f8fa, #e3e5e5);
+  background-image: -o-linear-gradient(180deg, #f5f8fa, #e3e5e5);
+  background-image: linear-gradient(180deg, #f5f8fa, #e3e5e5);
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 15px 1px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 15px 1px;
   box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 15px 1px;
@@ -149,9 +148,8 @@
 /* line 142, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu ul.sub-nav-group li.menu-col {
   display: inline-table;
-  width: 49%;
 }
-/* line 145, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 144, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu ul.sub-nav-group li.menu-col > a {
   font-weight: bold;
   width: 100%;
@@ -159,11 +157,19 @@
   color: #0f9386;
   text-transform: uppercase;
 }
-/* line 154, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 155, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .menu-full ul.sub-nav-group li.menu-col {
+  width: 33%;
+}
+/* line 163, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .menu-full-4 ul.sub-nav-group li.menu-col {
+  width: 22%;
+}
+/* line 169, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .last .sub-nav {
   right: 0px;
 }
-/* line 160, ../sass/theme-auxis-accessible-megamenu.scss */
+/* line 175, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu .menu__item .sub-nav a.active {
   color: #df004a;
 }

@@ -15,51 +15,52 @@ body p, body pre {
   padding-left: 0px;
   padding-right: 0px;
   margin-bottom: 10px;
+  height: 83px;
 }
 
-/* line 22, ../sass/theme-auxis.scss */
+/* line 23, ../sass/theme-auxis.scss */
 .hide {
   display: none;
 }
 
-/* line 26, ../sass/theme-auxis.scss */
+/* line 27, ../sass/theme-auxis.scss */
 .features {
   margin-bottom: 1.5em;
 }
-/* line 28, ../sass/theme-auxis.scss */
+/* line 29, ../sass/theme-auxis.scss */
 .features .block-title {
   display: none;
 }
-/* line 31, ../sass/theme-auxis.scss */
+/* line 32, ../sass/theme-auxis.scss */
 .features .feature {
   margin-bottom: 1.5em;
 }
-/* line 33, ../sass/theme-auxis.scss */
+/* line 34, ../sass/theme-auxis.scss */
 .features .feature img {
   display: none;
 }
-/* line 36, ../sass/theme-auxis.scss */
+/* line 37, ../sass/theme-auxis.scss */
 .features .feature a {
   color: #5b5b5b;
   font-weight: 800;
 }
-/* line 40, ../sass/theme-auxis.scss */
+/* line 41, ../sass/theme-auxis.scss */
 .features .feature p {
   margin: 0px;
 }
 
-/* line 46, ../sass/theme-auxis.scss */
+/* line 47, ../sass/theme-auxis.scss */
 .nav-logo {
   padding: 5px 10px 0px 40px;
 }
 
-/* line 50, ../sass/theme-auxis.scss */
+/* line 51, ../sass/theme-auxis.scss */
 footer {
   background-color: #848485;
   min-height: 250px;
 }
 
-/* line 55, ../sass/theme-auxis.scss */
+/* line 56, ../sass/theme-auxis.scss */
 .news-info {
   color: #ffffff;
   background-color: #848485;
@@ -67,108 +68,108 @@ footer {
   margin-bottom: 5px;
 }
 
-/* line 62, ../sass/theme-auxis.scss */
+/* line 63, ../sass/theme-auxis.scss */
 .news-clients {
   border: 2px solid #848485;
 }
-/* line 65, ../sass/theme-auxis.scss */
+/* line 66, ../sass/theme-auxis.scss */
 .news-clients h2 {
   font-size: 90%;
   text-align: center;
   font-weight: 800;
 }
-/* line 71, ../sass/theme-auxis.scss */
+/* line 72, ../sass/theme-auxis.scss */
 .news-clients .carousel-indicators, .news-clients .carousel-control {
   display: none;
 }
-/* line 75, ../sass/theme-auxis.scss */
+/* line 76, ../sass/theme-auxis.scss */
 .news-clients .carousel {
   text-align: center;
 }
 
-/* line 80, ../sass/theme-auxis.scss */
+/* line 81, ../sass/theme-auxis.scss */
 .dkp-menu-wrapper {
   display: none;
 }
 
-/* line 84, ../sass/theme-auxis.scss */
+/* line 85, ../sass/theme-auxis.scss */
 .mm-menu.mm-ismenu {
   color: #1C201F;
   background-color: #848485;
 }
 
-/* line 90, ../sass/theme-auxis.scss */
+/* line 91, ../sass/theme-auxis.scss */
 .mm-menu .menu a.active {
   color: #ffffff;
 }
 
-/* line 95, ../sass/theme-auxis.scss */
+/* line 96, ../sass/theme-auxis.scss */
 .content-details {
   padding: 0 0 10px 0;
 }
-/* line 97, ../sass/theme-auxis.scss */
+/* line 98, ../sass/theme-auxis.scss */
 .content-details a {
   color: #169588;
   text-decoration: none;
 }
-/* line 102, ../sass/theme-auxis.scss */
+/* line 103, ../sass/theme-auxis.scss */
 .content-details p {
   margin: 0 0 1.5em 0;
 }
 
-/* line 108, ../sass/theme-auxis.scss */
+/* line 109, ../sass/theme-auxis.scss */
 #footer-content {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 82%;
 }
-/* line 114, ../sass/theme-auxis.scss */
+/* line 115, ../sass/theme-auxis.scss */
 #footer-content h2 {
   display: none;
 }
-/* line 118, ../sass/theme-auxis.scss */
+/* line 119, ../sass/theme-auxis.scss */
 #footer-content .level-1 {
   margin-top: 10px;
 }
-/* line 121, ../sass/theme-auxis.scss */
+/* line 122, ../sass/theme-auxis.scss */
 #footer-content .level-1 > a {
   font-weight: 800;
 }
-/* line 124, ../sass/theme-auxis.scss */
+/* line 125, ../sass/theme-auxis.scss */
 #footer-content .block {
   margin: 0px;
   color: #ffffff;
 }
-/* line 128, ../sass/theme-auxis.scss */
+/* line 129, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu {
   line-height: 16px;
   padding: 0px;
 }
-/* line 131, ../sass/theme-auxis.scss */
+/* line 132, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li {
   list-style: none;
 }
-/* line 133, ../sass/theme-auxis.scss */
+/* line 134, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 137, ../sass/theme-auxis.scss */
+/* line 138, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li ul {
   padding: 0px;
 }
 
-/* line 148, ../sass/theme-auxis.scss */
+/* line 149, ../sass/theme-auxis.scss */
 .content-news {
   margin-bottom: 1.5em;
 }
 
-/* line 154, ../sass/theme-auxis.scss */
+/* line 155, ../sass/theme-auxis.scss */
 .content-slider .block-title {
   display: none;
 }
-/* line 158, ../sass/theme-auxis.scss */
+/* line 159, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .item {
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -176,7 +177,7 @@ footer {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/* line 167, ../sass/theme-auxis.scss */
+/* line 168, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .active.left,
 .content-slider .carousel.c-fade .active.right {
   left: 0;
@@ -184,40 +185,39 @@ footer {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 175, ../sass/theme-auxis.scss */
+/* line 176, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .next,
 .content-slider .carousel.c-fade .prev {
   left: 0;
   z-index: 1;
 }
-/* line 180, ../sass/theme-auxis.scss */
+/* line 181, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .carousel-control {
   z-index: 3;
 }
-/* line 184, ../sass/theme-auxis.scss */
-.content-slider .carousel-indicators {
+/* line 185, ../sass/theme-auxis.scss */
+.content-slider .carousel-indicators, .content-slider .carousel-control {
   display: none;
 }
-/* line 188, ../sass/theme-auxis.scss */
+/* line 189, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption {
   text-align: left;
-  padding-left: 2%;
-  padding-bottom: 0px;
-  padding-top: 1%;
+  padding: 1%;
   z-index: 0;
   bottom: 10%;
   background-color: #0f9386;
 }
-/* line 199, ../sass/theme-auxis.scss */
+/* line 198, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h1 {
   font-size: 100%;
   line-height: 1em;
   padding: 0px;
   margin: 0px;
 }
-/* line 206, ../sass/theme-auxis.scss */
+/* line 205, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h2 {
   font-size: 50%;
   padding: 0px;
   margin: 0px;
+  line-height: 1.3em;
 }

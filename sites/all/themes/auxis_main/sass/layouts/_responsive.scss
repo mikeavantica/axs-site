@@ -78,6 +78,7 @@ $zen-auto-include-item-base: false;
     margin-left: auto;
     margin-right: auto;
     max-width: $page-max-width;
+    height: 100%;
   }
 
   #content {
@@ -212,10 +213,21 @@ $zen-auto-include-item-base: false;
   }
 
   .dkp.dkp-menu-wrapper {
-    display: inline-block;
+    display: block;
+    height: 100%;
     font-size: 90%;
-    .dkp-menu {
-      .nav-item > a {
+
+    .region-dkpmenu {
+      height: 100%;
+
+      .block-menu-block {
+        height: 100%;
+
+        .dkp-menu {
+          height: 100%;
+          .nav-item > a {
+          }
+        }
       }
     }
   }
@@ -398,6 +410,7 @@ $zen-auto-include-item-base: false;
 
     .left-col {
       @include zen-grid-item(1, 1);
+      background-color: $auxis-brand-gray-background;
       padding: 0 1% 1% 1%;
 
       ul.menu {
@@ -423,6 +436,7 @@ $zen-auto-include-item-base: false;
     }
 
     .right-col {
+      background-color: $auxis-brand-gray-background;
       @include zen-grid-item(1, 5);
       padding: 0 1% 1% 1%;
     }

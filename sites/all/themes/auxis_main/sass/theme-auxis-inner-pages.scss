@@ -4,6 +4,17 @@
 .not-front {
   background-color: $auxis-brand-gray-background;
 
+  #content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .main-content {
     background-color: #ffffff;
   }
