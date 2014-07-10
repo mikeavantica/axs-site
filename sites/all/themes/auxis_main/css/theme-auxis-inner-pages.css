@@ -73,16 +73,3 @@
 .not-front .left-col .block-title {
   display: none;
 }
-/* line 78, ../sass/theme-auxis-inner-pages.scss */
-.not-front .left-col ul.menu {
-  padding: 0px;
-}
-/* line 80, ../sass/theme-auxis-inner-pages.scss */
-.not-front .left-col ul.menu li {
-  list-style: none;
-  padding-bottom: 15px;
-}
-/* line 84, ../sass/theme-auxis-inner-pages.scss */
-.not-front .left-col ul.menu li a.active {
-  color: #ffff00;
-}

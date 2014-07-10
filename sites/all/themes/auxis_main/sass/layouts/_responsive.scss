@@ -413,10 +413,20 @@ $zen-auto-include-item-base: false;
     .left-col {
       @include zen-grid-item(1, 1);
       background-color: $auxis-brand-gray-background;
-      padding: 0 1% 1% 1%;
+      padding: 0 0 5px 0;
+
+      .menu-level-2 > ul.menu > li {
+        margin-bottom: 15px;
+        margin-left: 3px;
+      }
+
+      .menu-level-2 > ul.menu > li.first {
+        margin-top: 20px;
+      }
 
       ul.menu {
         padding: 0px;
+        margin: 0px;
         color: #ffffff;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -426,30 +436,52 @@ $zen-auto-include-item-base: false;
           a {
             color: #ffffff;
             font-weight: $auxis-font-weight-bold;
+            display: block;
+            padding-right: 3px;
+            padding-bottom: 3px;
           }
 
           a:hover {
             text-decoration: none;
-            color: $auxis-brand-red;
+            margin-left: -3px;
+            padding-left: 3px;
+            color: #ffffff;
+            background-color: #666668;
           }
 
           a.active {
-            font-weight: $auxis-font-weight-bold;
+            //font-weight: $auxis-font-weight-bold;
           }
 
           ul {
             li {
               list-style: none;
-              //margin-left: 15px;
               padding: 0px;
               a {
                 font-size: 90%;
-
+                text-shadow: none;
                 color: #ffffff;
                 font-weight: normal;
               }
             }
           }
+        }
+
+        li.is-active-trail {
+          border-left: 3px solid #ffffff;
+          margin-left: -3px;
+          padding-left: 3px;
+          li.active {
+            border: none;
+            margin-left: -3px;
+            background-color: #999999;
+          }
+        }
+
+        a.is-active-trail {
+          margin-left: -3px;
+          padding-left: 3px;
+          background-color: #999999;
         }
       }
     }
