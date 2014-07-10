@@ -208,3 +208,10 @@ function auxis_main_menu_link__menu_block__3(array $variables)
     $output = l($element['#title'], $element['#href'], $element['#localized_options']);
     return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
+
+function auxis_main_preprocess_block(&$variables, $hook) {
+    //dpm($variables['block']);
+    if ($variables['block']->module == 'views') {
+        $variables['elements']['#block']->subject = NULL;
+    }
+}

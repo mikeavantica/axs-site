@@ -69,6 +69,7 @@ stylesheets[all][] = css/styles.css
 
 scripts[] = libraries/jquery-mmenu/js/jquery.mmenu.min.js
 scripts[] = libraries/accessible-mmenu/js/jquery-accessibleMegaMenu.js
+scripts[] = libraries/jquery-easy-ticker-master/jquery.easy-ticker.min.js
 scripts[] = js/script.js
 
 ; This section lists the regions defined in Zen's default page.tpl.php and
@@ -98,6 +99,7 @@ regions[content]        = Content
 regions[content_slider] = Content Slider
 regions[content_slider_client] = Content Slider for Client
 regions[content_highlight_block] = Front Page Area Highlights
+regions[content_event] = Content Events
 regions[left_col]  = Left Column (Nav Menu)
 regions[right_col]  = Right Column
 ; regions[sidebar_first]  = First sidebar

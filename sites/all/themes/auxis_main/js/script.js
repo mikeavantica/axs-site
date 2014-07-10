@@ -20,8 +20,7 @@ Drupal.behaviors.my_custom_behavior = {
     // Place your code here.
 
       jQuery(function () {
-          jQuery('nav#main-mmenu').mmenu({
-          });
+          jQuery('nav#main-mmenu').mmenu({});
       });
 
       jQuery('nav#main-dkp-menu').accessibleMegaMenu({
@@ -63,6 +62,16 @@ Drupal.behaviors.my_custom_behavior = {
           } else {
               jQuery(this).find(".carousel-caption").addClass('hide');
           }
+      });
+
+      jQuery('.newsticker').easyTicker({
+          direction: 'up',
+          easing: 'swing',
+          speed: 'slow',
+          interval: 6000,
+          height: '115px',
+          visible: 1,
+          mousePause: 1
       });
   }
 };

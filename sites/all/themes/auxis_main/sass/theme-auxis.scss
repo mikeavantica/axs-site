@@ -79,8 +79,42 @@ footer {
 .news-info {
   color: #ffffff;
   background-color: $auxis-brand-gray-background;
-  padding: 0.2em;
+  padding: 5px;
   margin-bottom: 5px;
+  overflow: hidden;
+
+  div.newsticker {
+    font-size: 85%;
+    ul {
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      li {
+        border-bottom: 1px dotted #ffffff;
+        padding: 5px 0px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+        div.views-field-title {
+          margin-bottom: 5px;
+          span.field-content {
+            a {
+              color: #ffffff;
+              font-weight: $auxis-font-weight-bold;
+              margin: 0px;
+            }
+            a:hover {
+              font-weight: $auxis-font-weight-bold;
+              color: #47474A;
+            }
+          }
+        }
+        div.field-content p {
+          margin: 0px;
+        }
+      }
+    }
+  }
 }
 
 .news-clients {
@@ -241,5 +275,11 @@ footer {
       margin: 0px;
       line-height: 1.3em;
     }
+  }
+}
+
+aside.left-col {
+  ul.menu {
+    display: none;
   }
 }

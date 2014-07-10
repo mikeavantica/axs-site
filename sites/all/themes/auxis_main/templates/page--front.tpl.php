@@ -57,7 +57,11 @@
                 <?php endif; ?>
             </div>
             <div class="content-news">
-                <div class="news-info">news</div>
+                <div class="news-info">
+                    <?php if ($page['content_event']): ?>
+                        <?php print render($page['content_event']); ?>
+                    <?php endif; ?>
+                </div>
                 <div class="dkp news-clients">
                     <?php if ($page['content_slider_client']): ?>
                         <?php print render($page['content_slider_client']); ?>
@@ -73,6 +77,7 @@
 
                 <div class="details">
                     <!-- no more details-->
+
                 </div>
             </div>
         </div>
