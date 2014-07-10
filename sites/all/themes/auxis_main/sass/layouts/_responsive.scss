@@ -371,7 +371,7 @@ $zen-auto-include-item-base: false;
    */
   #footer {
     $zen-column-count: 5;
-    padding-top: 15px;
+    //padding-top: 15px;
 
     .footer-internal-menu {
       @include zen-grid-item(4, 1);

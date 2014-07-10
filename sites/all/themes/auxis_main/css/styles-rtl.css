@@ -375,10 +375,6 @@ ul {
   /**
    * Footer of the layout
    */
-  /* line 372, ../sass/layouts/_responsive.scss */
-  #footer {
-    padding-top: 15px;
-  }
   /* line 376, ../sass/layouts/_responsive.scss */
   #footer .footer-internal-menu {
     float: right;
