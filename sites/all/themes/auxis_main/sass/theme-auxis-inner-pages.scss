@@ -23,11 +23,17 @@
     color: #FFFFFF;
     font-family: $google-font-open-sans;
     background-color: $auxis-brand-red;
-    min-height: 50px;
     font-size: 90%;
+    padding: 10px 0;
+    //-webkit-font-smoothing: antialiased;
+    //-moz-osx-font-smoothing: grayscale;
 
     .block-title {
       display: none;
+    }
+
+    .block {
+      margin: 0px;
     }
 
     ul {

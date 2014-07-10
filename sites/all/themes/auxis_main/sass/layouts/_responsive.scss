@@ -285,6 +285,16 @@ $zen-auto-include-item-base: false;
       .dkp.news-clients {
         text-align: center;
         height: 115px;
+
+        .region-content-slider-client {
+          display: table;
+          height: 100%;
+          width: 100%;
+          .block {
+            display: table-cell;
+            vertical-align: middle;
+          }
+        }
       }
     }
 
