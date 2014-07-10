@@ -67,10 +67,7 @@
   }
 
   /* sub-navigation panel */
-  .sub-nav.menu-full, .sub-nav.menu-full-4 {
-    left: 0px;
-    width: 100%;
-  }
+
   .sub-nav {
     position: absolute;
     display: none;
@@ -151,6 +148,11 @@
           text-transform: uppercase;
         }
       }
+  }
+
+  .sub-nav.menu-full, .sub-nav.menu-full-4 {
+    left: 0px;
+    width: 100%;
   }
 
   .menu-full {
