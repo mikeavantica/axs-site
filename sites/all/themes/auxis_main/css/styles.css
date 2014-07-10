@@ -2406,6 +2406,11 @@ aside.left-col ul.menu {
   display: none;
 }
 
+/* line 288, ../sass/theme-auxis.scss */
+.view .date-nav-wrapper .date-prev {
+  right: 87px;
+}
+
 /* Mega menu CSS for Auxis Website */
 /* line 6, ../sass/theme-auxis-accessible-megamenu.scss */
 .dkp-menu {

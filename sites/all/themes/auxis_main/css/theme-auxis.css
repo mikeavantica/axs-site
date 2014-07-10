@@ -298,3 +298,8 @@ footer {
 aside.left-col ul.menu {
   display: none;
 }
+
+/* line 288, ../sass/theme-auxis.scss */
+.view .date-nav-wrapper .date-prev {
+  right: 87px;
+}
