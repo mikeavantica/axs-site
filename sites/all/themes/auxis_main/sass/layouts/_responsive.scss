@@ -390,6 +390,7 @@ $zen-auto-include-item-base: false;
       }
     }
     .copy {
+      text-align: right;
       @include zen-grid-item(1, 5);
     }
   }

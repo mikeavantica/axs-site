@@ -399,6 +399,7 @@ ul {
   }
   /* line 392, ../sass/layouts/_responsive.scss */
   #footer .copy {
+    text-align: right;
     float: right;
     width: 20%;
     margin-right: 80%;
@@ -408,20 +409,20 @@ ul {
   /**
    * Footer - Content of the layout
    */
-  /* line 400, ../sass/layouts/_responsive.scss */
+  /* line 401, ../sass/layouts/_responsive.scss */
   #footer-content {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
   }
-  /* line 405, ../sass/layouts/_responsive.scss */
+  /* line 406, ../sass/layouts/_responsive.scss */
   #footer-content .block-menu {
     float: right;
     width: 80%;
     margin-right: 0%;
     margin-left: -80%;
   }
-  /* line 409, ../sass/layouts/_responsive.scss */
+  /* line 410, ../sass/layouts/_responsive.scss */
   #footer-content .block-search {
     float: right;
     width: 20%;
@@ -432,11 +433,11 @@ ul {
   /**
    * The Internal Body Layout.
    */
-  /* line 419, ../sass/layouts/_responsive.scss */
+  /* line 420, ../sass/layouts/_responsive.scss */
   body.not-front .breadcrumb {
     margin-bottom: 10px;
   }
-  /* line 423, ../sass/layouts/_responsive.scss */
+  /* line 424, ../sass/layouts/_responsive.scss */
   body.not-front .left-col {
     float: right;
     width: 20%;
@@ -445,16 +446,16 @@ ul {
     background-color: #848485;
     padding: 0 0 5px 0;
   }
-  /* line 428, ../sass/layouts/_responsive.scss */
+  /* line 429, ../sass/layouts/_responsive.scss */
   body.not-front .left-col .menu-level-2 > ul.menu > li {
     margin-bottom: 15px;
     margin-left: 3px;
   }
-  /* line 433, ../sass/layouts/_responsive.scss */
+  /* line 434, ../sass/layouts/_responsive.scss */
   body.not-front .left-col .menu-level-2 > ul.menu > li.first {
     margin-top: 20px;
   }
-  /* line 437, ../sass/layouts/_responsive.scss */
+  /* line 438, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu {
     display: block;
     padding: 0px;
@@ -464,11 +465,11 @@ ul {
     -moz-osx-font-smoothing: grayscale;
     font-size: 100%;
   }
-  /* line 445, ../sass/layouts/_responsive.scss */
+  /* line 446, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li {
     list-style: none;
   }
-  /* line 447, ../sass/layouts/_responsive.scss */
+  /* line 448, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a {
     color: #ffffff;
     font-weight: 800;
@@ -476,7 +477,7 @@ ul {
     padding-right: 3px;
     padding-bottom: 3px;
   }
-  /* line 455, ../sass/layouts/_responsive.scss */
+  /* line 456, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a:hover {
     text-decoration: none;
     margin-left: -3px;
@@ -484,37 +485,37 @@ ul {
     color: #ffffff;
     background-color: #666668;
   }
-  /* line 468, ../sass/layouts/_responsive.scss */
+  /* line 469, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li {
     list-style: none;
     padding: 0px;
   }
-  /* line 471, ../sass/layouts/_responsive.scss */
+  /* line 472, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li a {
     font-size: 90%;
     text-shadow: none;
     color: #ffffff;
     font-weight: normal;
   }
-  /* line 481, ../sass/layouts/_responsive.scss */
+  /* line 482, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li.is-active-trail {
     border-left: 3px solid #ffffff;
     margin-left: -3px;
     padding-left: 3px;
   }
-  /* line 485, ../sass/layouts/_responsive.scss */
+  /* line 486, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li.is-active-trail li.active {
     border: none;
     margin-left: -3px;
     background-color: #999999;
   }
-  /* line 492, ../sass/layouts/_responsive.scss */
+  /* line 493, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu a.is-active-trail {
     margin-left: -3px;
     padding-left: 3px;
     background-color: #999999;
   }
-  /* line 500, ../sass/layouts/_responsive.scss */
+  /* line 501, ../sass/layouts/_responsive.scss */
   body.not-front .article {
     background-color: #ffffff;
     padding: 0 1% 1% 1%;
@@ -523,7 +524,7 @@ ul {
     margin-right: 20%;
     margin-left: -80%;
   }
-  /* line 506, ../sass/layouts/_responsive.scss */
+  /* line 507, ../sass/layouts/_responsive.scss */
   body.not-front .right-col {
     background-color: #848485;
     float: right;
