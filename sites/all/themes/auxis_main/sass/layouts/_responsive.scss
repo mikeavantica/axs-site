@@ -516,6 +516,8 @@ $zen-auto-include-item-base: false;
           -moz-osx-font-smoothing: grayscale;
           margin-bottom: 10px;
           a{
+            display: block;
+            padding-bottom: 5px;
             font-weight: $auxis-font-weight-bold;
             color: #ffffff;
           }

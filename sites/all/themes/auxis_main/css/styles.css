@@ -1187,6 +1187,8 @@ table {
   }
   /* line 518, ../sass/layouts/_responsive.scss */
   body.not-front .right-col ul li a {
+    display: block;
+    padding-bottom: 5px;
     font-weight: 800;
     color: #ffffff;
   }
