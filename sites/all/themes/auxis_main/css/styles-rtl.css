@@ -533,6 +533,22 @@ ul {
     margin-left: -100%;
     padding: 0 1% 1% 1%;
   }
+  /* line 511, ../sass/layouts/_responsive.scss */
+  body.not-front .right-col ul {
+    list-style: none;
+    padding: 0px;
+  }
+  /* line 514, ../sass/layouts/_responsive.scss */
+  body.not-front .right-col ul li {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 10px;
+  }
+  /* line 518, ../sass/layouts/_responsive.scss */
+  body.not-front .right-col ul li a {
+    font-weight: 800;
+    color: #ffffff;
+  }
 }
 /* Component (SMACSS module) rules */
 /**

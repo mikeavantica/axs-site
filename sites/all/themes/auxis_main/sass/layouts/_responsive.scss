@@ -508,6 +508,19 @@ $zen-auto-include-item-base: false;
       background-color: $auxis-brand-gray-background;
       @include zen-grid-item(1, 5);
       padding: 0 1% 1% 1%;
+      ul {
+        list-style: none;
+        padding: 0px;
+        li{
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          margin-bottom: 10px;
+          a{
+            font-weight: $auxis-font-weight-bold;
+            color: #ffffff;
+          }
+        }
+      }
     }
   }
 }
