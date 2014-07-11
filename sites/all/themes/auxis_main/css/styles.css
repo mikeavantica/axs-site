@@ -2666,29 +2666,30 @@ aside.left-col ul.menu {
 }
 /* line 55, ../sass/theme-auxis-inner-pages.scss */
 .not-front .breadcrumb {
-  padding: 5px 0 5px 0;
+  padding: 10px 0 0 0;
+  background-color: #ffffff;
 }
-/* line 57, ../sass/theme-auxis-inner-pages.scss */
+/* line 58, ../sass/theme-auxis-inner-pages.scss */
 .not-front .breadcrumb a {
   font-size: 90%;
   text-decoration: none;
   color: #0f9386;
 }
-/* line 64, ../sass/theme-auxis-inner-pages.scss */
+/* line 65, ../sass/theme-auxis-inner-pages.scss */
 .not-front .title {
   color: #ffffff;
   background-color: #0f9386;
   padding: 10px;
 }
-/* line 71, ../sass/theme-auxis-inner-pages.scss */
+/* line 72, ../sass/theme-auxis-inner-pages.scss */
 .not-front .dummy_header {
   display: none;
 }
-/* line 75, ../sass/theme-auxis-inner-pages.scss */
+/* line 76, ../sass/theme-auxis-inner-pages.scss */
 .not-front .header {
   margin: 0px;
 }
-/* line 80, ../sass/theme-auxis-inner-pages.scss */
+/* line 81, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col .block-title {
   display: none;
 }
