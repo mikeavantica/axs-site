@@ -260,8 +260,8 @@ ul {
   }
   /* line 280, ../sass/layouts/_responsive.scss */
   #content .content-news .news-info {
-    margin-bottom: 10px;
-    height: 126px;
+    margin-bottom: 15px;
+    height: 121px;
   }
   /* line 285, ../sass/layouts/_responsive.scss */
   #content .content-news .dkp.news-clients {
@@ -315,7 +315,7 @@ ul {
     width: 100%;
     margin-right: 0%;
     margin-left: -100%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   /* line 46, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
   #content .content-details .features:before, #content .content-details .features:after {
@@ -367,20 +367,23 @@ ul {
   #content .features .feature img {
     display: block;
     float: left;
-    padding-right: 3%;
+    padding-right: 15px;
   }
   /* line 360, ../sass/layouts/_responsive.scss */
   #content .features .feature a {
     float: left;
     color: #5b5b5b;
     font-weight: 800;
-    width: 43%;
+    width: 42%;
+    padding-right: 15px;
+    padding-bottom: 5px;
   }
-  /* line 369, ../sass/layouts/_responsive.scss */
+  /* line 368, ../sass/layouts/_responsive.scss */
   #content .features .feature p {
     float: left;
     margin: 0px;
-    width: 43%;
+    width: 42%;
+    padding-right: 15px;
   }
 
   /**

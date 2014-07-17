@@ -92,8 +92,6 @@ footer {
       li {
         border-bottom: 1px dotted #ffffff;
         padding: 5px 0px;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
 
         div.views-field-title {
           margin-bottom: 5px;
@@ -151,7 +149,7 @@ footer {
 }
 
 .content-details {
-  padding: 0 0 10px 0;
+  padding: 0px;
   a {
     color: #169588;
     text-decoration: none;
@@ -249,8 +247,12 @@ footer {
     z-index: 3;
   }
 
-  .carousel-indicators, .carousel-control {
+  .carousel-control {
     display: none;
+  }
+
+  .carousel-indicators {
+    bottom: -15px;
   }
 
   .carousel-caption {

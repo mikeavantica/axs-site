@@ -62,7 +62,7 @@ $zen-auto-include-item-base: false;
   @media all and (min-width: 480px) {
 
     .header {
-      margin-top: 15px;
+      margin-top: $space-box-normalize;
       padding-left: 0px;
       padding-right: 0px;
     }
@@ -92,7 +92,7 @@ $zen-auto-include-item-base: false;
     }
 
     .dkp.header {
-      margin-bottom: 15px;
+      margin-bottom: $space-box-normalize;
     }
 
   }
@@ -278,8 +278,8 @@ $zen-auto-include-item-base: false;
       }
 
       .news-info {
-        margin-bottom: 10px;
-        height: 126px;
+        margin-bottom: $space-box-normalize;
+        height: 121px;
       }
 
       .dkp.news-clients {
@@ -325,7 +325,7 @@ $zen-auto-include-item-base: false;
         @include zen-clear(both);
         @include zen-grid-container();
         @include zen-grid-item(6, 1);
-        margin-bottom: 10px;
+        margin-bottom: 0px;
 
         .feature-1 {
           @include zen-grid-item(2, 1);
@@ -355,21 +355,21 @@ $zen-auto-include-item-base: false;
         img {
           display: block;
           float: left;
-          padding-right: 3%;
+          padding-right: $space-box-normalize;
         }
         a {
           float: left;
           color: $auxis-brand-gray-fonts;
           font-weight: $auxis-font-weight-bold;
-          width: 43%;
-        }
-        a:last-child {
-
+          width: 42%;
+          padding-right: $space-box-normalize;
+          padding-bottom: 5px;
         }
         p {
           float: left;
           margin: 0px;
-          width: 43%;
+          width: 42%;
+          padding-right: $space-box-normalize;
         }
       }
     }
