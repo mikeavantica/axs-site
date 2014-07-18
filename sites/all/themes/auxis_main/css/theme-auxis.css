@@ -184,62 +184,82 @@ footer {
   font-size: 90%;
 }
 /* line 170, ../sass/theme-auxis.scss */
+#footer-content #block-search-form {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 173, ../sass/theme-auxis.scss */
+#footer-content #block-search-form input {
+  padding: 5px;
+  color: #5b5b5b;
+}
+/* line 177, ../sass/theme-auxis.scss */
+#footer-content #block-search-form input.form-submit {
+  display: none;
+}
+/* line 182, ../sass/theme-auxis.scss */
+#footer-content .form-control:focus {
+  border-color: #df004a;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(223, 0, 74, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(223, 0, 74, 0.6);
+}
+/* line 187, ../sass/theme-auxis.scss */
 #footer-content h2 {
   display: none;
 }
-/* line 174, ../sass/theme-auxis.scss */
+/* line 191, ../sass/theme-auxis.scss */
 #footer-content .level-1 {
   margin-top: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: inline-block;
   width: 30%;
 }
-/* line 180, ../sass/theme-auxis.scss */
+/* line 197, ../sass/theme-auxis.scss */
 #footer-content .level-1 > a {
   font-weight: 800;
 }
-/* line 183, ../sass/theme-auxis.scss */
+/* line 200, ../sass/theme-auxis.scss */
 #footer-content .block {
   margin: 0px;
   color: #ffffff;
 }
-/* line 187, ../sass/theme-auxis.scss */
+/* line 204, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 16px;
+  line-height: 20px;
   padding: 0px;
   margin: 0px;
 }
-/* line 193, ../sass/theme-auxis.scss */
+/* line 211, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li {
   list-style: none;
   vertical-align: top;
 }
-/* line 196, ../sass/theme-auxis.scss */
+/* line 214, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 200, ../sass/theme-auxis.scss */
+/* line 218, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li a:hover {
   color: #47474A;
 }
-/* line 203, ../sass/theme-auxis.scss */
+/* line 221, ../sass/theme-auxis.scss */
 #footer-content .block ul.menu li ul {
   padding: 0px;
 }
 
-/* line 214, ../sass/theme-auxis.scss */
+/* line 232, ../sass/theme-auxis.scss */
 .content-news {
   margin-bottom: 1.5em;
 }
 
-/* line 220, ../sass/theme-auxis.scss */
+/* line 238, ../sass/theme-auxis.scss */
 .content-slider .block-title {
   display: none;
 }
-/* line 224, ../sass/theme-auxis.scss */
+/* line 242, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .item {
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -247,7 +267,7 @@ footer {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/* line 233, ../sass/theme-auxis.scss */
+/* line 251, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .active.left,
 .content-slider .carousel.c-fade .active.right {
   left: 0;
@@ -255,25 +275,25 @@ footer {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 241, ../sass/theme-auxis.scss */
+/* line 259, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .next,
 .content-slider .carousel.c-fade .prev {
   left: 0;
   z-index: 1;
 }
-/* line 246, ../sass/theme-auxis.scss */
+/* line 264, ../sass/theme-auxis.scss */
 .content-slider .carousel.c-fade .carousel-control {
   z-index: 3;
 }
-/* line 250, ../sass/theme-auxis.scss */
+/* line 268, ../sass/theme-auxis.scss */
 .content-slider .carousel-control {
   display: none;
 }
-/* line 254, ../sass/theme-auxis.scss */
+/* line 272, ../sass/theme-auxis.scss */
 .content-slider .carousel-indicators {
   bottom: -15px;
 }
-/* line 258, ../sass/theme-auxis.scss */
+/* line 276, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption {
   text-align: left;
   padding: 1%;
@@ -281,14 +301,14 @@ footer {
   bottom: 10%;
   background-color: #0f9386;
 }
-/* line 267, ../sass/theme-auxis.scss */
+/* line 285, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h1 {
   font-size: 100%;
   line-height: 1em;
   padding: 0px;
   margin: 0px;
 }
-/* line 274, ../sass/theme-auxis.scss */
+/* line 292, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h2 {
   font-size: 50%;
   padding: 0px;
@@ -296,12 +316,22 @@ footer {
   line-height: 1.3em;
 }
 
-/* line 284, ../sass/theme-auxis.scss */
+/* line 302, ../sass/theme-auxis.scss */
 aside.left-col ul.menu {
   display: none;
 }
 
-/* line 290, ../sass/theme-auxis.scss */
+/* line 308, ../sass/theme-auxis.scss */
 .view .date-nav-wrapper .date-prev {
   right: 87px;
+}
+
+/* line 313, ../sass/theme-auxis.scss */
+a {
+  color: #5b5b5b;
+}
+
+/* line 317, ../sass/theme-auxis.scss */
+a:hover {
+  color: #df004a;
 }

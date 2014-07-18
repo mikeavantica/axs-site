@@ -19,6 +19,4 @@
  */
 ?>
 
-<div class="block-menu"><?php print render($content); ?></div>
-<div class="block-search">search</div>
-
+<?php print render($content); ?>

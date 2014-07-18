@@ -77,7 +77,7 @@
 
                 <div class="details">
                     <!-- no more details-->
-
+                    <?php print $messages; ?>
                 </div>
             </div>
         </div>

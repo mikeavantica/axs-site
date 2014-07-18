@@ -419,14 +419,14 @@ ul {
     max-width: 1000px;
   }
   /* line 406, ../sass/layouts/_responsive.scss */
-  #footer-content .block-menu {
+  #footer-content #block-menu-block-3 {
     float: right;
     width: 80%;
     margin-right: 0%;
     margin-left: -80%;
   }
   /* line 410, ../sass/layouts/_responsive.scss */
-  #footer-content .block-search {
+  #footer-content #block-search-form {
     float: right;
     width: 20%;
     margin-right: 80%;

@@ -167,13 +167,30 @@ footer {
   padding-bottom: 10px;
   font-size: 90%;
 
+  #block-search-form {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    input {
+      padding: 5px;
+      color: $auxis-brand-gray-fonts;
+    }
+    input.form-submit {
+      display: none;
+    }
+  }
+
+  .form-control:focus {
+    border-color: $auxis-brand-red;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(223, 0, 74, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(223, 0, 74, .6);  }
+
   h2 {
     display: none;
   }
 
   .level-1 {
     margin-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     display: inline-block;
     width: 30%;
   }
@@ -187,7 +204,8 @@ footer {
     ul.menu {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      line-height: 16px;
+      line-height: 20px;
+
       padding: 0px;
       margin: 0px;
       li {
@@ -290,4 +308,12 @@ aside.left-col {
   .date-prev {
     right: 87px;
   }
+}
+
+a {
+  color: $auxis-brand-gray-fonts;
+}
+
+a:hover {
+  color: $auxis-brand-red;
 }

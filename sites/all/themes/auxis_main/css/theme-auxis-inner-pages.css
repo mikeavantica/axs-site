@@ -78,3 +78,35 @@
 .not-front .left-col .block-title {
   display: none;
 }
+/* line 86, ../sass/theme-auxis-inner-pages.scss */
+.not-front form.search-form {
+  margin: 15px 0;
+}
+/* line 89, ../sass/theme-auxis-inner-pages.scss */
+.not-front form.search-form #edit-basic {
+  margin: 15px 0;
+}
+/* line 94, ../sass/theme-auxis-inner-pages.scss */
+.not-front form.search-form .fieldset-legend a {
+  font-size: 0.8em;
+}
+/* line 100, ../sass/theme-auxis-inner-pages.scss */
+.not-front h2 {
+  margin-bottom: 0px;
+}
+/* line 104, ../sass/theme-auxis-inner-pages.scss */
+.not-front ol.search-results {
+  padding: 0px;
+}
+/* line 108, ../sass/theme-auxis-inner-pages.scss */
+.not-front ol.search-results mar
+li h3.title {
+  background-color: #ffffff;
+  margin: 0px;
+  padding-left: 15px;
+}
+/* line 113, ../sass/theme-auxis-inner-pages.scss */
+.not-front ol.search-results mar
+li p.search-info {
+  display: none;
+}

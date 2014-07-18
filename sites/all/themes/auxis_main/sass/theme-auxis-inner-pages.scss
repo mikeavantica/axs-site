@@ -83,4 +83,36 @@
     }
   }
 
+  form.search-form {
+    margin: $space-box-normalize 0;
+
+    #edit-basic {
+      margin: $space-box-normalize 0;
+    }
+
+    .fieldset-legend {
+      a {
+        font-size: 0.8em;
+      }
+    }
+  }
+
+  h2 {
+    margin-bottom: 0px;
+  }
+
+  ol.search-results {
+    padding: 0px;
+    margin: 0px;
+    li {
+      h3.title {
+        background-color: #ffffff;
+        margin: 0px;
+        padding-left: $space-box-normalize;
+      }
+      p.search-info {
+        display: none;
+      }
+    }
+  }
 }

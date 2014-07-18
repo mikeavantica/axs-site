@@ -403,11 +403,11 @@ $zen-auto-include-item-base: false;
     margin-right: auto;
     max-width: $page-max-width;
 
-    .block-menu {
+    #block-menu-block-3 {
       @include zen-grid-item(4, 1);
     }
 
-    .block-search {
+    #block-search-form {
       @include zen-grid-item(1, 5);
     }
   }
