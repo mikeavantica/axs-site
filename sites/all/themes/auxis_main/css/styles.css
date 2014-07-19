@@ -1068,20 +1068,41 @@ table {
   }
   /* line 410, ../sass/layouts/_responsive.scss */
   #footer-content #block-search-form {
-    float: left;
+    float: right;
     width: 20%;
-    margin-left: 80%;
-    margin-right: -100%;
+    margin-right: 0%;
+    margin-left: -20%;
+    margin-bottom: 15px;
+  }
+  /* line 415, ../sass/layouts/_responsive.scss */
+  #footer-content #block-menu-menu-footer-search-menu- {
+    clear: right;
+    float: right;
+    width: 20%;
+    margin-right: 0%;
+    margin-left: -20%;
+  }
+  /* line 420, ../sass/layouts/_responsive.scss */
+  #footer-content #block-social-media-links-social-media-links {
+    clear: right;
+    float: right;
+    width: 20%;
+    margin-right: 0%;
+    margin-left: -20%;
+  }
+  /* line 424, ../sass/layouts/_responsive.scss */
+  #footer-content #block-social-media-links-social-media-links .horizontal li {
+    padding: 15px 5px 15px 0px;
   }
 
   /**
    * The Internal Body Layout.
    */
-  /* line 420, ../sass/layouts/_responsive.scss */
+  /* line 435, ../sass/layouts/_responsive.scss */
   body.not-front .breadcrumb {
     margin-bottom: 10px;
   }
-  /* line 424, ../sass/layouts/_responsive.scss */
+  /* line 439, ../sass/layouts/_responsive.scss */
   body.not-front .left-col {
     float: left;
     width: 20%;
@@ -1090,16 +1111,16 @@ table {
     background-color: #848485;
     padding: 0 0 5px 0;
   }
-  /* line 429, ../sass/layouts/_responsive.scss */
+  /* line 444, ../sass/layouts/_responsive.scss */
   body.not-front .left-col .menu-level-2 > ul.menu > li {
     margin-bottom: 15px;
     margin-left: 3px;
   }
-  /* line 434, ../sass/layouts/_responsive.scss */
+  /* line 449, ../sass/layouts/_responsive.scss */
   body.not-front .left-col .menu-level-2 > ul.menu > li.first {
     margin-top: 20px;
   }
-  /* line 438, ../sass/layouts/_responsive.scss */
+  /* line 453, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu {
     display: block;
     padding: 0px;
@@ -1109,11 +1130,11 @@ table {
     -moz-osx-font-smoothing: grayscale;
     font-size: 100%;
   }
-  /* line 446, ../sass/layouts/_responsive.scss */
+  /* line 461, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li {
     list-style: none;
   }
-  /* line 448, ../sass/layouts/_responsive.scss */
+  /* line 463, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a {
     color: #ffffff;
     font-weight: 800;
@@ -1121,7 +1142,7 @@ table {
     padding-right: 3px;
     padding-bottom: 3px;
   }
-  /* line 456, ../sass/layouts/_responsive.scss */
+  /* line 471, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a:hover {
     text-decoration: none;
     margin-left: -3px;
@@ -1129,37 +1150,37 @@ table {
     color: #ffffff;
     background-color: #666668;
   }
-  /* line 469, ../sass/layouts/_responsive.scss */
+  /* line 484, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li {
     list-style: none;
     padding: 0px;
   }
-  /* line 472, ../sass/layouts/_responsive.scss */
+  /* line 487, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li a {
     font-size: 90%;
     text-shadow: none;
     color: #ffffff;
     font-weight: normal;
   }
-  /* line 482, ../sass/layouts/_responsive.scss */
+  /* line 497, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li.is-active-trail {
     border-left: 3px solid #ffffff;
     margin-left: -3px;
     padding-left: 3px;
   }
-  /* line 486, ../sass/layouts/_responsive.scss */
+  /* line 501, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li.is-active-trail li.active {
     border: none;
     margin-left: -3px;
     background-color: #999999;
   }
-  /* line 493, ../sass/layouts/_responsive.scss */
+  /* line 508, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu a.is-active-trail {
     margin-left: -3px;
     padding-left: 3px;
     background-color: #999999;
   }
-  /* line 501, ../sass/layouts/_responsive.scss */
+  /* line 516, ../sass/layouts/_responsive.scss */
   body.not-front .article {
     background-color: #ffffff;
     padding: 0 1% 1% 1%;
@@ -1168,7 +1189,7 @@ table {
     margin-left: 20%;
     margin-right: -80%;
   }
-  /* line 507, ../sass/layouts/_responsive.scss */
+  /* line 522, ../sass/layouts/_responsive.scss */
   body.not-front .right-col {
     background-color: #848485;
     float: left;
@@ -1177,18 +1198,18 @@ table {
     margin-right: -100%;
     padding: 0 1% 1% 1%;
   }
-  /* line 511, ../sass/layouts/_responsive.scss */
+  /* line 526, ../sass/layouts/_responsive.scss */
   body.not-front .right-col ul {
     list-style: none;
     padding: 0px;
   }
-  /* line 514, ../sass/layouts/_responsive.scss */
+  /* line 529, ../sass/layouts/_responsive.scss */
   body.not-front .right-col ul li {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin-bottom: 10px;
   }
-  /* line 518, ../sass/layouts/_responsive.scss */
+  /* line 533, ../sass/layouts/_responsive.scss */
   body.not-front .right-col ul li a {
     display: block;
     padding-bottom: 5px;

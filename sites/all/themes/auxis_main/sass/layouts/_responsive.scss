@@ -408,7 +408,22 @@ $zen-auto-include-item-base: false;
     }
 
     #block-search-form {
-      @include zen-grid-item(1, 5);
+      @include zen-grid-item(1, 1, right);
+      margin-bottom: $space-box-normalize;
+    }
+
+    #block-menu-menu-footer-search-menu- {
+      @include zen-clear(right);
+      @include zen-grid-item(1, 1, right);
+    }
+
+    #block-social-media-links-social-media-links {
+      @include zen-clear(right);
+      @include zen-grid-item(1, 1, right);
+
+      .horizontal li {
+        padding: 15px 5px 15px 0px;
+      }
     }
   }
 

@@ -97,16 +97,15 @@
 /* line 104, ../sass/theme-auxis-inner-pages.scss */
 .not-front ol.search-results {
   padding: 0px;
+  margin: 0px;
 }
 /* line 108, ../sass/theme-auxis-inner-pages.scss */
-.not-front ol.search-results mar
-li h3.title {
+.not-front ol.search-results li h3.title {
   background-color: #ffffff;
   margin: 0px;
   padding-left: 15px;
 }
 /* line 113, ../sass/theme-auxis-inner-pages.scss */
-.not-front ol.search-results mar
-li p.search-info {
+.not-front ol.search-results li p.search-info {
   display: none;
 }
