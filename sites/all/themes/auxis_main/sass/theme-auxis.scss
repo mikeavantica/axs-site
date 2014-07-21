@@ -271,6 +271,7 @@ footer {
 
   .carousel-indicators {
     bottom: -15px;
+    z-index: 1;
   }
 
   .carousel-caption {
@@ -315,5 +316,5 @@ a {
 }
 
 a:hover {
-  color: $auxis-brand-red;
+  color: $auxis-brand-teal;
 }

@@ -105,13 +105,60 @@
     padding: 0px;
     margin: 0px;
     li {
+      background-color: $auxis-brand-teal-light;
+      padding-bottom: 10px;
       h3.title {
-        background-color: #ffffff;
+        background-color: transparent;
         margin: 0px;
         padding-left: $space-box-normalize;
       }
       p.search-info {
         display: none;
+      }
+    }
+  }
+
+  div.events-item-list {
+    ul {
+      padding: 0px;
+      li {
+        list-style-type: none;
+        margin-bottom: 10px;
+        ul.events {
+          li {
+            display: inline-block;
+            vertical-align: top;
+            min-height: 100px;
+            height: 100%;
+          }
+          li.calendar {
+            width: 100px;
+            margin-right: 5px;
+            padding: 0px;
+            div.calendar-ico {
+              width: 100px;
+              height: 100px;
+              background-image: url("../images/calendar.png");
+              background-repeat: no-repeat;
+              background-position: center;
+              div.month {
+                color: #FFFFFF;
+                padding-top: 22px;
+                text-align: center;
+              }
+              div.day {
+                padding-top: 5px;
+                font-size: 30px;
+                text-align: center;
+              }
+            }
+          }
+          li.content {
+            background-color: $auxis-brand-teal-light;
+            padding: 5px;
+            width: 81%;
+          }
+        }
       }
     }
   }

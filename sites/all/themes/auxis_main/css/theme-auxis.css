@@ -292,8 +292,9 @@ footer {
 /* line 272, ../sass/theme-auxis.scss */
 .content-slider .carousel-indicators {
   bottom: -15px;
+  z-index: 1;
 }
-/* line 276, ../sass/theme-auxis.scss */
+/* line 277, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption {
   text-align: left;
   padding: 1%;
@@ -301,14 +302,14 @@ footer {
   bottom: 10%;
   background-color: #0f9386;
 }
-/* line 285, ../sass/theme-auxis.scss */
+/* line 286, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h1 {
   font-size: 100%;
   line-height: 1em;
   padding: 0px;
   margin: 0px;
 }
-/* line 292, ../sass/theme-auxis.scss */
+/* line 293, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h2 {
   font-size: 50%;
   padding: 0px;
@@ -316,22 +317,22 @@ footer {
   line-height: 1.3em;
 }
 
-/* line 302, ../sass/theme-auxis.scss */
+/* line 303, ../sass/theme-auxis.scss */
 aside.left-col ul.menu {
   display: none;
 }
 
-/* line 308, ../sass/theme-auxis.scss */
+/* line 309, ../sass/theme-auxis.scss */
 .view .date-nav-wrapper .date-prev {
   right: 87px;
 }
 
-/* line 313, ../sass/theme-auxis.scss */
+/* line 314, ../sass/theme-auxis.scss */
 a {
   color: #5b5b5b;
 }
 
-/* line 317, ../sass/theme-auxis.scss */
+/* line 318, ../sass/theme-auxis.scss */
 a:hover {
-  color: #df004a;
+  color: #0f9386;
 }
