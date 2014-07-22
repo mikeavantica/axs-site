@@ -70,6 +70,7 @@ stylesheets[all][] = css/styles.css
 scripts[] = libraries/jquery-mmenu/js/jquery.mmenu.min.js
 scripts[] = libraries/accessible-mmenu/js/jquery-accessibleMegaMenu.js
 scripts[] = libraries/jquery-easy-ticker-master/jquery.easy-ticker.min.js
+scripts[] = libraries/readmore/readmore.min.js
 scripts[] = js/script.js
 
 ; This section lists the regions defined in Zen's default page.tpl.php and
