@@ -2810,14 +2810,14 @@ a:hover {
 }
 /* line 138, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.events-item-list ul li ul.events li.calendar {
-  width: 100px;
+  width: 80px;
   margin-right: 5px;
   padding: 0px;
 }
 /* line 142, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.events-item-list ul li ul.events li.calendar div.calendar-ico {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   background-image: url("../images/calendar.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -2825,12 +2825,12 @@ a:hover {
 /* line 148, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.events-item-list ul li ul.events li.calendar div.calendar-ico div.month {
   color: #FFFFFF;
-  padding-top: 22px;
+  padding-top: 13px;
   text-align: center;
 }
 /* line 153, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.events-item-list ul li ul.events li.calendar div.calendar-ico div.day {
-  padding-top: 5px;
+  padding-top: 2px;
   font-size: 30px;
   text-align: center;
 }
@@ -2838,5 +2838,5 @@ a:hover {
 .not-front div.events-item-list ul li ul.events li.content {
   background-color: #e8fcf2;
   padding: 5px;
-  width: 81%;
+  width: 84%;
 }

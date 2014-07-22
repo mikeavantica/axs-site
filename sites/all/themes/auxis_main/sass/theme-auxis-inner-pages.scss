@@ -136,23 +136,23 @@
             height: 100%;
           }
           li.calendar {
-            width: 100px;
+            width: 80px;
             margin-right: 5px;
             padding: 0px;
             div.calendar-ico {
-              width: 100px;
-              height: 100px;
+              width: 75px;
+              height: 75px;
               background-image: url("../images/calendar.png");
               background-repeat: no-repeat;
               background-position: center;
               div.month {
                 color: #FFFFFF;
-                padding-top: 22px;
+                padding-top: 13px;
                 text-align: center;
               }
               div.day {
-                padding-top: 5px;
-                font-size: 30px;
+                padding-top: 2px;
+                font-size: 26px;
                 text-align: center;
               }
             }
@@ -160,7 +160,7 @@
           li.content {
             background-color: $auxis-brand-teal-light;
             padding: 5px;
-            width: 81%;
+            width: 84%;
           }
         }
       }
