@@ -2754,8 +2754,11 @@ body.not-front #content {
 .not-front a.readmore-link, .not-front a.readless-link {
   padding-top: 15px;
   display: block;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #0f9386;
 }
-/* line 23, ../sass/theme-auxis-inner-pages.scss */
+/* line 26, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer {
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
@@ -2763,116 +2766,116 @@ body.not-front #content {
   font-size: 90%;
   padding: 10px 0;
 }
-/* line 32, ../sass/theme-auxis-inner-pages.scss */
+/* line 35, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer .block-title {
   display: none;
 }
-/* line 36, ../sass/theme-auxis-inner-pages.scss */
+/* line 39, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer .block {
   margin: 0px;
 }
-/* line 40, ../sass/theme-auxis-inner-pages.scss */
+/* line 43, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer ul {
   padding: 0px;
 }
-/* line 42, ../sass/theme-auxis-inner-pages.scss */
+/* line 45, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer ul li {
   display: inline-block;
   list-style: none;
   padding-right: 20px;
 }
-/* line 49, ../sass/theme-auxis-inner-pages.scss */
+/* line 52, ../sass/theme-auxis-inner-pages.scss */
 .not-front footer a {
   font-weight: normal;
   text-decoration: none;
   color: #FFFFFF;
 }
-/* line 56, ../sass/theme-auxis-inner-pages.scss */
+/* line 59, ../sass/theme-auxis-inner-pages.scss */
 .not-front .breadcrumb {
   padding: 10px 0 0 0;
   background-color: #ffffff;
 }
-/* line 59, ../sass/theme-auxis-inner-pages.scss */
+/* line 62, ../sass/theme-auxis-inner-pages.scss */
 .not-front .breadcrumb a {
   font-size: 90%;
   text-decoration: none;
   color: #0f9386;
 }
-/* line 66, ../sass/theme-auxis-inner-pages.scss */
+/* line 69, ../sass/theme-auxis-inner-pages.scss */
 .not-front .title {
   color: #ffffff;
   background-color: #0f9386;
   padding: 10px;
 }
-/* line 73, ../sass/theme-auxis-inner-pages.scss */
+/* line 76, ../sass/theme-auxis-inner-pages.scss */
 .not-front .dummy_header {
   display: none;
 }
-/* line 77, ../sass/theme-auxis-inner-pages.scss */
+/* line 80, ../sass/theme-auxis-inner-pages.scss */
 .not-front .header {
   margin: 0px;
 }
-/* line 82, ../sass/theme-auxis-inner-pages.scss */
+/* line 85, ../sass/theme-auxis-inner-pages.scss */
 .not-front .left-col .block-title {
   display: none;
 }
-/* line 87, ../sass/theme-auxis-inner-pages.scss */
+/* line 90, ../sass/theme-auxis-inner-pages.scss */
 .not-front form.search-form {
   margin: 15px 0;
 }
-/* line 90, ../sass/theme-auxis-inner-pages.scss */
+/* line 93, ../sass/theme-auxis-inner-pages.scss */
 .not-front form.search-form #edit-basic {
   margin: 15px 0;
 }
-/* line 95, ../sass/theme-auxis-inner-pages.scss */
+/* line 98, ../sass/theme-auxis-inner-pages.scss */
 .not-front form.search-form .fieldset-legend a {
   font-size: 0.8em;
 }
-/* line 101, ../sass/theme-auxis-inner-pages.scss */
+/* line 104, ../sass/theme-auxis-inner-pages.scss */
 .not-front h2 {
   margin-bottom: 0px;
 }
-/* line 105, ../sass/theme-auxis-inner-pages.scss */
+/* line 108, ../sass/theme-auxis-inner-pages.scss */
 .not-front ol.search-results {
   padding: 0px;
   margin: 0px;
 }
-/* line 108, ../sass/theme-auxis-inner-pages.scss */
+/* line 111, ../sass/theme-auxis-inner-pages.scss */
 .not-front ol.search-results li {
   background-color: #e8fcf2;
   padding-bottom: 10px;
 }
-/* line 111, ../sass/theme-auxis-inner-pages.scss */
+/* line 114, ../sass/theme-auxis-inner-pages.scss */
 .not-front ol.search-results li h3.title {
   background-color: transparent;
   margin: 0px;
   padding-left: 15px;
 }
-/* line 116, ../sass/theme-auxis-inner-pages.scss */
+/* line 119, ../sass/theme-auxis-inner-pages.scss */
 .not-front ol.search-results li p.search-info {
   display: none;
 }
-/* line 123, ../sass/theme-auxis-inner-pages.scss */
+/* line 126, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.events-item-list ul {
   padding: 0px;
 }
-/* line 125, ../sass/theme-auxis-inner-pages.scss */
+/* line 128, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.events-item-list ul li {
   list-style-type: none;
   margin-bottom: 10px;
 }
-/* line 129, ../sass/theme-auxis-inner-pages.scss */
+/* line 132, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.events-item-list ul li ul.events li {
   display: inline-block;
   vertical-align: top;
   min-height: 100px;
   height: 100%;
 }
-/* line 135, ../sass/theme-auxis-inner-pages.scss */
+/* line 138, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.events-item-list ul li ul.events li.calendar {
   display: none;
 }
-/* line 138, ../sass/theme-auxis-inner-pages.scss */
+/* line 141, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.events-item-list ul li ul.events li.content {
   background-color: #e8fcf2;
   padding: 5px;

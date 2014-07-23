@@ -18,6 +18,9 @@
   a.readmore-link, a.readless-link {
     padding-top: $space-box-normalize;
     display: block;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: $auxis-brand-teal;
   }
 
   footer {

@@ -5,7 +5,7 @@
         e.preventDefault();
         var summary = $(this).closest('.readmore-summary');
         summary.hide();
-        summary.next('.readmore-text').slideDown(300);
+        summary.next('.readmore-text').slideDown(100);
       });
       $('.readmore-text .readless-link').click(function(e) {
         e.preventDefault();
