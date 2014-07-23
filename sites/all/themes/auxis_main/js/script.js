@@ -59,12 +59,6 @@ Drupal.behaviors.my_custom_behavior = {
           visible: 1,
           mousePause: 1
       });
-
-      jQuery('article').readmore({
-          speed: 75,
-          maxHeight: 300,
-          heightMargin: 16
-      });
   }
 };
 

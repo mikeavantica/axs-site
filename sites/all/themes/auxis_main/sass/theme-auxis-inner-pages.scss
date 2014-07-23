@@ -15,8 +15,9 @@
     background-color: #ffffff;
   }
 
-  a.readmore-js-toggle {
+  a.readmore-link, a.readless-link {
     padding-top: $space-box-normalize;
+    display: block;
   }
 
   footer {
