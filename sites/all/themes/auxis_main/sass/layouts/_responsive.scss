@@ -452,13 +452,49 @@ $zen-auto-include-item-base: false;
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
-      
+
       padding-left: 0px;
       padding-right: 0px;
 
       .left-col {
         display: block;
       }
+
+      div.events-item-list {
+        ul {
+          li {
+            ul.events {
+              li.calendar {
+                display: inline-block;
+                width: 80px;
+                margin-right: 5px;
+                padding: 0px;
+                div.calendar-ico {
+                  width: 75px;
+                  height: 75px;
+                  background-image: url("../images/calendar.png");
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  div.month {
+                    color: #FFFFFF;
+                    padding-top: 13px;
+                    text-align: center;
+                  }
+                  div.day {
+                    padding-top: 2px;
+                    font-size: 26px;
+                    text-align: center;
+                  }
+                }
+              }
+              li.content {
+                width: 84%;
+              }
+            }
+          }
+        }
+      }
+
     }
 
     .left-col {
