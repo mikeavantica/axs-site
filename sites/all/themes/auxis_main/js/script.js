@@ -50,20 +50,6 @@ Drupal.behaviors.my_custom_behavior = {
           openClass: "open"
       });
 
-      jQuery('.carousel').carousel();
-
-      // Function to load the title and sub tile in the front end slider
-      jQuery( '#carousel-slider-generic .item' ).each(function( index ) {
-          var title = jQuery(this).find("img").attr("title");
-          var sub_title = jQuery(this).find("img").attr("alt");
-          if (title != null) {
-              jQuery(this).find("h1").html(title);
-              jQuery(this).find("h2").html(sub_title);
-          } else {
-              jQuery(this).find(".carousel-caption").addClass('hide');
-          }
-      });
-
       jQuery('.newsticker').easyTicker({
           direction: 'up',
           easing: 'swing',
