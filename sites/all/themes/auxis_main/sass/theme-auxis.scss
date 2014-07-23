@@ -124,12 +124,12 @@ footer {
     font-weight: $auxis-font-weight-bold;
   }
 
-  .carousel-indicators, .carousel-control {
-    display: none;
-  }
-
-  .carousel {
-    text-align: center;
+  .carousel-inner {
+    .item {
+      img {
+        display: inline-block;
+      }
+    }
   }
 }
 
@@ -204,7 +204,7 @@ footer {
     margin-bottom: $space-box-normalize;
     .horizontal li {
       padding-left: 0px;
-      padding-right: 10px;
+      padding-right: 8px;
     }
   }
 

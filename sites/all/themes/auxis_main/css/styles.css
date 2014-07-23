@@ -2348,13 +2348,9 @@ footer {
   text-align: center;
   font-weight: 800;
 }
-/* line 127, ../sass/theme-auxis.scss */
-.news-clients .carousel-indicators, .news-clients .carousel-control {
-  display: none;
-}
-/* line 131, ../sass/theme-auxis.scss */
-.news-clients .carousel {
-  text-align: center;
+/* line 129, ../sass/theme-auxis.scss */
+.news-clients .carousel-inner .item img {
+  display: inline-block;
 }
 
 /* line 136, ../sass/theme-auxis.scss */
@@ -2436,7 +2432,7 @@ footer {
 /* line 205, ../sass/theme-auxis.scss */
 #footer-content #block-social-media-links-social-media-links .horizontal li {
   padding-left: 0px;
-  padding-right: 10px;
+  padding-right: 8px;
 }
 /* line 211, ../sass/theme-auxis.scss */
 #footer-content .block {
