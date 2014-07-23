@@ -413,55 +413,78 @@ ul {
    * Footer - Content of the layout
    */
   /* line 401, ../sass/layouts/_responsive.scss */
-  #footer-content {
+  #footer-content.dkp {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    padding: 10px;
     max-width: 1000px;
   }
-  /* line 406, ../sass/layouts/_responsive.scss */
-  #footer-content #block-menu-block-3 {
+  /* line 408, ../sass/layouts/_responsive.scss */
+  #footer-content.dkp #block-menu-block-3 {
     float: right;
     width: 80%;
     margin-right: 0%;
     margin-left: -80%;
   }
-  /* line 410, ../sass/layouts/_responsive.scss */
-  #footer-content #block-search-form {
+  /* line 412, ../sass/layouts/_responsive.scss */
+  #footer-content.dkp #block-search-form {
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
-    margin-bottom: 15px;
+    margin-top: 0px;
   }
-  /* line 415, ../sass/layouts/_responsive.scss */
-  #footer-content #block-menu-menu-footer-search-menu- {
+  /* line 417, ../sass/layouts/_responsive.scss */
+  #footer-content.dkp #block-menu-menu-footer-search-menu- {
     clear: left;
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 420, ../sass/layouts/_responsive.scss */
-  #footer-content #block-social-media-links-social-media-links {
+  /* line 422, ../sass/layouts/_responsive.scss */
+  #footer-content.dkp #block-social-media-links-social-media-links {
     clear: left;
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 424, ../sass/layouts/_responsive.scss */
-  #footer-content #block-social-media-links-social-media-links .horizontal li {
-    padding: 15px 5px 15px 0px;
+  /* line 427, ../sass/layouts/_responsive.scss */
+  #footer-content.dkp li.level-1 > ul {
+    display: block;
+  }
+  /* line 431, ../sass/layouts/_responsive.scss */
+  #footer-content.dkp .level-1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 30%;
   }
 
   /**
    * The Internal Body Layout.
    */
-  /* line 435, ../sass/layouts/_responsive.scss */
+  /* line 445, ../sass/layouts/_responsive.scss */
   body.not-front .breadcrumb {
     margin-bottom: 10px;
   }
-  /* line 439, ../sass/layouts/_responsive.scss */
+  /* line 449, ../sass/layouts/_responsive.scss */
+  body.not-front #content.dkp {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* line 459, ../sass/layouts/_responsive.scss */
+  body.not-front #content.dkp .left-col {
+    display: block;
+  }
+  /* line 464, ../sass/layouts/_responsive.scss */
   body.not-front .left-col {
     float: right;
     width: 20%;
@@ -470,16 +493,16 @@ ul {
     background-color: #848485;
     padding: 0 0 5px 0;
   }
-  /* line 444, ../sass/layouts/_responsive.scss */
+  /* line 470, ../sass/layouts/_responsive.scss */
   body.not-front .left-col .menu-level-2 > ul.menu > li {
     margin-bottom: 15px;
     margin-left: 3px;
   }
-  /* line 449, ../sass/layouts/_responsive.scss */
+  /* line 475, ../sass/layouts/_responsive.scss */
   body.not-front .left-col .menu-level-2 > ul.menu > li.first {
     margin-top: 20px;
   }
-  /* line 453, ../sass/layouts/_responsive.scss */
+  /* line 479, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu {
     display: block;
     padding: 0px;
@@ -489,11 +512,11 @@ ul {
     -moz-osx-font-smoothing: grayscale;
     font-size: 100%;
   }
-  /* line 461, ../sass/layouts/_responsive.scss */
+  /* line 487, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li {
     list-style: none;
   }
-  /* line 463, ../sass/layouts/_responsive.scss */
+  /* line 489, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a {
     color: #ffffff;
     font-weight: 800;
@@ -501,7 +524,7 @@ ul {
     padding-right: 3px;
     padding-bottom: 3px;
   }
-  /* line 471, ../sass/layouts/_responsive.scss */
+  /* line 497, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a:hover {
     text-decoration: none;
     margin-left: -3px;
@@ -509,37 +532,37 @@ ul {
     color: #ffffff;
     background-color: #666668;
   }
-  /* line 484, ../sass/layouts/_responsive.scss */
+  /* line 510, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li {
     list-style: none;
     padding: 0px;
   }
-  /* line 487, ../sass/layouts/_responsive.scss */
+  /* line 513, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li a {
     font-size: 90%;
     text-shadow: none;
     color: #ffffff;
     font-weight: normal;
   }
-  /* line 497, ../sass/layouts/_responsive.scss */
+  /* line 523, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li.is-active-trail {
     border-left: 3px solid #ffffff;
     margin-left: -3px;
     padding-left: 3px;
   }
-  /* line 501, ../sass/layouts/_responsive.scss */
+  /* line 527, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li.is-active-trail li.active {
     border: none;
     margin-left: -3px;
     background-color: #999999;
   }
-  /* line 508, ../sass/layouts/_responsive.scss */
+  /* line 534, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu a.is-active-trail {
     margin-left: -3px;
     padding-left: 3px;
     background-color: #999999;
   }
-  /* line 516, ../sass/layouts/_responsive.scss */
+  /* line 542, ../sass/layouts/_responsive.scss */
   body.not-front .article {
     background-color: #ffffff;
     padding: 0 1% 1% 1%;
@@ -548,7 +571,7 @@ ul {
     margin-right: 20%;
     margin-left: -80%;
   }
-  /* line 522, ../sass/layouts/_responsive.scss */
+  /* line 548, ../sass/layouts/_responsive.scss */
   body.not-front .right-col {
     background-color: #848485;
     float: right;
@@ -557,18 +580,18 @@ ul {
     margin-left: -100%;
     padding: 0 1% 1% 1%;
   }
-  /* line 526, ../sass/layouts/_responsive.scss */
+  /* line 552, ../sass/layouts/_responsive.scss */
   body.not-front .right-col ul {
     list-style: none;
     padding: 0px;
   }
-  /* line 529, ../sass/layouts/_responsive.scss */
+  /* line 555, ../sass/layouts/_responsive.scss */
   body.not-front .right-col ul li {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin-bottom: 10px;
   }
-  /* line 533, ../sass/layouts/_responsive.scss */
+  /* line 559, ../sass/layouts/_responsive.scss */
   body.not-front .right-col ul li a {
     display: block;
     padding-bottom: 5px;

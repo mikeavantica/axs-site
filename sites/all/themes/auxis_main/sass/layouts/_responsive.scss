@@ -398,9 +398,11 @@ $zen-auto-include-item-base: false;
   /**
    * Footer - Content of the layout
    */
-  #footer-content {
+  #footer-content.dkp {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    padding: 10px;
     max-width: $page-max-width;
 
     #block-menu-block-3 {
@@ -409,7 +411,7 @@ $zen-auto-include-item-base: false;
 
     #block-search-form {
       @include zen-grid-item(1, 1, right);
-      margin-bottom: $space-box-normalize;
+      margin-top: 0px;
     }
 
     #block-menu-menu-footer-search-menu- {
@@ -420,12 +422,20 @@ $zen-auto-include-item-base: false;
     #block-social-media-links-social-media-links {
       @include zen-clear(right);
       @include zen-grid-item(1, 1, right);
+    }
 
-      .horizontal li {
-        padding: 15px 5px 15px 0px;
-      }
+    li.level-1 > ul {
+      display: block;
+    }
+
+    .level-1 {
+      margin-top: 0px;
+      margin-bottom: 10px;
+      display: inline-block;
+      width: 30%;
     }
   }
+
 
   /**
    * The Internal Body Layout.
@@ -436,10 +446,26 @@ $zen-auto-include-item-base: false;
       margin-bottom: 10px;
     }
 
+    #content.dkp {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      
+      padding-left: 0px;
+      padding-right: 0px;
+
+      .left-col {
+        display: block;
+      }
+    }
+
     .left-col {
       @include zen-grid-item(1, 1);
       background-color: $auxis-brand-gray-background;
       padding: 0 0 5px 0;
+
 
       .menu-level-2 > ul.menu > li {
         margin-bottom: 15px;

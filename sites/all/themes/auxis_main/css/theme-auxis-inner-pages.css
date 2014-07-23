@@ -4,14 +4,14 @@
 }
 /* line 7, ../sass/theme-auxis-inner-pages.scss */
 .not-front #content {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: block;
   height: 100%;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 13, ../sass/theme-auxis-inner-pages.scss */
+.not-front #content .left-col {
+  display: block;
 }
 /* line 18, ../sass/theme-auxis-inner-pages.scss */
 .not-front .main-content {

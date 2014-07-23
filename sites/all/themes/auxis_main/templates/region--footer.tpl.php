@@ -9,7 +9,7 @@
 ?>
 <?php if ($content): ?>
   <footer id="footer" class="<?php print $classes; ?>">
-      <div id="footer-content">
+      <div id="footer-content" class="dkp">
           <?php print $content; ?>
       </div>
   </footer>

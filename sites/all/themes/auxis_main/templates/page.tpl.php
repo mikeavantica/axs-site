@@ -53,7 +53,7 @@
 
     <div id="main">
 
-        <div id="content" class="main-content column" role="main">
+        <div id="content" class="dkp main-content column" role="main">
             <div class="article">
                 <?php print render($page['highlighted']); ?>
                 <?php print $breadcrumb; ?>

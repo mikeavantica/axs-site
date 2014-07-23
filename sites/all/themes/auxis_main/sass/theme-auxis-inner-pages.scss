@@ -5,14 +5,14 @@
   background-color: $auxis-brand-gray-background;
 
   #content {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+    display: block;
     height: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    .left-col {
+      display: block;
+    }
   }
 
   .main-content {
