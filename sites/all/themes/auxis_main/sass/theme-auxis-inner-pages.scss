@@ -192,4 +192,20 @@
     padding-bottom: $space-box-normalize;
     border-bottom: 1px dotted $auxis-brand-gray-background;
   }
+
+  #block-views-blog-category-view-block {
+    h2 {
+      color: #FFFFFF;
+    }
+
+    ul {
+      margin: 0px;
+      li {
+        a {
+          display: inline;
+          line-height: 1em;
+        }
+      }
+    }
+  }
 }

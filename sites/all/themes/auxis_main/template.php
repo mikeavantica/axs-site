@@ -212,7 +212,7 @@ function auxis_main_menu_link__menu_block__3(array $variables)
 function auxis_main_preprocess_block(&$variables, $hook) {
     //dpm($variables['block']);
     if ($variables['block']->module == 'views') {
-        $variables['elements']['#block']->subject = NULL;
+        //$variables['elements']['#block']->subject = NULL;
     }
 }
 

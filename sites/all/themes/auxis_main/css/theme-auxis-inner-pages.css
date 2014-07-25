@@ -194,3 +194,16 @@
   margin-left: 15px;
   padding-top: 15px;
 }
+/* line 197, ../sass/theme-auxis-inner-pages.scss */
+.not-front #block-views-blog-category-view-block h2 {
+  color: #FFFFFF;
+}
+/* line 201, ../sass/theme-auxis-inner-pages.scss */
+.not-front #block-views-blog-category-view-block ul {
+  margin: 0px;
+}
+/* line 204, ../sass/theme-auxis-inner-pages.scss */
+.not-front #block-views-blog-category-view-block ul li a {
+  display: inline;
+  line-height: 1em;
+}

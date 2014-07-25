@@ -82,6 +82,9 @@ footer {
   padding: 5px;
   margin-bottom: 5px;
   overflow: hidden;
+  h2.block-title {
+    display: none;
+  }
 
   div.newsticker {
     font-size: 85%;
@@ -118,10 +121,8 @@ footer {
 .news-clients {
   border: 2px solid $auxis-brand-gray-background;
 
-  h2 {
-    font-size: 90%;
-    text-align: center;
-    font-weight: $auxis-font-weight-bold;
+  h2.block-title {
+    display: none;
   }
 
   .carousel-inner {
