@@ -194,16 +194,25 @@
   margin-left: 15px;
   padding-top: 15px;
 }
-/* line 197, ../sass/theme-auxis-inner-pages.scss */
-.not-front #block-views-blog-category-view-block h2 {
+/* line 198, ../sass/theme-auxis-inner-pages.scss */
+.not-front aside.right-col div.region-right-col h2 {
   color: #FFFFFF;
 }
-/* line 201, ../sass/theme-auxis-inner-pages.scss */
-.not-front #block-views-blog-category-view-block ul {
+/* line 202, ../sass/theme-auxis-inner-pages.scss */
+.not-front aside.right-col div.region-right-col ul {
   margin: 0px;
 }
 /* line 204, ../sass/theme-auxis-inner-pages.scss */
-.not-front #block-views-blog-category-view-block ul li a {
+.not-front aside.right-col div.region-right-col ul li {
+  color: #ffffff;
+}
+/* line 206, ../sass/theme-auxis-inner-pages.scss */
+.not-front aside.right-col div.region-right-col ul li a {
   display: inline;
   line-height: 1em;
+}
+/* line 213, ../sass/theme-auxis-inner-pages.scss */
+.not-front aside.right-col div.region-right-col .more-link a {
+  text-transform: uppercase;
+  text-decoration: underline;
 }
