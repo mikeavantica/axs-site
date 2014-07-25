@@ -201,18 +201,33 @@
 
       ul {
         margin: 0px;
+        padding: 5px;
+        background-color: #666668;
+        font-size: 80%;
         li {
+          padding: 5px 0 5px 0;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          border-bottom: 1px dotted $auxis-brand-gray-background;
           color: #ffffff;
           a {
             display: inline;
             line-height: 1em;
           }
+          a:hover {
+            text-decoration: none;
+            color: $auxis-brand-teal-light;
+          }
         }
       }
       .more-link {
         a {
+          color: #ffffff;
           text-transform: uppercase;
           text-decoration: underline;
+        }
+        a:hover {
+          color: $auxis-brand-teal-light;
         }
       }
     }

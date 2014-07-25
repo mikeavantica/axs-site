@@ -201,18 +201,35 @@
 /* line 202, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul {
   margin: 0px;
+  padding: 5px;
+  background-color: #666668;
+  font-size: 80%;
 }
-/* line 204, ../sass/theme-auxis-inner-pages.scss */
+/* line 207, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li {
+  padding: 5px 0 5px 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px dotted #848485;
   color: #ffffff;
 }
-/* line 206, ../sass/theme-auxis-inner-pages.scss */
+/* line 213, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li a {
   display: inline;
   line-height: 1em;
 }
-/* line 213, ../sass/theme-auxis-inner-pages.scss */
+/* line 217, ../sass/theme-auxis-inner-pages.scss */
+.not-front aside.right-col div.region-right-col ul li a:hover {
+  text-decoration: none;
+  color: #e8fcf2;
+}
+/* line 224, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link a {
+  color: #ffffff;
   text-transform: uppercase;
   text-decoration: underline;
+}
+/* line 229, ../sass/theme-auxis-inner-pages.scss */
+.not-front aside.right-col div.region-right-col .more-link a:hover {
+  color: #e8fcf2;
 }
