@@ -4,6 +4,10 @@
 .not-front {
   background-color: $auxis-brand-gray-background;
 
+  h1 {
+    line-height: 1.2em;
+  }
+
   #content {
     display: block;
     height: 100%;
@@ -146,5 +150,46 @@
         }
       }
     }
+  }
+
+  .node-blog {
+    header {
+      margin-top: $space-box-normalize;
+      h2 {
+        line-height: 1.2em;
+        a {
+          text-decoration: none;
+        }
+      }
+      p {
+        margin-top: 5px;
+      }
+    }
+    p {
+      margin-top: $space-box-normalize;
+      margin-bottom: $space-box-normalize;
+    }
+    ul.links {
+      a {
+        text-decoration: underline;
+        text-transform: uppercase;
+        color: $auxis-brand-teal;
+      }
+      a:hover {
+        color: $auxis-brand-red;
+      }
+    }
+
+    .field-name-field-blog-category {
+      margin: $space-box-normalize 0 $space-box-normalize 0;
+      a {
+        display: inline-block;
+        margin-left: $space-box-normalize;
+        padding-top: $space-box-normalize;
+      }
+    }
+
+    padding-bottom: $space-box-normalize;
+    border-bottom: 1px dotted $auxis-brand-gray-background;
   }
 }
