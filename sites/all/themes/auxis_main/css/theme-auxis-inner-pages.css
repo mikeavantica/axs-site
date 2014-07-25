@@ -223,13 +223,17 @@
   text-decoration: none;
   color: #e8fcf2;
 }
-/* line 224, ../sass/theme-auxis-inner-pages.scss */
+/* line 223, ../sass/theme-auxis-inner-pages.scss */
+.not-front aside.right-col div.region-right-col .more-link {
+  margin-top: 15px;
+}
+/* line 225, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link a {
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: underline;
 }
-/* line 229, ../sass/theme-auxis-inner-pages.scss */
+/* line 230, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link a:hover {
   color: #e8fcf2;
 }
