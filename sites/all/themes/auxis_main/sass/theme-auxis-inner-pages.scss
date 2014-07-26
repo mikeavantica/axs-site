@@ -113,8 +113,8 @@
     padding: 0px;
     margin: 0px;
     li {
-      background-color: $auxis-brand-teal-light;
       padding-bottom: 10px;
+      border-bottom: 1px dotted $auxis-brand-gray-background;
       h3.title {
         background-color: transparent;
         margin: 0px;

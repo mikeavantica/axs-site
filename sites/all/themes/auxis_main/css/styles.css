@@ -2848,8 +2848,8 @@ body.not-front #content {
 }
 /* line 115, ../sass/theme-auxis-inner-pages.scss */
 .not-front ol.search-results li {
-  background-color: #e8fcf2;
   padding-bottom: 10px;
+  border-bottom: 1px dotted #848485;
 }
 /* line 118, ../sass/theme-auxis-inner-pages.scss */
 .not-front ol.search-results li h3.title {
