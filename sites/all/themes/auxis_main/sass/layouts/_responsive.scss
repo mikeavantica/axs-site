@@ -503,12 +503,12 @@ $zen-auto-include-item-base: false;
       padding: 0 0 5px 0;
 
 
-      .menu-level-2 > ul.menu > li {
+      .menu-block-wrapper > ul.menu > li {
         margin-bottom: 15px;
         margin-left: 3px;
       }
 
-      .menu-level-2 > ul.menu > li.first {
+      .menu-block-wrapper > ul.menu > li.first {
         margin-top: 20px;
       }
 

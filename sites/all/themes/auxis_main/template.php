@@ -237,3 +237,25 @@ function auxis_main_form_alter(&$form, &$form_state, $form_id) {
     }
 }
 
+/**
+ * Implementation of hook_views_pre_render()
+ * Breadcumbs Redefine
+ * @param view $view
+ */
+function auxis_main_views_pre_render(&$view) {
+
+    //dpm($view->name);
+    if ($view->name == "case_studies_details_view") {
+        //dpm($view->name);
+        $breadcrumb = array();
+        $breadcrumb[] = l(t('Home'), '<front>');
+        $breadcrumb[] = l(t('Case Studies'), 'case-studies');
+
+        //dpm(drupal_get_title());
+
+        // Set the breadcrumbs
+        drupal_set_breadcrumb($breadcrumb);
+    }
+
+    shuffle($view->result);
+}

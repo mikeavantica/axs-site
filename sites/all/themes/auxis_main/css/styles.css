@@ -1166,12 +1166,12 @@ table {
     padding: 0 0 5px 0;
   }
   /* line 506, ../sass/layouts/_responsive.scss */
-  body.not-front .left-col .menu-level-2 > ul.menu > li {
+  body.not-front .left-col .menu-block-wrapper > ul.menu > li {
     margin-bottom: 15px;
     margin-left: 3px;
   }
   /* line 511, ../sass/layouts/_responsive.scss */
-  body.not-front .left-col .menu-level-2 > ul.menu > li.first {
+  body.not-front .left-col .menu-block-wrapper > ul.menu > li.first {
     margin-top: 20px;
   }
   /* line 515, ../sass/layouts/_responsive.scss */
