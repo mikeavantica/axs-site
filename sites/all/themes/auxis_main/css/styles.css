@@ -2888,47 +2888,47 @@ body.not-front #content {
   width: 100%;
 }
 /* line 155, ../sass/theme-auxis-inner-pages.scss */
-.not-front .node-blog {
+.not-front .node-blog, .not-front .node-case-of-study {
   padding-bottom: 15px;
   border-bottom: 1px dotted #848485;
 }
 /* line 156, ../sass/theme-auxis-inner-pages.scss */
-.not-front .node-blog header {
+.not-front .node-blog header, .not-front .node-case-of-study header {
   margin-top: 15px;
 }
 /* line 158, ../sass/theme-auxis-inner-pages.scss */
-.not-front .node-blog header h2 {
+.not-front .node-blog header h2, .not-front .node-case-of-study header h2 {
   line-height: 1.2em;
 }
 /* line 160, ../sass/theme-auxis-inner-pages.scss */
-.not-front .node-blog header h2 a {
+.not-front .node-blog header h2 a, .not-front .node-case-of-study header h2 a {
   text-decoration: none;
 }
 /* line 164, ../sass/theme-auxis-inner-pages.scss */
-.not-front .node-blog header p {
+.not-front .node-blog header p, .not-front .node-case-of-study header p {
   margin-top: 5px;
 }
 /* line 168, ../sass/theme-auxis-inner-pages.scss */
-.not-front .node-blog p {
+.not-front .node-blog p, .not-front .node-case-of-study p {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 /* line 173, ../sass/theme-auxis-inner-pages.scss */
-.not-front .node-blog ul.links a {
+.not-front .node-blog ul.links a, .not-front .node-case-of-study ul.links a {
   text-decoration: underline;
   text-transform: uppercase;
   color: #0f9386;
 }
 /* line 178, ../sass/theme-auxis-inner-pages.scss */
-.not-front .node-blog ul.links a:hover {
+.not-front .node-blog ul.links a:hover, .not-front .node-case-of-study ul.links a:hover {
   color: #df004a;
 }
 /* line 183, ../sass/theme-auxis-inner-pages.scss */
-.not-front .node-blog .field-name-field-blog-category {
+.not-front .node-blog .field-name-field-blog-category, .not-front .node-case-of-study .field-name-field-blog-category {
   margin: 15px 0 15px 0;
 }
 /* line 185, ../sass/theme-auxis-inner-pages.scss */
-.not-front .node-blog .field-name-field-blog-category a {
+.not-front .node-blog .field-name-field-blog-category a, .not-front .node-case-of-study .field-name-field-blog-category a {
   display: inline-block;
   margin-left: 15px;
   padding-top: 15px;
