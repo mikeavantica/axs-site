@@ -214,8 +214,26 @@
     border-bottom: 1px dotted $auxis-brand-gray-background;
   }
 
+  .field-type-video-embed-field {
+    margin-top: $space-box-normalize;
+    iframe {
+      width: 580px;
+      height: 300px;
+    }
+  }
+
+  .region-content-tabs {
+    h2.block-title {
+      display: none;
+    }
+  }
+
   aside.right-col {
     div.region-right-col {
+
+      h2.block-title {
+        //display: none;
+      }
       h2 {
         color: #FFFFFF;
       }
@@ -239,6 +257,16 @@
             text-decoration: none;
             color: $auxis-brand-teal-light;
           }
+          .views-field-title {
+            margin-bottom: 10px;
+          }
+          .views-field-field-embedded-media {
+            margin-top: $space-box-normalize;
+            iframe {
+              width: 170px;
+              height: 180px;
+            }
+          }
         }
       }
       .more-link {
@@ -250,6 +278,33 @@
         }
         a:hover {
           color: $auxis-brand-teal-light;
+        }
+      }
+    }
+  }
+
+  .view-testimonials {
+    ul {
+      list-style: none;
+      padding: 0px;
+      li {
+        padding-bottom: $space-box-normalize;
+        margin-bottom: $space-box-normalize;
+        border-bottom: 1px dotted $auxis-brand-gray-background;
+        .views-field-field-job-desc {
+          color: $auxis-brand-teal;
+        }
+        .testimonial {
+          span {
+            display: inline-block;
+            padding-top: 5px;
+          }
+          div {
+            margin-top: $space-box-normalize;
+            margin-left: $space-box-normalize;
+            border-left: 2px solid $auxis-brand-teal;
+            padding-left: 5px;
+          }
         }
       }
     }

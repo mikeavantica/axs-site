@@ -221,18 +221,31 @@
   margin-left: 15px;
   padding-top: 15px;
 }
+/* line 217, ../sass/theme-auxis-inner-pages.scss */
+.not-front .field-type-video-embed-field {
+  margin-top: 15px;
+}
 /* line 219, ../sass/theme-auxis-inner-pages.scss */
+.not-front .field-type-video-embed-field iframe {
+  width: 580px;
+  height: 300px;
+}
+/* line 226, ../sass/theme-auxis-inner-pages.scss */
+.not-front .region-content-tabs h2.block-title {
+  display: none;
+}
+/* line 237, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col h2 {
   color: #FFFFFF;
 }
-/* line 223, ../sass/theme-auxis-inner-pages.scss */
+/* line 241, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul {
   margin: 0px;
   padding: 5px;
   background-color: #666668;
   font-size: 80%;
 }
-/* line 228, ../sass/theme-auxis-inner-pages.scss */
+/* line 246, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li {
   padding: 5px 0 5px 0;
   margin-top: 5px;
@@ -240,27 +253,67 @@
   border-bottom: 1px dotted #848485;
   color: #ffffff;
 }
-/* line 234, ../sass/theme-auxis-inner-pages.scss */
+/* line 252, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li a {
   display: inline;
   line-height: 1em;
 }
-/* line 238, ../sass/theme-auxis-inner-pages.scss */
+/* line 256, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li a:hover {
   text-decoration: none;
   color: #e8fcf2;
 }
-/* line 244, ../sass/theme-auxis-inner-pages.scss */
+/* line 260, ../sass/theme-auxis-inner-pages.scss */
+.not-front aside.right-col div.region-right-col ul li .views-field-title {
+  margin-bottom: 10px;
+}
+/* line 263, ../sass/theme-auxis-inner-pages.scss */
+.not-front aside.right-col div.region-right-col ul li .views-field-field-embedded-media {
+  margin-top: 15px;
+}
+/* line 265, ../sass/theme-auxis-inner-pages.scss */
+.not-front aside.right-col div.region-right-col ul li .views-field-field-embedded-media iframe {
+  width: 170px;
+  height: 180px;
+}
+/* line 272, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link {
   margin-top: 15px;
 }
-/* line 246, ../sass/theme-auxis-inner-pages.scss */
+/* line 274, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link a {
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: underline;
 }
-/* line 251, ../sass/theme-auxis-inner-pages.scss */
+/* line 279, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link a:hover {
   color: #e8fcf2;
+}
+/* line 287, ../sass/theme-auxis-inner-pages.scss */
+.not-front .view-testimonials ul {
+  list-style: none;
+  padding: 0px;
+}
+/* line 290, ../sass/theme-auxis-inner-pages.scss */
+.not-front .view-testimonials ul li {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #848485;
+}
+/* line 294, ../sass/theme-auxis-inner-pages.scss */
+.not-front .view-testimonials ul li .views-field-field-job-desc {
+  color: #0f9386;
+}
+/* line 298, ../sass/theme-auxis-inner-pages.scss */
+.not-front .view-testimonials ul li .testimonial span {
+  display: inline-block;
+  padding-top: 5px;
+}
+/* line 302, ../sass/theme-auxis-inner-pages.scss */
+.not-front .view-testimonials ul li .testimonial div {
+  margin-top: 15px;
+  margin-left: 15px;
+  border-left: 2px solid #0f9386;
+  padding-left: 5px;
 }
