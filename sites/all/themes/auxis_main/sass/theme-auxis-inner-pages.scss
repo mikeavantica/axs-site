@@ -165,6 +165,27 @@
         margin-top: 5px;
       }
     }
+    div.field-name-field-case-study-image {
+      float: left;
+      img {
+        margin-top: $space-box-normalize;
+        margin-right: $space-box-normalize;
+        border: 1px solid #000000;
+      }
+    }
+    div.field-name-body {
+      display: inline;
+      p {
+        display: block;
+      }
+    }
+    div.field-items {
+      display: inline;
+      h2 {
+        margin-top: 10px;
+        line-height: 1.2em;
+      }
+    }
     p {
       margin-top: $space-box-normalize;
       margin-bottom: $space-box-normalize;

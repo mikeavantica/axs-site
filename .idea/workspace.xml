@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme-auxis.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="theme-auxis.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="10" selection-start="540" selection-end="547" vertical-scroll-proportion="0.3326613" vertical-offset="315" max-vertical-offset="5130">
+            <state line="32" column="10" selection-start="540" selection-end="547" vertical-scroll-proportion="78.9" vertical-offset="4425" max-vertical-offset="5130">
               <folding />
             </state>
           </provider>
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme-auxis-inner-pages.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="theme-auxis-inner-pages.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="61" selection-start="1885" selection-end="1885" vertical-scroll-proportion="-4.8" vertical-offset="1500" max-vertical-offset="3255">
+            <state line="185" column="24" selection-start="3262" selection-end="3262" vertical-scroll-proportion="0.9395161" vertical-offset="1949" max-vertical-offset="3570">
               <folding>
                 <element signature="e#2102#2607#0" expanded="false" />
               </folding>
@@ -896,15 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="61" selection-start="1885" selection-end="1885" vertical-scroll-proportion="-4.8" vertical-offset="1500" max-vertical-offset="3255">
-          <folding>
-            <element signature="e#2102#2607#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/layouts/_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="323" column="14" selection-start="6739" selection-end="6746" vertical-scroll-proportion="-3.22" vertical-offset="4684" max-vertical-offset="9165">
@@ -914,8 +905,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="10" selection-start="540" selection-end="547" vertical-scroll-proportion="0.3326613" vertical-offset="315" max-vertical-offset="5130">
+        <state line="32" column="10" selection-start="540" selection-end="547" vertical-scroll-proportion="78.9" vertical-offset="4425" max-vertical-offset="5130">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="24" selection-start="3262" selection-end="3262" vertical-scroll-proportion="0.9395161" vertical-offset="1949" max-vertical-offset="3570">
+          <folding>
+            <element signature="e#2102#2607#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

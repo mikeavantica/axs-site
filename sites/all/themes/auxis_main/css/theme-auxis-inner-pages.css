@@ -170,42 +170,69 @@
   margin-top: 5px;
 }
 /* line 168, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-blog div.field-name-field-case-study-image, .not-front .node-case-of-study div.field-name-field-case-study-image {
+  float: left;
+}
+/* line 170, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-blog div.field-name-field-case-study-image img, .not-front .node-case-of-study div.field-name-field-case-study-image img {
+  margin-top: 15px;
+  margin-right: 15px;
+  border: 1px solid #000000;
+}
+/* line 176, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-blog div.field-name-body, .not-front .node-case-of-study div.field-name-body {
+  display: inline;
+}
+/* line 178, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-blog div.field-name-body p, .not-front .node-case-of-study div.field-name-body p {
+  display: block;
+}
+/* line 182, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-blog div.field-items, .not-front .node-case-of-study div.field-items {
+  display: inline;
+}
+/* line 184, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-blog div.field-items h2, .not-front .node-case-of-study div.field-items h2 {
+  margin-top: 10px;
+  line-height: 1.2em;
+}
+/* line 189, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-blog p, .not-front .node-case-of-study p {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-/* line 173, ../sass/theme-auxis-inner-pages.scss */
+/* line 194, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-blog ul.links a, .not-front .node-case-of-study ul.links a {
   text-decoration: underline;
   text-transform: uppercase;
   color: #0f9386;
 }
-/* line 178, ../sass/theme-auxis-inner-pages.scss */
+/* line 199, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-blog ul.links a:hover, .not-front .node-case-of-study ul.links a:hover {
   color: #df004a;
 }
-/* line 183, ../sass/theme-auxis-inner-pages.scss */
+/* line 204, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-blog .field-name-field-blog-category, .not-front .node-case-of-study .field-name-field-blog-category {
   margin: 15px 0 15px 0;
 }
-/* line 185, ../sass/theme-auxis-inner-pages.scss */
+/* line 206, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-blog .field-name-field-blog-category a, .not-front .node-case-of-study .field-name-field-blog-category a {
   display: inline-block;
   margin-left: 15px;
   padding-top: 15px;
 }
-/* line 198, ../sass/theme-auxis-inner-pages.scss */
+/* line 219, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col h2 {
   color: #FFFFFF;
 }
-/* line 202, ../sass/theme-auxis-inner-pages.scss */
+/* line 223, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul {
   margin: 0px;
   padding: 5px;
   background-color: #666668;
   font-size: 80%;
 }
-/* line 207, ../sass/theme-auxis-inner-pages.scss */
+/* line 228, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li {
   padding: 5px 0 5px 0;
   margin-top: 5px;
@@ -213,27 +240,27 @@
   border-bottom: 1px dotted #848485;
   color: #ffffff;
 }
-/* line 213, ../sass/theme-auxis-inner-pages.scss */
+/* line 234, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li a {
   display: inline;
   line-height: 1em;
 }
-/* line 217, ../sass/theme-auxis-inner-pages.scss */
+/* line 238, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li a:hover {
   text-decoration: none;
   color: #e8fcf2;
 }
-/* line 223, ../sass/theme-auxis-inner-pages.scss */
+/* line 244, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link {
   margin-top: 15px;
 }
-/* line 225, ../sass/theme-auxis-inner-pages.scss */
+/* line 246, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link a {
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: underline;
 }
-/* line 230, ../sass/theme-auxis-inner-pages.scss */
+/* line 251, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link a:hover {
   color: #e8fcf2;
 }
