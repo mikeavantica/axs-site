@@ -256,6 +256,4 @@ function auxis_main_views_pre_render(&$view) {
         // Set the breadcrumbs
         drupal_set_breadcrumb($breadcrumb);
     }
-
-    shuffle($view->result);
 }

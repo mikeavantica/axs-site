@@ -2118,7 +2118,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1405567786');
+  background-image: url('../images/progress.gif?1406703039');
 }
 
 /**
@@ -3055,4 +3055,30 @@ body.not-front #content {
   margin-left: 15px;
   border-left: 2px solid #0f9386;
   padding-left: 5px;
+}
+/* line 313, ../sass/theme-auxis-inner-pages.scss */
+.not-front .view-staff-members-view {
+  margin-top: 15px;
+}
+/* line 315, ../sass/theme-auxis-inner-pages.scss */
+.not-front .view-staff-members-view .views-field-field-profile-pic {
+  display: inline;
+}
+/* line 318, ../sass/theme-auxis-inner-pages.scss */
+.not-front .view-staff-members-view .views-field-title {
+  display: inline;
+}
+/* line 321, ../sass/theme-auxis-inner-pages.scss */
+.not-front .view-staff-members-view .views-field-field-job-desc {
+  display: inline;
+}
+/* line 327, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-staff-member {
+  margin-top: 15px;
+}
+/* line 329, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-staff-member img {
+  border: 1px solid #000000;
+  margin-right: 10px;
+  float: left;
 }
