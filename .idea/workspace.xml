@@ -1,118 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b00fcb22-224d-42fa-b5be-f8405c2b1b1b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/images/calendar.png" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/images/calendar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/images/ical16x16.gif" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/images/ical16x16.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/files/auxis_slider/slider-auxis-customer-service.png" afterPath="$PROJECT_DIR$/sites/all/files/auxis_slider/slider-auxis-customer-service.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/files/auxis_slider/sliders-auxis-grow-your-business_0.png" afterPath="$PROJECT_DIR$/sites/all/files/auxis_slider/sliders-auxis-grow-your-business_0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/files/auxis_slider/sliders-auxis-itaas_0.png" afterPath="$PROJECT_DIR$/sites/all/files/auxis_slider/sliders-auxis-itaas_0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/CHANGELOG.txt" afterPath="$PROJECT_DIR$/sites/all/modules/date/CHANGELOG.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/INSTALL.txt" afterPath="$PROJECT_DIR$/sites/all/modules/date/INSTALL.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/LICENSE.txt" afterPath="$PROJECT_DIR$/sites/all/modules/date/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/date/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_all_day/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_all_day/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/USHolidays.ics" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/USHolidays.ics" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/Yahoo.csv" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/Yahoo.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/_init.scss" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/_init.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date-rtl.css" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/theme/date-views-filter-form.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/theme/date-views-filter-form.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/theme/date-views-pager.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/theme/date-views-pager.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date.css" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.devel_generate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.devel_generate.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.diff.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.diff.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.field.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.field.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.install" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.js" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.migrate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.migrate.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/date.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/date.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.theme" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.theme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.tokens.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.tokens.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_admin.js" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_all_day/date_all_day.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_all_day/date_all_day.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_all_day/date_all_day.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_all_day/date_all_day.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.install" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/date_api.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/date_api.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api_elements.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api_elements.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api_ical.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api_ical.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api_sql.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api_sql.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_context/date_context.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_context/date_context.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_context/date_context.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_context/date_context.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_context/plugins/date_context_date_condition.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_context/plugins/date_context_date_condition.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_elements.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_elements.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/date_field.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/date_field.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/date_migrate.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/date_migrate.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.features.field.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.features.field.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.features.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.features.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.install" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.migrate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.migrate.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.xml" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_plugin_display_attachment.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_plugin_display_attachment.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.install" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.js" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat.install" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/tests/date_repeat.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/tests/date_repeat.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat_calc.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat_calc.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/date_repeat_field.css" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/date_repeat_field.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/date_repeat_field.devel_generate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/date_repeat_field.devel_generate.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/date_repeat_field.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/date_repeat_field.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/date_repeat_field.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/date_repeat_field.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat_form.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat_form.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/tests/date_repeat_form.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/tests/date_repeat_form.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/date_timezone.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/date_timezone.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_tools/date_tools.change_type.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_tools/date_tools.change_type.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_tools/date_tools.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_tools/date_tools.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_tools/date_tools.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_tools/date_tools.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_tools/tests/date_tools.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_tools/tests/date_tools.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_tools/date_tools.wizard.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_tools/date_tools.wizard.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/date_validation.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/date_validation.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/css/date_views.css" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/css/date_views.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/date_views.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/date_views.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/date_views.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/date_views.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views.views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_argument_handler.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_argument_handler.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_argument_handler_simple.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_argument_handler_simple.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_fields.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_fields.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_filter_handler.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_filter_handler.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_filter_handler_simple.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_filter_handler_simple.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_plugin_pager.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_plugin_pager.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_year_range.js" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_year_range.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/themes/datepicker.1.7.css" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/themes/datepicker.1.7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/themes/jquery.timeentry.css" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/themes/jquery.timeentry.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/jquery.timeentry.pack.js" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/jquery.timeentry.pack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/rrule.ics" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/rrule.ics" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/styles-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/styles-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/theme-auxis-accessible-megamenu.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/theme-auxis-accessible-megamenu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-accessible-megamenu.scss" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-accessible-megamenu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/theme-auxis-inner-pages.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/theme-auxis-inner-pages.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/theme-auxis.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/theme-auxis.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/theme/theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/theme/theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/theme/theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/theme/theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b00fcb22-224d-42fa-b5be-f8405c2b1b1b" name="Default" comment="" />
     <ignored path="axs-site.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -173,7 +62,7 @@
       <file leaf-file-name="_init.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/_init.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="34" selection-start="4795" selection-end="4795" vertical-scroll-proportion="0.66624206" vertical-offset="1262" max-vertical-offset="2265">
+            <state line="116" column="26" selection-start="4690" selection-end="4696" vertical-scroll-proportion="0.6089172" vertical-offset="1262" max-vertical-offset="2265">
               <folding />
             </state>
           </provider>
@@ -909,7 +798,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/_init.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="34" selection-start="4795" selection-end="4795" vertical-scroll-proportion="0.66624206" vertical-offset="1262" max-vertical-offset="2265">
+        <state line="116" column="26" selection-start="4690" selection-end="4696" vertical-scroll-proportion="0.6089172" vertical-offset="1262" max-vertical-offset="2265">
           <folding />
         </state>
       </provider>
