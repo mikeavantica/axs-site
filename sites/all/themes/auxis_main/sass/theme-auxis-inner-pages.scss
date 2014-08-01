@@ -24,13 +24,13 @@
     display: block;
     text-transform: uppercase;
     text-decoration: underline;
-    color: $auxis-brand-teal;
+    color: $auxis-brand-orange;
   }
 
   footer {
     color: #FFFFFF;
     font-family: $google-font-open-sans;
-    background-color: $auxis-brand-red;
+    background-color: $auxis-brand-blue;
     font-size: 90%;
     padding: 10px 0;
     //-webkit-font-smoothing: antialiased;
@@ -66,14 +66,15 @@
     a {
       font-size: 90%;
       text-decoration: none;
-      color: $auxis-brand-teal;
+      color: $auxis-brand-blue-dark;
     }
   }
 
   .title {
-    color: #ffffff;
-    background-color: $auxis-brand-teal;
+    color: $auxis-brand-blue;
+    //background-color: $auxis-brand-orange;
     padding: 10px;
+    border: 2px solid $auxis-brand-orange;
     //border-radius: 0 0 4px 4px;
   }
 
@@ -143,7 +144,7 @@
             display: none;
           }
           li.content {
-            background-color: $auxis-brand-teal-light;
+            background-color: $auxis-brand-orange-light;
             padding: 5px;
             width: 100%;
           }
@@ -194,10 +195,10 @@
       a {
         text-decoration: underline;
         text-transform: uppercase;
-        color: $auxis-brand-teal;
+        color: $auxis-brand-orange;
       }
       a:hover {
-        color: $auxis-brand-red;
+        color: $auxis-brand-blue;
       }
     }
 
@@ -255,7 +256,7 @@
           }
           a:hover {
             text-decoration: none;
-            color: $auxis-brand-teal-light;
+            color: $auxis-brand-orange-light;
           }
           .views-field-title {
             margin-bottom: 10px;
@@ -277,7 +278,7 @@
           text-decoration: underline;
         }
         a:hover {
-          color: $auxis-brand-teal-light;
+          color: $auxis-brand-orange-light;
         }
       }
     }
@@ -292,7 +293,7 @@
         margin-bottom: $space-box-normalize;
         border-bottom: 1px dotted $auxis-brand-gray-background;
         .views-field-field-job-desc {
-          color: $auxis-brand-teal;
+          color: $auxis-brand-orange;
         }
         .testimonial {
           span {
@@ -302,7 +303,7 @@
           div {
             margin-top: $space-box-normalize;
             margin-left: $space-box-normalize;
-            border-left: 2px solid $auxis-brand-teal;
+            border-left: 2px solid $auxis-brand-orange;
             padding-left: 5px;
           }
         }
@@ -312,15 +313,31 @@
 
   .view-staff-members-view {
     margin-top: $space-box-normalize;
-    .views-field-field-profile-pic {
-      display: inline;
-    }
-    .views-field-title{
-      display: inline;
-    }
-    .views-field-field-job-desc {
-      display: inline;
-      
+
+    ul {
+      margin-left: 0px;
+      padding-left: 0px;
+      list-style: none;
+      li {
+        display: inline-block;
+        width: 49%;
+        div.views-field-field-profile-pic {
+          float: left;
+          img {
+            border: 1px solid #000000;
+            margin-right: 10px;
+            float: left;
+          }
+        }
+        div.views-field-title, div.views-field-field-job-desc {
+          float: left;
+          width: 60%;
+        }
+
+        div.views-field-field-job-desc {
+          color: #000000;
+        }
+      }
     }
   }
 

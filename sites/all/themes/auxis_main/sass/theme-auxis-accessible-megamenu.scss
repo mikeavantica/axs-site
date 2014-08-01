@@ -52,8 +52,8 @@
   .nav-item > a.active-trail {
     color: #fcfcfc;
     //text-shadow: 1px 1px 1px #000000;
-    border-left: 2px solid #B70532;
-    //border-right: 2px solid $auxis-brand-red;
+    border-left: 2px solid $auxis-brand-blue-dark;
+    //border-right: 2px solid $auxis-brand-blue;
   }
 
   /* open state of first descendant link within a top level
@@ -61,7 +61,7 @@
   .nav-item > a.open,
   .nav-item > a:hover,
   .nav-item > a.active-trail{
-    @include background-image(linear-gradient(180deg, #B70532, $auxis-brand-red));
+    @include background-image(linear-gradient(180deg, $auxis-brand-blue-dark, $auxis-brand-blue));
     border-bottom: none;
     z-index: 1;
   }
@@ -75,9 +75,9 @@
     min-width: 150px;
     margin-top: -1px;
     padding: 1em;
-    border-left: 2px solid #B70532;
-    border-right: 2px solid #B70532;
-    border-bottom: 2px solid #B70532;
+    border-left: 2px solid $auxis-brand-blue-dark;
+    border-right: 2px solid $auxis-brand-blue-dark;
+    border-bottom: 2px solid $auxis-brand-blue-dark;
     border-radius: 0 0 4px 4px;
     @include background-image(linear-gradient(180deg, #f5f8fa, #e3e5e5));
     @include box-shadow(rgba(0, 0, 0, .5) 4px 4px 15px 1px);
@@ -131,7 +131,7 @@
 
   .sub-nav li a:hover {
     //text-decoration: underline;
-    color: $auxis-brand-red;
+    color: $auxis-brand-blue;
   }
 
   ul.sub-nav-group {
@@ -144,7 +144,7 @@
           font-size: 14px;
           line-height: 1.5em;
           margin-bottom: 10px;
-          color: $auxis-brand-teal;
+          color: $auxis-brand-blue-dark;
           text-transform: uppercase;
         }
       }
@@ -179,7 +179,7 @@
   .menu__item {
     .sub-nav {
       a.active {
-        color: $auxis-brand-red;
+        color: $auxis-brand-blue;
       }
     }
   }

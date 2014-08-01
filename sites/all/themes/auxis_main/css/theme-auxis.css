@@ -12,7 +12,7 @@ body p, body pre {
 
 /* line 15, ../sass/theme-auxis.scss */
 .header {
-  background-color: #df004a;
+  background-color: #154890;
   padding-left: 0px;
   padding-right: 0px;
   margin-bottom: 10px;
@@ -183,7 +183,7 @@ footer {
 }
 /* line 171, ../sass/theme-auxis.scss */
 #footer-content .form-control:focus {
-  border-color: #df004a;
+  border-color: #154890;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(223, 0, 74, 0.6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(223, 0, 74, 0.6);
 }
@@ -307,7 +307,7 @@ footer {
   padding: 1%;
   z-index: 0;
   bottom: 10%;
-  background-color: #0f9386;
+  background-color: #ff6600;
 }
 /* line 299, ../sass/theme-auxis.scss */
 .content-slider .carousel-caption h1 {
@@ -336,7 +336,7 @@ a {
 
 /* line 325, ../sass/theme-auxis.scss */
 a:hover {
-  color: #0f9386;
+  color: #ff6600;
 }
 
 /* line 330, ../sass/theme-auxis.scss */
