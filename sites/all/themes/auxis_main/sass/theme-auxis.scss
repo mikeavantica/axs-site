@@ -37,10 +37,13 @@ body {
     }
     a {
       color: $auxis-brand-gray-fonts;
-      font-weight: $auxis-font-weight-bold;
+      font-weight: bold;
     }
     p {
       margin: 0px;
+    }
+    a:last-child {
+      text-transform: uppercase;
     }
   }
 }
@@ -87,7 +90,7 @@ footer {
   }
 
   div.newsticker {
-    font-size: 85%;
+    font-size: 80%;
     ul {
       padding: 0px;
       margin: 0px;
@@ -95,7 +98,7 @@ footer {
       li {
         border-bottom: 1px dotted #ffffff;
         padding: 5px 0px;
-
+        margin-bottom: 5px;
         div.views-field-title {
           margin-bottom: 5px;
           span.field-content {
@@ -113,6 +116,17 @@ footer {
         div.field-content p {
           margin: 0px;
         }
+      }
+    }
+    div.more-events {
+      text-align:right;
+      a {
+        color: #000000;
+      }
+      a:hover {
+        color:#ffffff;
+        text-decoration: none;
+
       }
     }
   }

@@ -50,7 +50,7 @@ Drupal.behaviors.my_custom_behavior = {
           openClass: "open"
       });
 
-      jQuery('.newsticker').easyTicker({
+      /*jQuery('.newsticker').easyTicker({
           direction: 'up',
           easing: 'swing',
           speed: 'slow',
@@ -58,7 +58,7 @@ Drupal.behaviors.my_custom_behavior = {
           height: '115px',
           visible: 1,
           mousePause: 1
-      });
+      });*/
   }
 };
 
