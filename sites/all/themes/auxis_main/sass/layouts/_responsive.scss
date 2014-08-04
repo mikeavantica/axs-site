@@ -352,6 +352,10 @@ $zen-auto-include-item-base: false;
       }
       .feature {
         vertical-align: top;
+        a:first-child {
+          width: 172px;
+          padding: 0px;
+        }
         img {
           display: block;
           float: left;

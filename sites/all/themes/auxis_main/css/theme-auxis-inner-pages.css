@@ -375,6 +375,10 @@
   border: 1px solid #000000;
 }
 /* line 363, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-front-page-highlights .field-name-field-extra-file {
+  margin-top: 15px;
+}
+/* line 366, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-front-page-highlights p {
   margin: 0px;
 }
