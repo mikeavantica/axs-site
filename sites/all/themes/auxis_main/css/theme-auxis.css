@@ -50,7 +50,7 @@ body p, body pre {
   margin: 0px;
 }
 /* line 45, ../sass/theme-auxis.scss */
-.features .feature a:last-child {
+.features .feature a:last-child, .features .feature a.download-link {
   text-transform: uppercase;
 }
 
@@ -128,22 +128,23 @@ footer {
 }
 /* line 110, ../sass/theme-auxis.scss */
 .news-info div.newsticker ul li div.views-field-title span.field-content a:hover {
+  text-decoration: none;
   font-weight: 800;
   color: #47474A;
 }
-/* line 116, ../sass/theme-auxis.scss */
+/* line 117, ../sass/theme-auxis.scss */
 .news-info div.newsticker ul li div.field-content p {
   margin: 0px;
 }
-/* line 121, ../sass/theme-auxis.scss */
+/* line 122, ../sass/theme-auxis.scss */
 .news-info div.newsticker div.more-events {
   text-align: right;
 }
-/* line 123, ../sass/theme-auxis.scss */
+/* line 124, ../sass/theme-auxis.scss */
 .news-info div.newsticker div.more-events a {
-  color: #000000;
+  color: #47474A;
 }
-/* line 126, ../sass/theme-auxis.scss */
+/* line 127, ../sass/theme-auxis.scss */
 .news-info div.newsticker div.more-events a:hover {
   color: #ffffff;
   text-decoration: none;

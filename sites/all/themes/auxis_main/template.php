@@ -200,10 +200,11 @@ function auxis_main_menu_link__menu_block__3(array $variables)
     $sub_menu = '';
 
     $element['#attributes']['class'][] = 'level-' . $element['#original_link']['depth'];
-    if (
-
-    $element['#below']) {
+    if ($element['#below']) {
         $sub_menu = drupal_render($element['#below']);
+    }
+    if ($element['#title'] == 'BPO') {
+        $element['#title'] = "Business Process Outsourcing";
     }
     $output = l($element['#title'], $element['#href'], $element['#localized_options']);
     return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";

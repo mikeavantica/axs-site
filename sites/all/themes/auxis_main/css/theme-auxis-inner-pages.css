@@ -236,16 +236,18 @@
 }
 /* line 238, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col h2 {
+  text-transform: uppercase;
+  font-size: 100%;
   color: #FFFFFF;
 }
-/* line 242, ../sass/theme-auxis-inner-pages.scss */
+/* line 244, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul {
   margin: 0px;
   padding: 5px;
   background-color: #666668;
   font-size: 80%;
 }
-/* line 247, ../sass/theme-auxis-inner-pages.scss */
+/* line 249, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li {
   padding: 5px 0 5px 0;
   margin-top: 5px;
@@ -253,111 +255,125 @@
   border-bottom: 1px dotted #848485;
   color: #ffffff;
 }
-/* line 253, ../sass/theme-auxis-inner-pages.scss */
+/* line 255, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li a {
   display: inline;
   line-height: 1em;
 }
-/* line 257, ../sass/theme-auxis-inner-pages.scss */
+/* line 259, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li a:hover {
   text-decoration: none;
   color: #ffd1b4;
 }
-/* line 261, ../sass/theme-auxis-inner-pages.scss */
+/* line 263, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li .views-field-title {
   margin-bottom: 10px;
 }
-/* line 264, ../sass/theme-auxis-inner-pages.scss */
+/* line 266, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li .views-field-field-embedded-media {
   margin-top: 15px;
 }
-/* line 266, ../sass/theme-auxis-inner-pages.scss */
+/* line 268, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col ul li .views-field-field-embedded-media iframe {
   width: 170px;
   height: 180px;
 }
-/* line 273, ../sass/theme-auxis-inner-pages.scss */
+/* line 275, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link {
   margin-top: 15px;
 }
-/* line 275, ../sass/theme-auxis-inner-pages.scss */
+/* line 277, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link a {
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: underline;
 }
-/* line 280, ../sass/theme-auxis-inner-pages.scss */
+/* line 282, ../sass/theme-auxis-inner-pages.scss */
 .not-front aside.right-col div.region-right-col .more-link a:hover {
   color: #ffd1b4;
 }
-/* line 288, ../sass/theme-auxis-inner-pages.scss */
+/* line 290, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-testimonials ul {
   list-style: none;
   padding: 0px;
 }
-/* line 291, ../sass/theme-auxis-inner-pages.scss */
+/* line 293, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-testimonials ul li {
   padding-bottom: 15px;
   margin-bottom: 15px;
   border-bottom: 1px dotted #848485;
 }
-/* line 295, ../sass/theme-auxis-inner-pages.scss */
+/* line 297, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-testimonials ul li .views-field-field-job-desc {
   color: #ff6600;
 }
-/* line 299, ../sass/theme-auxis-inner-pages.scss */
+/* line 301, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-testimonials ul li .testimonial span {
   display: inline-block;
   padding-top: 5px;
 }
-/* line 303, ../sass/theme-auxis-inner-pages.scss */
+/* line 305, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-testimonials ul li .testimonial div {
   margin-top: 15px;
   margin-left: 15px;
   border-left: 2px solid #ff6600;
   padding-left: 5px;
 }
-/* line 314, ../sass/theme-auxis-inner-pages.scss */
+/* line 316, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-staff-members-view {
   margin-top: 15px;
 }
-/* line 317, ../sass/theme-auxis-inner-pages.scss */
+/* line 319, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-staff-members-view ul {
   margin-left: 0px;
   padding-left: 0px;
   list-style: none;
 }
-/* line 321, ../sass/theme-auxis-inner-pages.scss */
+/* line 323, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-staff-members-view ul li {
   display: inline-block;
   width: 49%;
 }
-/* line 324, ../sass/theme-auxis-inner-pages.scss */
+/* line 326, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-staff-members-view ul li div.views-field-field-profile-pic {
   float: left;
 }
-/* line 326, ../sass/theme-auxis-inner-pages.scss */
+/* line 328, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-staff-members-view ul li div.views-field-field-profile-pic img {
   border: 1px solid #000000;
   margin-right: 10px;
   float: left;
 }
-/* line 332, ../sass/theme-auxis-inner-pages.scss */
+/* line 334, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-staff-members-view ul li div.views-field-title, .not-front .view-staff-members-view ul li div.views-field-field-job-desc {
   float: left;
   width: 60%;
 }
-/* line 337, ../sass/theme-auxis-inner-pages.scss */
+/* line 339, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-staff-members-view ul li div.views-field-field-job-desc {
   color: #000000;
 }
-/* line 344, ../sass/theme-auxis-inner-pages.scss */
+/* line 346, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-staff-member {
   margin-top: 15px;
 }
-/* line 346, ../sass/theme-auxis-inner-pages.scss */
+/* line 348, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-staff-member img {
   border: 1px solid #000000;
   margin-right: 10px;
   float: left;
+}
+/* line 355, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-front-page-highlights {
+  margin-top: 15px;
+}
+/* line 357, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-front-page-highlights .field-name-field-highlight-image {
+  float: left;
+  margin-right: 15px;
+  border: 1px solid #000000;
+}
+/* line 362, ../sass/theme-auxis-inner-pages.scss */
+.not-front .node-front-page-highlights p {
+  margin: 0px;
 }

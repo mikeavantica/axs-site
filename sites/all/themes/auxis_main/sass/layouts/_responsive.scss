@@ -367,6 +367,9 @@ $zen-auto-include-item-base: false;
         a:hover {
           color: $auxis-brand-orange;
         }
+        a:last-child {
+          float: none;
+        }
         p {
           float: left;
           margin: 0px;
