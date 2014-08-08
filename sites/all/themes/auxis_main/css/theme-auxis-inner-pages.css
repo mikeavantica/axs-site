@@ -382,3 +382,7 @@
 .not-front .node-front-page-highlights p {
   margin: 0px;
 }
+/* line 372, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.block-locationmap a {
+  margin-left: 15%;
+}

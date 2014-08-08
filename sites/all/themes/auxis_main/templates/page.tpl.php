@@ -55,7 +55,6 @@
 
         <div id="content" class="dkp main-content column" role="main">
             <div class="article">
-                <?php print render($page['highlighted']); ?>
                 <?php print $breadcrumb; ?>
                 <?php print render($title_prefix); ?>
                 <?php if ($title): ?>
@@ -68,6 +67,7 @@
                 <?php if ($action_links): ?>
                     <ul class="action-links"><?php print render($action_links); ?></ul>
                 <?php endif; ?>
+                <?php print render($page['highlighted']); ?>
                 <?php print render($page['content']); ?>
                 <?php print render($page['content_tabs']); ?>
                 <?php print $feed_icons; ?>

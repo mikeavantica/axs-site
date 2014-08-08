@@ -367,4 +367,13 @@
       margin:0px;
     }
   }
+
+  div.block-locationmap {
+    a {
+      margin-left: 15%;
+      img {
+        border: 1px solid $auxis-brand-blue-dark;
+      }
+    }
+  }
 }

@@ -3152,3 +3152,11 @@ body.not-front #content {
 .not-front .node-front-page-highlights p {
   margin: 0px;
 }
+/* line 372, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.block-locationmap a {
+  margin-left: 15%;
+}
+/* line 374, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.block-locationmap a img {
+  border: 1px solid #06295a;
+}
