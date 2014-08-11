@@ -376,4 +376,20 @@
       }
     }
   }
+
+  div.view-whitepapers {
+    ul {
+      margin: $space-box-normalize 0 0 0;
+      padding: 0px;
+      list-style: none;
+      li {
+        margin-bottom: $space-box-normalize;
+        padding-bottom: $space-box-normalize;
+        border-bottom: 1px dotted $auxis-brand-gray-background;
+        span.date-display-single {
+          color: $auxis-brand-blue-dark;
+        }
+      }
+    }
+  }
 }

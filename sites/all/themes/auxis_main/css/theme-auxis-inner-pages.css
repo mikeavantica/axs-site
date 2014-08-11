@@ -386,3 +386,23 @@
 .not-front div.block-locationmap a {
   margin-left: 15%;
 }
+/* line 374, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.block-locationmap a img {
+  border: 1px solid #06295a;
+}
+/* line 381, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.view-whitepapers ul {
+  margin: 15px 0 0 0;
+  padding: 0px;
+  list-style: none;
+}
+/* line 385, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.view-whitepapers ul li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #848485;
+}
+/* line 389, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.view-whitepapers ul li span.date-display-single {
+  color: #06295a;
+}
