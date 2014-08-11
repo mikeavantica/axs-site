@@ -97,10 +97,10 @@ footer {
       list-style: none;
       li {
         border-bottom: 1px dotted #ffffff;
-        padding: 5px 0px;
-        margin-bottom: 5px;
+        padding: 3px 0px;
+        line-height: 14px;
         div.views-field-title {
-          margin-bottom: 5px;
+          margin-bottom: 1px;
           span.field-content {
             a {
               color: #ffffff;
@@ -122,10 +122,10 @@ footer {
     div.more-events {
       text-align:right;
       a {
-        color: #47474A;
+        color: #ffffff;
       }
       a:hover {
-        color:#ffffff;
+        color: $auxis-brand-blue-dark;
         text-decoration: none;
       }
     }
@@ -134,9 +134,11 @@ footer {
 
 .news-clients {
   border: 2px solid $auxis-brand-gray-background;
+  overflow: hidden;
 
   h2.block-title {
-    display: none;
+    font-size: 10px;
+    line-height: 15px;
   }
 
   .carousel-inner {
@@ -258,13 +260,6 @@ footer {
 
 .content-news {
   margin-bottom: 1.5em;
-}
-
-.content-slider {
-
-  .block-title {
-    display: none;
-  }
 
   .carousel.c-fade .item {
     -webkit-transition: opacity 1s ease-in-out;
@@ -290,6 +285,13 @@ footer {
 
   .carousel.c-fade .carousel-control {
     z-index: 3;
+  }
+}
+
+.content-slider {
+
+  .block-title {
+    display: none;
   }
 
   .carousel-control {

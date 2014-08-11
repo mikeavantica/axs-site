@@ -260,13 +260,13 @@ ul {
   }
   /* line 280, ../sass/layouts/_responsive.scss */
   #content .content-news .news-info {
-    margin-bottom: 15px;
-    height: 121px;
+    margin-bottom: 5px;
+    height: 151px;
   }
   /* line 285, ../sass/layouts/_responsive.scss */
   #content .content-news .dkp.news-clients {
     text-align: center;
-    height: 115px;
+    height: 95px;
   }
   /* line 289, ../sass/layouts/_responsive.scss */
   #content .content-news .dkp.news-clients .region-content-slider-client {
