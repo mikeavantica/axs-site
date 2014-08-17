@@ -330,6 +330,8 @@
             border: 1px solid #000000;
             margin-right: 10px;
             float: left;
+            width: 86px;
+            height: auto;
           }
         }
         div.views-field-title, div.views-field-field-job-desc {
@@ -350,6 +352,8 @@
       border: 1px solid #000000;
       margin-right: 10px;
       float: left;
+      width: 86px;
+      height: auto;
     }
   }
 
@@ -390,6 +394,29 @@
           color: $auxis-brand-blue-dark;
         }
       }
+
+      div.field-name-field-whitepaper {
+        float: left;
+        margin-right: $space-box-normalize;
+      }
+      div.field-item {
+        display: inline;
+        img {
+          border: 1px solid $auxis-brand-gray-background;
+          width: 234px;
+        }
+      }
+
     }
   }
+
+  .nav-tabs {
+    border-bottom: 1px solid $auxis-brand-orange;
+  }
+
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: 1px solid $auxis-brand-orange;
+    border-bottom-color: transparent;
+  }
+
 }

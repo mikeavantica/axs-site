@@ -100,13 +100,15 @@
     </div>
 
     <footer id="footer" class="internal-footer">
-        <?php if ($page['footer_internal_menu']): ?>
-            <div class="footer-internal-menu">
-                <?php print render($page['footer_internal_menu']); ?>
-            </div> <!-- /.Sliding Menu Mobile -->
-        <?php endif; ?>
-        <div class="copy">
-            Copyright © <?php echo date("Y"); ?> | Auxis Inc. All Right Reserved.
+        <div class="internal-footer-content">
+            <?php if ($page['footer_internal_menu']): ?>
+                <div class="footer-internal-menu">
+                    <?php print render($page['footer_internal_menu']); ?>
+                </div> <!-- /.Sliding Menu Mobile -->
+            <?php endif; ?>
+            <div class="copy">
+                Copyright © <?php echo date("Y"); ?> | Auxis Inc. All Right Reserved.
+            </div>
         </div>
     </footer>
 </div>

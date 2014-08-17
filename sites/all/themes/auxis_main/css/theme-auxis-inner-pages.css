@@ -344,65 +344,92 @@
   border: 1px solid #000000;
   margin-right: 10px;
   float: left;
+  width: 86px;
+  height: auto;
 }
-/* line 335, ../sass/theme-auxis-inner-pages.scss */
+/* line 337, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-staff-members-view ul li div.views-field-title, .not-front .view-staff-members-view ul li div.views-field-field-job-desc {
   float: left;
   width: 60%;
 }
-/* line 340, ../sass/theme-auxis-inner-pages.scss */
+/* line 342, ../sass/theme-auxis-inner-pages.scss */
 .not-front .view-staff-members-view ul li div.views-field-field-job-desc {
   color: #000000;
 }
-/* line 347, ../sass/theme-auxis-inner-pages.scss */
+/* line 349, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-staff-member {
   margin-top: 15px;
 }
-/* line 349, ../sass/theme-auxis-inner-pages.scss */
+/* line 351, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-staff-member img {
   border: 1px solid #000000;
   margin-right: 10px;
   float: left;
+  width: 86px;
+  height: auto;
 }
-/* line 356, ../sass/theme-auxis-inner-pages.scss */
+/* line 360, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-front-page-highlights {
   margin-top: 15px;
 }
-/* line 358, ../sass/theme-auxis-inner-pages.scss */
+/* line 362, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-front-page-highlights .field-name-field-highlight-image {
   float: left;
   margin-right: 15px;
   border: 1px solid #000000;
 }
-/* line 363, ../sass/theme-auxis-inner-pages.scss */
+/* line 367, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-front-page-highlights .field-name-field-extra-file {
   margin-top: 15px;
 }
-/* line 366, ../sass/theme-auxis-inner-pages.scss */
+/* line 370, ../sass/theme-auxis-inner-pages.scss */
 .not-front .node-front-page-highlights p {
   margin: 0px;
 }
-/* line 372, ../sass/theme-auxis-inner-pages.scss */
+/* line 376, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.block-locationmap a {
   margin-left: 15%;
 }
-/* line 374, ../sass/theme-auxis-inner-pages.scss */
+/* line 378, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.block-locationmap a img {
   border: 1px solid #06295a;
 }
-/* line 381, ../sass/theme-auxis-inner-pages.scss */
+/* line 385, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.view-whitepapers ul {
   margin: 15px 0 0 0;
   padding: 0px;
   list-style: none;
 }
-/* line 385, ../sass/theme-auxis-inner-pages.scss */
+/* line 389, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.view-whitepapers ul li {
   margin-bottom: 15px;
   padding-bottom: 15px;
   border-bottom: 1px dotted #848485;
 }
-/* line 389, ../sass/theme-auxis-inner-pages.scss */
+/* line 393, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.view-whitepapers ul li span.date-display-single {
   color: #06295a;
+}
+/* line 398, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.view-whitepapers ul div.field-name-field-whitepaper {
+  float: left;
+  margin-right: 15px;
+}
+/* line 402, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.view-whitepapers ul div.field-item {
+  display: inline;
+}
+/* line 404, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.view-whitepapers ul div.field-item img {
+  border: 1px solid #848485;
+  width: 234px;
+}
+/* line 413, ../sass/theme-auxis-inner-pages.scss */
+.not-front .nav-tabs {
+  border-bottom: 1px solid #ff6600;
+}
+/* line 417, ../sass/theme-auxis-inner-pages.scss */
+.not-front .nav-tabs > li.active > a, .not-front .nav-tabs > li.active > a:hover, .not-front .nav-tabs > li.active > a:focus {
+  border: 1px solid #ff6600;
+  border-bottom-color: transparent;
 }
