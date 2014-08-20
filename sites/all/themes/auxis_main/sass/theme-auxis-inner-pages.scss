@@ -410,13 +410,32 @@
     }
   }
 
-  .nav-tabs {
-    border-bottom: 1px solid $auxis-brand-orange;
-  }
+  .views-bootstrap-tab-plugin-style {
+    .nav-tabs > li {
+      margin-bottom: -2px;
+    }
+    .nav-tabs {
+      border-bottom: 2px solid $auxis-brand-orange;
+    }
 
-  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    border: 1px solid $auxis-brand-orange;
-    border-bottom-color: transparent;
-  }
+    .nav-tabs > li > a {
+      border: 0px;
+    }
 
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+      border: 2px solid $auxis-brand-orange;
+      border-bottom: 0px;
+    }
+
+    div.tab-content {
+      border-left: 2px solid $auxis-brand-orange;
+      border-right: 2px solid $auxis-brand-orange;
+      border-bottom: 2px solid $auxis-brand-orange;
+      border-radius: 0 0 8px 8px;
+      padding: $space-box-normalize;
+      .field-content > p:first-child {
+        margin-top: 0px;
+      }
+    }
+  }
 }
