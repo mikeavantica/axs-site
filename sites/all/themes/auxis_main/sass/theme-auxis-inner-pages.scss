@@ -420,12 +420,26 @@
 
     .nav-tabs > li > a {
       border: 0px;
+      text-decoration: none;
+      background-color: $auxis-brand-orange;
+      color: #FFFFFF;
+      border-radius: 8px 8px 0 0;
     }
 
-    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
       border: 2px solid $auxis-brand-orange;
       border-bottom: 0px;
-      border-radius: 8px 8px 0 0;
+      color: #000000;
+      background-color: #FFFFFF;
+    }
+
+    .nav-tabs > li.active > a:hover {
+      background-color: #FFFFFF;
+    }
+
+    .nav-tabs > li > a:hover {
+      background-color: #eee;
+      color: #000000;
     }
 
     div.tab-content {
