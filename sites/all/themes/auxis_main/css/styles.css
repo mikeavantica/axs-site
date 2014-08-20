@@ -3227,8 +3227,9 @@ body.not-front #content {
 .not-front .views-bootstrap-tab-plugin-style .nav-tabs > li.active > a, .not-front .views-bootstrap-tab-plugin-style .nav-tabs > li.active > a:hover, .not-front .views-bootstrap-tab-plugin-style .nav-tabs > li.active > a:focus {
   border: 2px solid #ff6600;
   border-bottom: 0px;
+  border-radius: 8px 8px 0 0;
 }
-/* line 430, ../sass/theme-auxis-inner-pages.scss */
+/* line 431, ../sass/theme-auxis-inner-pages.scss */
 .not-front .views-bootstrap-tab-plugin-style div.tab-content {
   border-left: 2px solid #ff6600;
   border-right: 2px solid #ff6600;
@@ -3236,7 +3237,7 @@ body.not-front #content {
   border-radius: 0 0 8px 8px;
   padding: 15px;
 }
-/* line 436, ../sass/theme-auxis-inner-pages.scss */
+/* line 437, ../sass/theme-auxis-inner-pages.scss */
 .not-front .views-bootstrap-tab-plugin-style div.tab-content .field-content > p:first-child {
   margin-top: 0px;
 }
