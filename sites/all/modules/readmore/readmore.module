@@ -46,6 +46,7 @@ function readmore_theme() {
  *   Return truncated string.
  */
 function readmore_truncate_string($text, $format = NULL, $size = NULL, $wordsafe = FALSE, $use_break = TRUE) {
+
   if (!isset($size)) {
     // If size is not set then use default.
     $size = 500;
@@ -56,6 +57,7 @@ function readmore_truncate_string($text, $format = NULL, $size = NULL, $wordsafe
     $delimiter = strpos($text, '<!--break-->');
 
     if ($delimiter) {
+      $text = str_replace("<!--break-->","", $text);
       // Set new size.
       $size = $delimiter;
     }
