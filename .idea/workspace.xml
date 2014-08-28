@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b00fcb22-224d-42fa-b5be-f8405c2b1b1b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/checklistapi/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/checklistapi/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/checklistapi/checklistapi.info" afterPath="$PROJECT_DIR$/sites/all/modules/checklistapi/checklistapi.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/checklistapi/checklistapi.js" afterPath="$PROJECT_DIR$/sites/all/modules/checklistapi/checklistapi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/checklistapi/tests/checklistapi.test" afterPath="$PROJECT_DIR$/sites/all/modules/checklistapi/tests/checklistapi.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/checklistapi/checklistapi_example/checklistapi_example.info" afterPath="$PROJECT_DIR$/sites/all/modules/checklistapi/checklistapi_example/checklistapi_example.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/checklistapi/checklistapi_example/checklistapi_example.module" afterPath="$PROJECT_DIR$/sites/all/modules/checklistapi/checklistapi_example/checklistapi_example.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/checklistapi/tests/modules/checklistapi_test/checklistapi_test.info" afterPath="$PROJECT_DIR$/sites/all/modules/checklistapi/tests/modules/checklistapi_test/checklistapi_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/social_media_links/social_media_links.css" afterPath="$PROJECT_DIR$/sites/all/modules/social_media_links/social_media_links.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/social_media_links/social_media_links.info" afterPath="$PROJECT_DIR$/sites/all/modules/social_media_links/social_media_links.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/social_media_links/social_media_links.module" afterPath="$PROJECT_DIR$/sites/all/modules/social_media_links/social_media_links.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/theme-auxis-inner-pages.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/theme-auxis-inner-pages.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss" />
@@ -31,7 +41,7 @@
       <file leaf-file-name="theme-auxis.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="352" column="1" selection-start="5906" selection-end="5906" vertical-scroll-proportion="-10.551021" vertical-offset="4763" max-vertical-offset="5370">
+            <state line="352" column="1" selection-start="5906" selection-end="5906" vertical-scroll-proportion="0.0" vertical-offset="4763" max-vertical-offset="5370">
               <folding />
             </state>
           </provider>
@@ -58,10 +68,8 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="8" selection-start="4011" selection-end="4011" vertical-scroll-proportion="-22.875" vertical-offset="516" max-vertical-offset="1230">
-              <folding>
-                <element signature="tag#div#0;tag#header#0;tag#div#0" expanded="false" />
-              </folding>
+            <state line="111" column="8" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="1830">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,7 +77,7 @@
       <file leaf-file-name="page--front.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page--front.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="43" selection-start="2750" selection-end="2750" vertical-scroll-proportion="-14.5" vertical-offset="732" max-vertical-offset="1365">
+            <state line="78" column="43" selection-start="2750" selection-end="2750" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
@@ -78,7 +86,7 @@
       <file leaf-file-name="theme-auxis-inner-pages.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="436" column="0" selection-start="8792" selection-end="8792" vertical-scroll-proportion="0.6655232" vertical-offset="6152" max-vertical-offset="6915">
+            <state line="399" column="0" selection-start="7951" selection-end="7951" vertical-scroll-proportion="0.49462366" vertical-offset="5709" max-vertical-offset="7095">
               <folding />
             </state>
           </provider>
@@ -96,7 +104,7 @@
       <file leaf-file-name="_responsive.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/layouts/_responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="455" column="24" selection-start="9293" selection-end="9293" vertical-scroll-proportion="-6.7755103" vertical-offset="6493" max-vertical-offset="9495">
+            <state line="455" column="24" selection-start="9293" selection-end="9293" vertical-scroll-proportion="0.0" vertical-offset="6493" max-vertical-offset="9495">
               <folding />
             </state>
           </provider>
@@ -256,7 +264,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -363,71 +370,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="axs-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="axs-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auxis_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="axs-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="axs-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auxis_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,6 +394,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,7 +473,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2819063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28594506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -538,11 +482,11 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="600" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44752476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -766,9 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-accessible-megamenu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="39" selection-start="3261" selection-end="3261" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="2880">
-          <folding />
-        </state>
+        <state line="146" column="39" selection-start="3261" selection-end="3261" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="2880" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/template.php">
@@ -792,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/views-view-fields--upcoming-auxis-events-page--page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="37" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/views-bootstrap-carousel-plugin-style--slider-client-view--block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="91" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
@@ -808,44 +743,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.098684214" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.098684214" vertical-offset="0" max-vertical-offset="608" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page--front.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="43" selection-start="2750" selection-end="2750" vertical-scroll-proportion="-14.5" vertical-offset="732" max-vertical-offset="1365">
+        <state line="78" column="43" selection-start="2750" selection-end="2750" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1455">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="8" selection-start="4011" selection-end="4011" vertical-scroll-proportion="-22.875" vertical-offset="516" max-vertical-offset="1230">
-          <folding>
-            <element signature="tag#div#0;tag#header#0;tag#div#0" expanded="false" />
-          </folding>
+        <state line="111" column="8" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="1830">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/layouts/_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="455" column="24" selection-start="9293" selection-end="9293" vertical-scroll-proportion="-6.7755103" vertical-offset="6493" max-vertical-offset="9495">
+        <state line="455" column="24" selection-start="9293" selection-end="9293" vertical-scroll-proportion="0.0" vertical-offset="6493" max-vertical-offset="9495">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="352" column="1" selection-start="5906" selection-end="5906" vertical-scroll-proportion="-10.551021" vertical-offset="4763" max-vertical-offset="5370">
+        <state line="352" column="1" selection-start="5906" selection-end="5906" vertical-scroll-proportion="0.0" vertical-offset="4763" max-vertical-offset="5370">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/views-view-fields--upcoming-auxis-events-page--page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="37" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="436" column="0" selection-start="8792" selection-end="8792" vertical-scroll-proportion="0.6655232" vertical-offset="6152" max-vertical-offset="6915">
+        <state line="399" column="0" selection-start="7951" selection-end="7951" vertical-scroll-proportion="0.49462366" vertical-offset="5709" max-vertical-offset="7095">
           <folding />
         </state>
       </provider>

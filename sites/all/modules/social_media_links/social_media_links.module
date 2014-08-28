@@ -4,9 +4,6 @@
  * Functions for the Social Media Links module.
  */
 
-include_once 'social_media_links.platforms.inc';
-include_once 'social_media_links.iconsets.inc';
-
 /**
  * Implements hook_theme().
  */
@@ -17,8 +14,10 @@ function social_media_links_theme($existing, $type, $theme, $path) {
     ),
     'social_media_links_platforms' => array(
       'variables' => array(
-        'platforms' => array(),
+        'platform_values' => array(),
+        'icon_style' => array(),
         'appearance' => array(),
+        'link_attributes' => array(),
         'attributes' => array(),
       ),
     ),
@@ -33,6 +32,16 @@ function social_media_links_theme($existing, $type, $theme, $path) {
       ),
     ),
   );
+}
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function social_media_links_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'ctools' && $plugin == 'content_types') {
+    return 'plugins/' . $plugin;
+  }
+  return FALSE;
 }
 
 /**
@@ -54,195 +63,208 @@ function social_media_links_block_info() {
  */
 function social_media_links_block_configure($delta = '') {
   if ($delta === 'social-media-links') {
-    $form = array();
-
-    // Platforms.
-    $form['platforms'] = array(
-      '#type' => 'fieldset',
-      '#title' => t('Platforms'),
-      '#collapsible' => TRUE,
-      '#collapsed' => FALSE,
-      '#tree' => TRUE,
-      '#theme' => 'social_media_links_platforms_table',
+    $values = array(
+      'platforms' => variable_get('social_media_links_platforms', array()),
+      'appearance' => variable_get('social_media_links_appearance', array()),
+      'icon_style' => variable_get('social_media_links_icon_style', ''),
+      'link_attributes' => variable_get('social_media_links_link_attributes', array()),
     );
 
-    $platform_values = variable_get('social_media_links_platforms', array());
-    $platforms = social_media_links_platforms();
+    $form = social_media_links_form($values);
 
-    if (!empty($platform_values)) {
-      // Combine the platforms with the weight value for sorting.
-      foreach ($platforms as $key => $value) {
-        if (isset($platform_values[$key]['weight'])) {
-          $platforms[$key]['weight'] = $platform_values[$key]['weight'];
-        }
-      }
+    return $form;
+  }
+}
 
-      uasort($platforms, 'drupal_sort_weight');
-    }
+function social_media_links_form($values) {
+  $form = array();
 
-    $i = -10;
+  // Platforms.
+  $form['platforms'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Platforms'),
+    '#collapsible' => TRUE,
+    '#collapsed' => FALSE,
+    '#tree' => TRUE,
+    '#theme' => 'social_media_links_platforms_table',
+  );
+
+  $platform_values = isset($values['platforms']) ? $values['platforms'] : array();
+  $platforms = social_media_links_platforms();
+
+  if (!empty($platform_values)) {
+    // Combine the platforms with the weight value for sorting.
     foreach ($platforms as $key => $value) {
-      $form['platforms'][$key] = array(
-        'platform_value' => array(
-          '#type' => 'textfield',
-          '#title' => $value['title'],
-          '#title_display' => 'invisible',
-          '#size' => 40,
-          '#field_prefix' => $value['base url'],
-          '#default_value' => isset($platform_values[$key]['platform_value']) ? $platform_values[$key]['platform_value'] : '',
-        ),
-        'weight' => array(
-          '#type' => 'weight',
-          '#title' => t('Weight'),
-          '#title_display' => 'invisible',
-          '#delta' => 10,
-          '#default_value' => isset($platform_values[$key]['weight']) ? $platform_values[$key]['weight'] : $i + 1,
-          '#attributes' => array('class' => 'weight'),
-        ),
-      );
-      $i++;
+      if (isset($platform_values[$key]['weight'])) {
+        $platforms[$key]['weight'] = $platform_values[$key]['weight'];
+      }
     }
 
-    // Appearance.
-    $form['appearance'] = array(
-      '#type' => 'fieldset',
-      '#title' => t('Appearance'),
-      '#collapsible' => TRUE,
-      '#collapsed' => TRUE,
-      '#tree' => TRUE,
-    );
-    $appearance_values = variable_get('social_media_links_appearance', array());
-    $form['appearance']['orientation'] = array(
-      '#type' => 'select',
-      '#title' => t('Orientation'),
-      '#default_value' => isset($appearance_values['orientation']) ? $appearance_values['orientation'] : 'h',
-      '#options' => array(
-        'v' => t('vertical'),
-        'h' => t('horizontal'),
+    uasort($platforms, 'drupal_sort_weight');
+  }
+
+  $i = -10;
+  foreach ($platforms as $key => $value) {
+    $form['platforms'][$key] = array(
+      'platform_value' => array(
+        '#type' => 'textfield',
+        '#title' => $value['title'],
+        '#title_display' => 'invisible',
+        '#size' => 40,
+        '#field_prefix' => $value['base url'],
+        '#default_value' => isset($platform_values[$key]['platform_value']) ? $platform_values[$key]['platform_value'] : '',
+      ),
+      'weight' => array(
+        '#type' => 'weight',
+        '#title' => t('Weight'),
+        '#title_display' => 'invisible',
+        '#delta' => 10,
+        '#default_value' => isset($platform_values[$key]['weight']) ? $platform_values[$key]['weight'] : $i + 1,
+        '#attributes' => array('class' => 'weight'),
       ),
     );
-    $form['appearance']['show_name'] = array(
-      '#type' => 'checkbox',
-      '#title' => t('Show name'),
-      '#description' => t('Show the platform name next to the icon.'),
-      '#default_value' => isset($appearance_values['show_name']) ? $appearance_values['show_name'] : 0,
-    );
+    $i++;
+  }
 
-    // Link Attributes.
-    $form['link_attributes'] = array(
-      '#type' => 'fieldset',
-      '#title' => t('Link attributes'),
-      '#collapsible' => TRUE,
-      '#collapsed' => TRUE,
-      '#tree' => TRUE,
-    );
-    $link_values = variable_get('social_media_links_link_attributes', array());
-    $form['link_attributes']['target'] = array(
-      '#type' => 'select',
-      '#title' => t('Default target'),
-      '#default_value' => isset($link_values['target']) ? $link_values['target'] : '<none>',
-      '#options' => array(
-        '<none>' => t('Remove target attribute'),
-        '_blank' => t('Open in a new browser window or tab (_blank)'),
-        '_self' => t('Open in the current window (_self)'),
-        '_parent' => t('Open in the frame that is superior to the frame the link is in (_parent)'),
-        '_top' => t('Cancel all frames and open in full browser window (_top)'),
-      ),
-    );
-    $form['link_attributes']['rel'] = array(
-      '#type' => 'select',
-      '#title' => t('Default rel'),
-      '#default_value' => isset($link_values['rel']) ? $link_values['rel'] : '<none>',
-      '#options' => array(
-        '<none>' => t('Remove rel attribute'),
-        'nofollow' => t('Set nofollow'),
-      ),
-    );
+  // Appearance.
+  $form['appearance'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Appearance'),
+    '#collapsible' => TRUE,
+    '#collapsed' => TRUE,
+    '#tree' => TRUE,
+  );
+  $appearance_values = isset($values['appearance']) ? $values['appearance'] : array();
+  $form['appearance']['orientation'] = array(
+    '#type' => 'select',
+    '#title' => t('Orientation'),
+    '#default_value' => isset($appearance_values['orientation']) ? $appearance_values['orientation'] : 'h',
+    '#options' => array(
+      'v' => t('vertical'),
+      'h' => t('horizontal'),
+    ),
+  );
+  $form['appearance']['show_name'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Show name'),
+    '#description' => t('Show the platform name next to the icon.'),
+    '#default_value' => isset($appearance_values['show_name']) ? $appearance_values['show_name'] : 0,
+  );
 
-    // Icon Sets.
-    $form['icons'] = array(
-      '#type' => 'fieldset',
-      '#title' => t('Icon Sets'),
-      '#collapsible' => TRUE,
-      '#collapsed' => FALSE,
-    );
+  // Link Attributes.
+  $form['link_attributes'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Link attributes'),
+    '#collapsible' => TRUE,
+    '#collapsed' => TRUE,
+    '#tree' => TRUE,
+  );
+  $link_values = isset($values['link_attributes']) ? $values['link_attributes'] : array();
+  $form['link_attributes']['target'] = array(
+    '#type' => 'select',
+    '#title' => t('Default target'),
+    '#default_value' => isset($link_values['target']) ? $link_values['target'] : '<none>',
+    '#options' => array(
+      '<none>' => t('Remove target attribute'),
+      '_blank' => t('Open in a new browser window or tab (_blank)'),
+      '_self' => t('Open in the current window (_self)'),
+      '_parent' => t('Open in the frame that is superior to the frame the link is in (_parent)'),
+      '_top' => t('Cancel all frames and open in full browser window (_top)'),
+    ),
+  );
+  $form['link_attributes']['rel'] = array(
+    '#type' => 'select',
+    '#title' => t('Default rel'),
+    '#default_value' => isset($link_values['rel']) ? $link_values['rel'] : '<none>',
+    '#options' => array(
+      '<none>' => t('Remove rel attribute'),
+      'nofollow' => t('Set nofollow'),
+    ),
+  );
 
-    $options = social_media_links_iconsets_options();
-    $form['icons']['icon_style'] = array(
-      '#type' => 'select',
-      '#title' => t('Icon Style'),
-      '#default_value' => variable_get('social_media_links_icon_style', ''),
-      '#options' => $options,
-    );
+  // Icon Sets.
+  $form['icons'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Icon Sets'),
+    '#collapsible' => TRUE,
+    '#collapsed' => FALSE,
+  );
 
-    // Generate the icon set table.
-    $header = array(
-      array(
-        'data' => t('Name'),
-        'style' => 'width: 150px;',
-      ),
-      t('Sizes'),
-      t('Icon examples and download instructions'),
-    );
+  $options = social_media_links_iconsets_options();
+  $form['icons']['icon_style'] = array(
+    '#type' => 'select',
+    '#title' => t('Icon Style'),
+    '#default_value' => $values['icon_style'],
+    '#options' => $options,
+  );
 
-    $rows = array();
-    $icons = social_media_links_iconsets();
-    foreach ($icons as $iconset_name => $iconset) {
-      if (isset($iconset['download url'])) {
-        $name = '<strong>' . l($iconset['name'], $iconset['download url'], array('attributes' => array('target' => '_blank'))) . '</strong>';
-      }
-      else {
-        $name = '<strong>' . $iconset['name'] . '</strong>';
-      }
+  // Generate the icon set table.
+  $header = array(
+    array(
+      'data' => t('Name'),
+      'style' => 'width: 150px;',
+    ),
+    t('Sizes'),
+    t('Icon examples and download instructions'),
+  );
 
-      if (isset($iconset['publisher'])) {
-        $name .= '<br />' . t('by') . ' ';
-        if (isset($iconset['publisher url'])) {
-          $name .= l($iconset['publisher'], $iconset['publisher url'], array('attributes' => array('target' => '_blank')));
-        }
-        else {
-          $name .= $iconset['publisher'];
-        }
-      }
-
-      $row = array(
-        $name,
-        implode('<br />', $iconset['styles']),
-      );
-
-      if (!empty($iconset['path'])) {
-        $row[] = _social_media_links_generate_example_table($platforms, $iconset);
-      }
-      else {
-        $searchdirs = social_media_links_searchdirs($iconset_name);
-
-        $str = '<strong>' . t('Not installed.') . '</strong><br />';
-        $str .= t('To install: !download and install it into',
-          array(
-            '!download' => l(t('Download'), $iconset['download url'], array('attributes' => array('target' => '_blank'))),
-          )
-        );
-        $str .= ' <code> DRUPAL_ROOT/' . preg_replace('/,([^,]+) ?$/', " " . t('or') . " $1", implode(', ', $searchdirs), 1) . '</code>.';
-
-        if (isset($iconset['additional instructions'])) {
-          $str .= ' ' . $iconset['additional instructions'];
-        }
-        $row[] = $str;
-      }
-
-      $rows[] = $row;
-      $vars = array(
-        'header' => $header,
-        'rows' => $rows,
-        'attributes' => array(
-          'id' => 'social-media-links-iconsets',
-        ),
-      );
-
-      $form['icons']['installed'] = array(
-        '#markup' => theme('table', $vars),
-      );
+  $rows = array();
+  $icons = social_media_links_iconsets();
+  foreach ($icons as $iconset_name => $iconset) {
+    if (isset($iconset['download url'])) {
+      $name = '<strong>' . l($iconset['name'], $iconset['download url'], array('attributes' => array('target' => '_blank'))) . '</strong>';
     }
+    else {
+      $name = '<strong>' . $iconset['name'] . '</strong>';
+    }
+
+    if (isset($iconset['publisher'])) {
+      $name .= '<br />' . t('by') . ' ';
+      if (isset($iconset['publisher url'])) {
+        $name .= l($iconset['publisher'], $iconset['publisher url'], array('attributes' => array('target' => '_blank')));
+      }
+      else {
+        $name .= $iconset['publisher'];
+      }
+    }
+
+    $row = array(
+      $name,
+      implode('<br />', $iconset['styles']),
+    );
+
+    if (!empty($iconset['path'])) {
+      $row[] = _social_media_links_generate_example_table($platforms, $iconset);
+    }
+    else {
+      $searchdirs = social_media_links_searchdirs($iconset_name);
+
+      $str = '<strong>' . t('Not installed.') . '</strong><br />';
+      $str .= t('To install: !download and install it into',
+        array(
+          '!download' => l(t('Download'), $iconset['download url'], array('attributes' => array('target' => '_blank'))),
+        )
+      );
+      $str .= ' <code> DRUPAL_ROOT/' . preg_replace('/,([^,]+) ?$/', " " . t('or') . " $1", implode(', ', $searchdirs), 1) . '</code>.';
+
+      if (isset($iconset['additional instructions'])) {
+        $str .= ' ' . $iconset['additional instructions'];
+      }
+      $row[] = $str;
+    }
+
+    $rows[] = $row;
+    $vars = array(
+      'header' => $header,
+      'rows' => $rows,
+      'attributes' => array(
+        'id' => 'social-media-links-iconsets',
+      ),
+    );
+
+    $form['icons']['installed'] = array(
+      '#markup' => theme('table', $vars),
+    );
   }
 
   return $form;
@@ -270,6 +292,10 @@ function social_media_links_block_view($delta = '') {
       $block['subject'] = t('Follow Us');
       $block['content'] = array(
         '#theme' => 'social_media_links_platforms',
+        '#platform_values' => variable_get('social_media_links_platforms', array()),
+        '#icon_style' => variable_get('social_media_links_icon_style'),
+        '#appearance' => variable_get('social_media_links_appearance'),
+        '#link_attributes' => variable_get('social_media_links_link_attributes'),
         '#attributes' => array(
           'class' => array('social-media-links', 'platforms'),
         ),
@@ -289,27 +315,20 @@ function social_media_links_block_view($delta = '') {
  * @see theme_social_media_links_platforms()
  */
 function template_preprocess_social_media_links_platforms(&$variables) {
-  $platform_values = variable_get('social_media_links_platforms');
-
-  if (count($platform_values) >= 1) {
+  if (count($variables['platform_values']) >= 1) {
     $platform_infos = social_media_links_platforms();
-    $icon_style = explode(':', variable_get('social_media_links_icon_style'));
-    $variables['appearance'] = variable_get('social_media_links_appearance');
-
+    $icon_style = explode(':', $variables['icon_style']);
 
     // Apply the link settings to the render array.
-    $link_values = variable_get('social_media_links_link_attributes');
-    $link_attributes = array();
-    if ($link_values['target'] != '<none>') {
-      $link_attributes['target'] = $link_values['target'];
-    }
-    if ($link_values['rel'] != '<none>') {
-      $link_attributes['rel'] = $link_values['rel'];
+    foreach ($variables['link_attributes'] as $key => $value) {
+      if ($value == '<none>') {
+        unset($variables['link_attributes'][$key]);
+      }
     }
 
     // Sort and loop over the platforms.
-    uasort($platform_values, 'drupal_sort_weight');
-    foreach ($platform_values as $platform_name => $platform_value) {
+    uasort($variables['platform_values'], 'drupal_sort_weight');
+    foreach ($variables['platform_values'] as $platform_name => $platform_value) {
       if (empty($platform_value['platform_value'])) {
         continue;
       }
@@ -322,7 +341,7 @@ function template_preprocess_social_media_links_platforms(&$variables) {
         '#value' => $platform_value['platform_value'],
         '#icon_style' => $icon_style,
         '#appearance' => $variables['appearance'],
-        '#attributes' => $link_attributes,
+        '#attributes' => $variables['link_attributes'],
       );
     }
 
@@ -373,6 +392,9 @@ function social_media_links_platforms() {
   if (isset($platforms)) {
     return $platforms;
   }
+
+  include_once 'social_media_links.platforms.inc';
+
   $platforms = array();
   $platforms = module_invoke_all('social_media_links_platform_info');
 
@@ -394,13 +416,15 @@ function social_media_links_iconsets() {
   if (isset($sets)) {
     return $sets;
   }
+
+  include_once 'social_media_links.iconsets.inc';
+
   $sets = array();
   $sets = module_invoke_all('social_media_links_iconset_info');
 
   foreach ($sets as $key => $set) {
-    unset($sets[$key]['path']);
     if ($path = social_media_links_iconset_path($key)) {
-      $sets[$key]['path'] = social_media_links_iconset_path($key);
+      $sets[$key]['path'] = $path;
     }
   }
 
@@ -688,6 +712,9 @@ function _social_media_links_generate_example_table($platforms, $iconset) {
   $groups = array_chunk($platforms, 10, TRUE);
   $output = '';
 
+  // Use the first iconset style for the sample table.
+  $style = key($iconset['styles']);
+
   foreach ($groups as $group) {
     $header = array();
     $row = array();
@@ -698,7 +725,7 @@ function _social_media_links_generate_example_table($platforms, $iconset) {
         'style' => 'text-align: center; ',
       );
 
-      $vars = array('path' => call_user_func($iconset['path callback'], $platform_name));
+      $vars = array('path' => call_user_func($iconset['path callback'], $platform_name, $style));
 
       if (file_exists($vars['path'])) {
         $row[] = array(

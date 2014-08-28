@@ -154,7 +154,7 @@
     }
   }
 
-  .node-blog, .node-case-of-study {
+  .node-blog, .node-case-of-study, .node-press, .node-whitepapers {
     header {
       margin-top: $space-box-normalize;
       h2 {
@@ -173,6 +173,16 @@
         margin-top: $space-box-normalize;
         margin-right: $space-box-normalize;
         border: 1px solid #000000;
+      }
+    }
+    div.field-name-field-whitepaper {
+      float: left;
+      img {
+        margin-top: $space-box-normalize;
+        margin-right: $space-box-normalize;
+        border: 1px solid #000000;
+        width: 200px;
+        height: 100%;
       }
     }
     div.field-name-body {
@@ -387,9 +397,6 @@
       padding: 0px;
       list-style: none;
       li {
-        margin-bottom: $space-box-normalize;
-        padding-bottom: $space-box-normalize;
-        border-bottom: 1px dotted $auxis-brand-gray-background;
         span.date-display-single {
           color: $auxis-brand-blue-dark;
         }
@@ -399,12 +406,17 @@
         float: left;
         margin-right: $space-box-normalize;
       }
-      div.field-item {
-        display: inline;
-        img {
+      div {
+        .field-item {
+          display: inline;
+        }
+        .field-item > img {
           border: 1px solid $auxis-brand-gray-background;
           width: 234px;
         }
+      }
+      div.field-name-field-download {
+        margin-top: $space-box-normalize;
       }
 
     }
