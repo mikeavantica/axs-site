@@ -107,7 +107,7 @@
                 </div> <!-- /.Sliding Menu Mobile -->
             <?php endif; ?>
             <div class="copy">
-                Copyright © <?php echo date("Y"); ?> | Auxis LLC. All Rights Reserved.
+                Copyright © <?php echo date("Y"); ?> | Auxis LLC All Rights Reserved.
             </div>
         </div>
     </footer>
