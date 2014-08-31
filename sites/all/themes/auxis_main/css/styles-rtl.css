@@ -221,15 +221,15 @@ ul {
   #dummy {
     display: block;
     height: 10px;
+    background-color: #848485;
   }
-  /* line 244, ../sass/layouts/_responsive.scss */
+  /* line 245, ../sass/layouts/_responsive.scss */
   #dummy .dummy {
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
     width: 590px;
     height: 100%;
-    margin-top: 5px;
   }
 
   /**
