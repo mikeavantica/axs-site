@@ -2,10 +2,13 @@
 @import "compass";
 
 .not-front {
-  background-color: $auxis-brand-gray-background;
 
   h1 {
     line-height: 1.2em;
+  }
+
+  #main {
+    background-color: $auxis-brand-gray-background;
   }
 
   #content {
