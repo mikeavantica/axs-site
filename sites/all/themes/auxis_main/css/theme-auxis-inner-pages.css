@@ -306,7 +306,7 @@
   color: #ffd1b4;
 }
 /* line 301, ../sass/theme-auxis-inner-pages.scss */
-.not-front aside.right-col div.region-right-col .views-field-field-image-inner-highlight {
+.not-front aside.right-col div.region-right-col div.views-field-field-image-inner-highlight {
   text-align: center;
 }
 /* line 308, ../sass/theme-auxis-inner-pages.scss */
@@ -410,33 +410,33 @@
 .not-front div.block-locationmap a img {
   border: 1px solid #06295a;
 }
-/* line 402, ../sass/theme-auxis-inner-pages.scss */
+/* line 401, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.field-name-field-download {
+  margin-top: 15px;
+}
+/* line 406, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.view-whitepapers ul {
   margin: 15px 0 0 0;
   padding: 0px;
   list-style: none;
 }
-/* line 407, ../sass/theme-auxis-inner-pages.scss */
+/* line 411, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.view-whitepapers ul li span.date-display-single {
   color: #06295a;
 }
-/* line 412, ../sass/theme-auxis-inner-pages.scss */
+/* line 416, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.view-whitepapers ul div.field-name-field-whitepaper {
   float: left;
   margin-right: 15px;
 }
-/* line 417, ../sass/theme-auxis-inner-pages.scss */
+/* line 421, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.view-whitepapers ul div .field-item {
   display: inline;
 }
-/* line 420, ../sass/theme-auxis-inner-pages.scss */
+/* line 424, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.view-whitepapers ul div .field-item > img {
   border: 1px solid #848485;
   width: 234px;
-}
-/* line 425, ../sass/theme-auxis-inner-pages.scss */
-.not-front div.view-whitepapers ul div.field-name-field-download {
-  margin-top: 15px;
 }
 /* line 433, ../sass/theme-auxis-inner-pages.scss */
 .not-front .views-bootstrap-tab-plugin-style .nav-tabs > li {

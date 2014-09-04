@@ -398,6 +398,10 @@
     }
   }
 
+  div.field-name-field-download  {
+    margin-top: $space-box-normalize;
+  }
+
   div.view-whitepapers {
     ul {
       margin: $space-box-normalize 0 0 0;
@@ -422,10 +426,6 @@
           width: 234px;
         }
       }
-      div.field-name-field-download {
-        margin-top: $space-box-normalize;
-      }
-
     }
   }
 

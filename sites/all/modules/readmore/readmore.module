@@ -59,6 +59,8 @@ function readmore_truncate_string($text, $format = NULL, $size = NULL, $wordsafe
     if ($delimiter) {
       $text = str_replace("<!--break-->","", $text);
       // Set new size.
+      // dpm($delimiter, "delimiter");
+
       $size = $delimiter;
     }
   }
@@ -74,6 +76,9 @@ function readmore_truncate_string($text, $format = NULL, $size = NULL, $wordsafe
 
   // The summary may not be longer than maximum length specified. Initial slice.
   $summary = truncate_utf8($text, $size, $wordsafe, FALSE);
+
+  // mike changed [fix the issue with the bad cut words]
+  $wordsafe = 1;
 
   if ($wordsafe) {
     // Store the actual length of the truncated string.
