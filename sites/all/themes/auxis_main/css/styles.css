@@ -3295,11 +3295,17 @@ body.not-front #content {
   color: #06295a;
 }
 /* line 502, ../sass/theme-auxis-inner-pages.scss */
-.not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-content-image {
+.not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-content-image, .not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-embedded-media {
   float: left;
+  margin-right: 15px;
 }
-/* line 506, ../sass/theme-auxis-inner-pages.scss */
-.not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-content-image img {
+/* line 505, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-content-image iframe, .not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-embedded-media iframe {
+  width: 150px;
+  height: auto;
+}
+/* line 509, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-content-image img, .not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-embedded-media img {
   width: 150px;
   height: auto;
 }

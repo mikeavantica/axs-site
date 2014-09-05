@@ -499,9 +499,12 @@
             color: $auxis-brand-blue-dark;
           }
 
-          .views-field-field-content-image {
+          .views-field-field-content-image, .views-field-field-embedded-media {
             float: left;
-            .field-content {
+            margin-right: $space-box-normalize;
+            iframe {
+              width: 150px;
+              height: auto;
             }
             img {
               width: 150px;

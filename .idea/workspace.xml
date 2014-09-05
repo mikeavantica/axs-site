@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b00fcb22-224d-42fa-b5be-f8405c2b1b1b" name="Default" comment="" />
+    <list default="true" id="b00fcb22-224d-42fa-b5be-f8405c2b1b1b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/files/video_embed_field_thumbnails/youtube/MCQn5NV3G7w.jpg" afterPath="$PROJECT_DIR$/sites/all/files/video_embed_field_thumbnails/youtube/MCQn5NV3G7w.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/theme-auxis-inner-pages.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/theme-auxis-inner-pages.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss" />
+    </list>
     <ignored path="axs-site.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +40,7 @@
       <file leaf-file-name="theme-auxis-inner-pages.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="478" column="17" selection-start="9692" selection-end="9692" vertical-scroll-proportion="0.38906753" vertical-offset="6807" max-vertical-offset="7830">
+            <state line="503" column="46" selection-start="10394" selection-end="10394" vertical-scroll-proportion="0.7909968" vertical-offset="6807" max-vertical-offset="7875">
               <folding />
             </state>
           </provider>
@@ -855,7 +860,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="478" column="17" selection-start="9692" selection-end="9692" vertical-scroll-proportion="0.38906753" vertical-offset="6807" max-vertical-offset="7830">
+        <state line="503" column="46" selection-start="10394" selection-end="10394" vertical-scroll-proportion="0.7909968" vertical-offset="6807" max-vertical-offset="7875">
           <folding />
         </state>
       </provider>
