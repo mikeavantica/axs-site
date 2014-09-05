@@ -45,6 +45,10 @@ body {
     p {
       margin: 0px;
     }
+    a.fp-style {
+      text-transform: capitalize;
+      font-weight: normal;
+    }
     //a:last-child, a.download-link {
     a.download-link {
       text-transform: uppercase;

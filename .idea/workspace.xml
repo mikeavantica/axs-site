@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b00fcb22-224d-42fa-b5be-f8405c2b1b1b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/layouts/_responsive.scss" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/layouts/_responsive.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss" />
     </list>
     <ignored path="axs-site.iws" />
@@ -47,7 +46,7 @@
       <file leaf-file-name="theme-auxis.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="21" selection-start="890" selection-end="890" vertical-scroll-proportion="0.3660419" vertical-offset="388" max-vertical-offset="5445">
+            <state line="49" column="26" selection-start="908" selection-end="908" vertical-scroll-proportion="0.415656" vertical-offset="358" max-vertical-offset="5505">
               <folding />
             </state>
           </provider>
@@ -764,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="21" selection-start="890" selection-end="890" vertical-scroll-proportion="0.3660419" vertical-offset="388" max-vertical-offset="5445">
+        <state line="49" column="26" selection-start="908" selection-end="908" vertical-scroll-proportion="0.415656" vertical-offset="358" max-vertical-offset="5505">
           <folding />
         </state>
       </provider>
