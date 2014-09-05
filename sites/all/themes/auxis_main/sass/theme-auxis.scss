@@ -45,7 +45,8 @@ body {
     p {
       margin: 0px;
     }
-    a:last-child, a.download-link {
+    //a:last-child, a.download-link {
+    a.download-link {
       text-transform: uppercase;
     }
   }
