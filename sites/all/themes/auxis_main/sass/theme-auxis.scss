@@ -32,8 +32,11 @@ body {
   }
   .feature {
     margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px dotted $auxis-brand-gray-background;
     img {
-      display: none;
+      //display: none;
+      width: 20%;
     }
     a {
       color: $auxis-brand-gray-fonts;
@@ -135,6 +138,7 @@ footer {
 .news-clients {
   border: 2px solid $auxis-brand-gray-background;
   overflow: hidden;
+  text-align: center;
 
   h2.block-title {
     font-size: 10px;

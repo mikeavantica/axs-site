@@ -479,38 +479,35 @@
       width: 100%;
     }
 
-    div.view-content-inside-tab-view {
-
-      .item-list ul {
+    div.views-field-field-additional-info {
+      .item-list > ul {
         list-style-type: none;
         padding: 0px;
-        float: left;
         width: 100%;
         border-top: 1px dashed $auxis-brand-gray-background;
+      }
+      .item-list > ul > li {
+        margin-top: $space-box-normalize;
+        padding-bottom: $space-box-normalize;
+        border-bottom: 1px dashed $auxis-brand-gray-background;
+        float: left;
+        width: 100%;
 
-        .views-row {
-          margin-top: $space-box-normalize;
-          padding-bottom: $space-box-normalize;
-          border-bottom: 1px dashed $auxis-brand-gray-background;
+        .field-name-field-content-image, .field-type-video-embed-field {
           float: left;
-          width: 100%;
-          
-          .views-field-title {
-            color: $auxis-brand-blue-dark;
+          margin-right: $space-box-normalize;
+          margin-top: 0px;
+          img {
+            width: 150px;
+            height: auto;
           }
-
-          .views-field-field-content-image, .views-field-field-embedded-media {
-            float: left;
-            margin-right: $space-box-normalize;
-            iframe {
-              width: 150px;
-              height: auto;
-            }
-            img {
-              width: 150px;
-              height: auto;
-            }
+          iframe {
+            width: 150px;
+            height: auto;
           }
+        }
+        .field-name-field-title {
+          color: $auxis-brand-blue-dark;
         }
       }
     }

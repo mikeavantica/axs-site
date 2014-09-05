@@ -362,19 +362,22 @@ ul {
   /* line 352, ../sass/layouts/_responsive.scss */
   #content .features .feature {
     vertical-align: top;
+    padding-bottom: 0px;
+    border-bottom: none;
   }
-  /* line 354, ../sass/layouts/_responsive.scss */
+  /* line 357, ../sass/layouts/_responsive.scss */
   #content .features .feature a:first-child {
     width: 172px;
     padding: 0px;
   }
-  /* line 358, ../sass/layouts/_responsive.scss */
+  /* line 361, ../sass/layouts/_responsive.scss */
   #content .features .feature img {
+    width: 100%;
     display: block;
     float: left;
     padding-right: 15px;
   }
-  /* line 363, ../sass/layouts/_responsive.scss */
+  /* line 367, ../sass/layouts/_responsive.scss */
   #content .features .feature a {
     float: left;
     color: #5b5b5b;
@@ -382,15 +385,15 @@ ul {
     padding-right: 15px;
     padding-bottom: 5px;
   }
-  /* line 370, ../sass/layouts/_responsive.scss */
+  /* line 374, ../sass/layouts/_responsive.scss */
   #content .features .feature a:hover {
     color: #ff6600;
   }
-  /* line 373, ../sass/layouts/_responsive.scss */
+  /* line 377, ../sass/layouts/_responsive.scss */
   #content .features .feature a:last-child {
     float: none;
   }
-  /* line 376, ../sass/layouts/_responsive.scss */
+  /* line 380, ../sass/layouts/_responsive.scss */
   #content .features .feature p {
     float: left;
     margin: 0px;
@@ -401,25 +404,25 @@ ul {
   /**
    * Footer of the layout
    */
-  /* line 393, ../sass/layouts/_responsive.scss */
+  /* line 397, ../sass/layouts/_responsive.scss */
   #footer .internal-footer-content {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
     height: 100%;
   }
-  /* line 398, ../sass/layouts/_responsive.scss */
+  /* line 402, ../sass/layouts/_responsive.scss */
   #footer .internal-footer-content .footer-internal-menu {
     float: right;
     width: 60%;
     margin-right: 0%;
     margin-left: -60%;
   }
-  /* line 400, ../sass/layouts/_responsive.scss */
+  /* line 404, ../sass/layouts/_responsive.scss */
   #footer .internal-footer-content .footer-internal-menu ul.menu {
     margin: 0px;
   }
-  /* line 404, ../sass/layouts/_responsive.scss */
+  /* line 408, ../sass/layouts/_responsive.scss */
   #footer .internal-footer-content .copy {
     text-align: right;
     float: right;
@@ -431,7 +434,7 @@ ul {
   /**
    * Footer - Content of the layout
    */
-  /* line 414, ../sass/layouts/_responsive.scss */
+  /* line 418, ../sass/layouts/_responsive.scss */
   #footer-content.dkp {
     margin-left: auto;
     margin-right: auto;
@@ -439,14 +442,14 @@ ul {
     padding: 10px;
     max-width: 1000px;
   }
-  /* line 421, ../sass/layouts/_responsive.scss */
+  /* line 425, ../sass/layouts/_responsive.scss */
   #footer-content.dkp #block-menu-block-3 {
     float: right;
     width: 80%;
     margin-right: 0%;
     margin-left: -80%;
   }
-  /* line 425, ../sass/layouts/_responsive.scss */
+  /* line 429, ../sass/layouts/_responsive.scss */
   #footer-content.dkp #block-search-form {
     float: left;
     width: 20%;
@@ -454,7 +457,7 @@ ul {
     margin-right: -20%;
     margin-top: 0px;
   }
-  /* line 430, ../sass/layouts/_responsive.scss */
+  /* line 434, ../sass/layouts/_responsive.scss */
   #footer-content.dkp #block-menu-menu-footer-search-menu- {
     clear: left;
     float: left;
@@ -462,7 +465,7 @@ ul {
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 435, ../sass/layouts/_responsive.scss */
+  /* line 439, ../sass/layouts/_responsive.scss */
   #footer-content.dkp #block-social-media-links-social-media-links {
     clear: left;
     float: left;
@@ -470,22 +473,22 @@ ul {
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 440, ../sass/layouts/_responsive.scss */
+  /* line 444, ../sass/layouts/_responsive.scss */
   #footer-content.dkp li.level-1 > ul {
     display: block;
   }
-  /* line 444, ../sass/layouts/_responsive.scss */
+  /* line 448, ../sass/layouts/_responsive.scss */
   #footer-content.dkp .level-1 {
     margin-top: 0px;
     margin-bottom: 10px;
     display: inline-block;
     width: 30%;
   }
-  /* line 452, ../sass/layouts/_responsive.scss */
+  /* line 456, ../sass/layouts/_responsive.scss */
   #footer-content.dkp .menu .menu-mlid-1320 {
     margin-top: -80px;
   }
-  /* line 455, ../sass/layouts/_responsive.scss */
+  /* line 459, ../sass/layouts/_responsive.scss */
   #footer-content.dkp .menu .menu-mlid-430 {
     margin-top: -100px;
   }
@@ -493,11 +496,11 @@ ul {
   /**
    * The Internal Body Layout.
    */
-  /* line 467, ../sass/layouts/_responsive.scss */
+  /* line 471, ../sass/layouts/_responsive.scss */
   body.not-front .breadcrumb {
     margin-bottom: 10px;
   }
-  /* line 471, ../sass/layouts/_responsive.scss */
+  /* line 475, ../sass/layouts/_responsive.scss */
   body.not-front #content.dkp {
     display: -webkit-box;
     display: -moz-box;
@@ -507,18 +510,18 @@ ul {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 481, ../sass/layouts/_responsive.scss */
+  /* line 485, ../sass/layouts/_responsive.scss */
   body.not-front #content.dkp .left-col {
     display: block;
   }
-  /* line 489, ../sass/layouts/_responsive.scss */
+  /* line 493, ../sass/layouts/_responsive.scss */
   body.not-front #content.dkp div.events-item-list ul li ul.events li.calendar {
     display: inline-block;
     width: 80px;
     margin-right: 5px;
     padding: 0px;
   }
-  /* line 494, ../sass/layouts/_responsive.scss */
+  /* line 498, ../sass/layouts/_responsive.scss */
   body.not-front #content.dkp div.events-item-list ul li ul.events li.calendar div.calendar-ico {
     width: 75px;
     height: 75px;
@@ -526,23 +529,23 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
   }
-  /* line 500, ../sass/layouts/_responsive.scss */
+  /* line 504, ../sass/layouts/_responsive.scss */
   body.not-front #content.dkp div.events-item-list ul li ul.events li.calendar div.calendar-ico div.month {
     color: #FFFFFF;
     padding-top: 13px;
     text-align: center;
   }
-  /* line 505, ../sass/layouts/_responsive.scss */
+  /* line 509, ../sass/layouts/_responsive.scss */
   body.not-front #content.dkp div.events-item-list ul li ul.events li.calendar div.calendar-ico div.day {
     padding-top: 2px;
     font-size: 26px;
     text-align: center;
   }
-  /* line 512, ../sass/layouts/_responsive.scss */
+  /* line 516, ../sass/layouts/_responsive.scss */
   body.not-front #content.dkp div.events-item-list ul li ul.events li.content {
     width: 84%;
   }
-  /* line 522, ../sass/layouts/_responsive.scss */
+  /* line 526, ../sass/layouts/_responsive.scss */
   body.not-front .left-col {
     float: right;
     width: 20%;
@@ -551,16 +554,16 @@ ul {
     background-color: #848485;
     padding: 0 0 5px 0;
   }
-  /* line 528, ../sass/layouts/_responsive.scss */
+  /* line 532, ../sass/layouts/_responsive.scss */
   body.not-front .left-col .menu-block-wrapper > ul.menu > li {
     margin-bottom: 15px;
     margin-left: 3px;
   }
-  /* line 533, ../sass/layouts/_responsive.scss */
+  /* line 537, ../sass/layouts/_responsive.scss */
   body.not-front .left-col .menu-block-wrapper > ul.menu > li.first {
     margin-top: 20px;
   }
-  /* line 537, ../sass/layouts/_responsive.scss */
+  /* line 541, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu {
     display: block;
     padding: 0px;
@@ -570,11 +573,11 @@ ul {
     -moz-osx-font-smoothing: grayscale;
     font-size: 100%;
   }
-  /* line 545, ../sass/layouts/_responsive.scss */
+  /* line 549, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li {
     list-style: none;
   }
-  /* line 547, ../sass/layouts/_responsive.scss */
+  /* line 551, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a {
     color: #ffffff;
     font-weight: 800;
@@ -582,7 +585,7 @@ ul {
     padding-right: 3px;
     padding-bottom: 3px;
   }
-  /* line 555, ../sass/layouts/_responsive.scss */
+  /* line 559, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li a:hover {
     text-decoration: none;
     margin-left: -3px;
@@ -590,37 +593,37 @@ ul {
     color: #ffffff;
     background-color: #666668;
   }
-  /* line 568, ../sass/layouts/_responsive.scss */
+  /* line 572, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li {
     list-style: none;
     padding: 0px;
   }
-  /* line 571, ../sass/layouts/_responsive.scss */
+  /* line 575, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li ul li a {
     font-size: 90%;
     text-shadow: none;
     color: #ffffff;
     font-weight: normal;
   }
-  /* line 581, ../sass/layouts/_responsive.scss */
+  /* line 585, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li.is-active-trail {
     border-left: 3px solid #ffffff;
     margin-left: -3px;
     padding-left: 3px;
   }
-  /* line 585, ../sass/layouts/_responsive.scss */
+  /* line 589, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu li.is-active-trail li.active {
     border: none;
     margin-left: -3px;
     background-color: #999999;
   }
-  /* line 592, ../sass/layouts/_responsive.scss */
+  /* line 596, ../sass/layouts/_responsive.scss */
   body.not-front .left-col ul.menu a.is-active-trail {
     margin-left: -3px;
     padding-left: 3px;
     background-color: #999999;
   }
-  /* line 600, ../sass/layouts/_responsive.scss */
+  /* line 604, ../sass/layouts/_responsive.scss */
   body.not-front .article {
     background-color: #ffffff;
     padding: 0 1% 1% 1%;
@@ -629,7 +632,7 @@ ul {
     margin-right: 20%;
     margin-left: -80%;
   }
-  /* line 606, ../sass/layouts/_responsive.scss */
+  /* line 610, ../sass/layouts/_responsive.scss */
   body.not-front .right-col {
     background-color: #848485;
     float: right;
@@ -638,18 +641,18 @@ ul {
     margin-left: -100%;
     padding: 0 1% 1% 1%;
   }
-  /* line 610, ../sass/layouts/_responsive.scss */
+  /* line 614, ../sass/layouts/_responsive.scss */
   body.not-front .right-col ul {
     list-style: none;
     padding: 0px;
   }
-  /* line 613, ../sass/layouts/_responsive.scss */
+  /* line 617, ../sass/layouts/_responsive.scss */
   body.not-front .right-col ul li {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin-bottom: 10px;
   }
-  /* line 617, ../sass/layouts/_responsive.scss */
+  /* line 621, ../sass/layouts/_responsive.scss */
   body.not-front .right-col ul li a {
     display: block;
     padding-bottom: 5px;
