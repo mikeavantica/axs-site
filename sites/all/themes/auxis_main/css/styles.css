@@ -3272,8 +3272,9 @@ body.not-front #content {
 /* line 477, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.views-bootstrap-tab-plugin-style .tab-content {
   float: left;
+  width: 100%;
 }
-/* line 483, ../sass/theme-auxis-inner-pages.scss */
+/* line 484, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul {
   list-style-type: none;
   padding: 0px;
@@ -3281,7 +3282,7 @@ body.not-front #content {
   width: 100%;
   border-top: 1px dashed #848485;
 }
-/* line 490, ../sass/theme-auxis-inner-pages.scss */
+/* line 491, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row {
   margin-top: 15px;
   padding-bottom: 15px;
@@ -3289,15 +3290,15 @@ body.not-front #content {
   float: left;
   width: 100%;
 }
-/* line 497, ../sass/theme-auxis-inner-pages.scss */
+/* line 498, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-title {
   color: #06295a;
 }
-/* line 501, ../sass/theme-auxis-inner-pages.scss */
+/* line 502, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-content-image {
   float: left;
 }
-/* line 505, ../sass/theme-auxis-inner-pages.scss */
+/* line 506, ../sass/theme-auxis-inner-pages.scss */
 .not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-content-image img {
   width: 150px;
   height: auto;
