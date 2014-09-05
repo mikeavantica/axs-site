@@ -482,3 +482,36 @@
 .not-front .views-bootstrap-tab-plugin-style div.tab-content .field-content > p:first-child {
   margin-top: 0px;
 }
+/* line 477, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.views-bootstrap-tab-plugin-style .tab-content {
+  float: left;
+}
+/* line 483, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul {
+  list-style-type: none;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  border-top: 1px dashed #848485;
+}
+/* line 490, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #848485;
+  float: left;
+  width: 100%;
+}
+/* line 497, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-title {
+  color: #06295a;
+}
+/* line 501, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-content-image {
+  float: left;
+}
+/* line 505, ../sass/theme-auxis-inner-pages.scss */
+.not-front div.views-bootstrap-tab-plugin-style div.view-content-inside-tab-view .item-list ul .views-row .views-field-field-content-image img {
+  width: 150px;
+  height: auto;
+}

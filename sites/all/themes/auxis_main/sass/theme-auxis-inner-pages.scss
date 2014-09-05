@@ -472,4 +472,45 @@
       }
     }
   }
+
+  div.views-bootstrap-tab-plugin-style {
+    .tab-content {
+      float: left;
+    }
+
+    div.view-content-inside-tab-view {
+
+      .item-list ul {
+        list-style-type: none;
+        padding: 0px;
+        float: left;
+        width: 100%;
+        border-top: 1px dashed $auxis-brand-gray-background;
+
+        .views-row {
+          margin-top: $space-box-normalize;
+          padding-bottom: $space-box-normalize;
+          border-bottom: 1px dashed $auxis-brand-gray-background;
+          float: left;
+          width: 100%;
+          
+          .views-field-title {
+            color: $auxis-brand-blue-dark;
+          }
+
+          .views-field-field-content-image {
+            float: left;
+            .field-content {
+            }
+            img {
+              width: 150px;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
 }
