@@ -57,7 +57,7 @@ body p, body pre {
   font-weight: normal;
 }
 /* line 52, ../sass/theme-auxis.scss */
-.features .feature a:last-child, .features .feature a.download-link {
+.features .feature a.download-link {
   text-transform: uppercase;
 }
 

@@ -382,6 +382,12 @@ $zen-auto-include-item-base: false;
           margin: 0px;
           width: 47%;
           padding-right: $space-box-normalize;
+          a {
+            font-weight: normal;
+          }
+          a:hover {
+            color: $auxis-brand-gray-fonts;
+          }
         }
       }
     }
