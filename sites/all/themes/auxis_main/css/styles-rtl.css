@@ -412,12 +412,13 @@ ul {
   /**
    * Footer of the layout
    */
-  /* line 404, ../sass/layouts/_responsive.scss */
+  /* line 403, ../sass/layouts/_responsive.scss */
   #footer .internal-footer-content {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
     height: 100%;
+    padding-top: 1em;
   }
   /* line 409, ../sass/layouts/_responsive.scss */
   #footer .internal-footer-content .footer-internal-menu {

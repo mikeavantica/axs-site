@@ -7,8 +7,7 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
-
-<div id="page">
+<div id="page" class="wrapper">
     <div id="dummy" class="dummy_header">
         <div class="dummy"></div>
     </div>
@@ -51,7 +50,7 @@
         </div>
     </header>
 
-    <div id="main">
+    <div id="main" class="content">
 
         <div id="content" class="dkp main-content column" role="main">
             <div class="article">
@@ -84,19 +83,6 @@
             </aside>
         </div>
 
-        <?php
-        // Render the sidebars to see if there's anything in them.
-        $sidebar_first = render($page['sidebar_first']);
-        $sidebar_second = render($page['sidebar_second']);
-        ?>
-
-        <?php if ($sidebar_first || $sidebar_second): ?>
-            <aside class="sidebars">
-                <?php print $sidebar_first; ?>
-                <?php print $sidebar_second; ?>
-            </aside>
-        <?php endif; ?>
-
     </div>
 
     <footer id="footer" class="internal-footer">
@@ -112,5 +98,4 @@
         </div>
     </footer>
 </div>
-
 <?php print render($page['bottom']); ?>

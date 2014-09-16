@@ -3,12 +3,29 @@
 
 .not-front {
 
-  h1 {
-    line-height: 1.2em;
+  height: 100%;
+
+  .wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  .content {
+    display: table-row;  /* height is dynamic, and will expand as content is added (won't scroll) */
+    height: 100%;
+    background-color: $auxis-brand-gray-background;
+  }
+  #footer {
+    display: table-row;
+    height: 3em;
+    .internal-footer-content {
+      padding-left: 1em;
+      padding-bottom: 1em;
+    }
   }
 
-  #main {
-    background-color: $auxis-brand-gray-background;
+  h1 {
+    line-height: 1.2em;
   }
 
   #content {
@@ -267,6 +284,9 @@
           border-bottom: 1px dotted $auxis-brand-gray-background;
           color: #ffffff;
           a {
+            padding-bottom: 5px;
+            font-weight: 800;
+            color: #ffffff;
             display: inline;
             line-height: 1em;
           }
@@ -279,6 +299,7 @@
           }
           .views-field-field-embedded-media {
             margin-top: $space-box-normalize;
+            text-align: center;
             iframe {
               width: 170px;
               height: 180px;

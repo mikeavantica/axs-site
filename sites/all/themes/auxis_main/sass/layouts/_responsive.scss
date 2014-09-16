@@ -405,6 +405,7 @@ $zen-auto-include-item-base: false;
       margin-right: auto;
       max-width: $page-max-width;
       height: 100%;
+      padding-top: 1em;
       .footer-internal-menu {
         @include zen-grid-item(3, 1);
         ul.menu {
