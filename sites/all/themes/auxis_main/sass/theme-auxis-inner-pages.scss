@@ -10,11 +10,13 @@
     height: 100%;
     width: 100%;
   }
-  .content {
+
+  .root-content {
     display: table-row;  /* height is dynamic, and will expand as content is added (won't scroll) */
     height: 100%;
     background-color: $auxis-brand-gray-background;
   }
+  
   #footer {
     display: table-row;
     height: 3em;

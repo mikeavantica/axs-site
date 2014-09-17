@@ -50,7 +50,7 @@
         </div>
     </header>
 
-    <div id="main" class="content">
+    <div id="main" class="root-content">
 
         <div id="content" class="dkp main-content column" role="main">
             <div class="article">
