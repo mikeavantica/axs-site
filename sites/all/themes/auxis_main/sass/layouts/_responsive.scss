@@ -532,6 +532,7 @@ $zen-auto-include-item-base: false;
 
     .left-col {
       @include zen-grid-item(1, 1);
+      float: none ;
       background-color: $auxis-brand-gray-background;
       padding: 0 0 5px 0;
 
@@ -612,11 +613,13 @@ $zen-auto-include-item-base: false;
       background-color: #ffffff;
       padding: 0 1% 1% 1%;
       @include zen-grid-item(3, 2);
+      float: none ;
     }
 
     .right-col {
       background-color: $auxis-brand-gray-background;
       @include zen-grid-item(1, 5);
+      float: none ;
       padding: 0 1% 1% 1%;
       ul {
         list-style: none;
