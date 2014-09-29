@@ -213,6 +213,24 @@ function auxis_main_menu_link__menu_block__3(array $variables)
     return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
 
+function auxis_main_menu_link(array $variables)
+{
+    $element = $variables['element'];
+    $sub_menu = '';
+
+    if ($element['#below']) {
+        $sub_menu = drupal_render($element['#below']);
+    }
+    if (strpos($element['#title'], 'Auxis, LLC') !== false) {
+        $output = $element['#title'];
+    }
+    else
+    {
+        $output = l($element['#title'], $element['#href'], $element['#localized_options']);
+    }
+    return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+}
+
 function auxis_main_preprocess_block(&$variables, $hook) {
     //dpm($variables['block']);
     if ($variables['block']->module == 'views') {
