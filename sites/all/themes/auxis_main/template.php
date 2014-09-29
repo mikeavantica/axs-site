@@ -203,6 +203,9 @@ function auxis_main_menu_link__menu_block__3(array $variables)
     if ($element['#below']) {
         $sub_menu = drupal_render($element['#below']);
     }
+    if ($element['#title'] == 'Business Process Outsourcing') {
+        $element['#title'] = "";
+    }
     if ($element['#title'] == 'BPO') {
         $element['#title'] = "Business Process Outsourcing";
     }
