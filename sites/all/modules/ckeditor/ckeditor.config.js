@@ -26,9 +26,7 @@ CKEDITOR.editorConfig = function(config) {
 
   // [#1762328] Uncomment the line below to protect <code> tags in CKEditor (hide them in wysiwyg mode).
   // config.protectedSource.push(/<code>[\s\S]*?<\/code>/gi);
-  config.extraPlugins = 'oembed,widget';
-  config.oembed_maxWidth = '560';
-  config.oembed_maxHeight = '315';
+  config.extraPlugins = '';
 
   /*
     * Append here extra CSS rules that should be applied into the editing area.
@@ -36,7 +34,6 @@ CKEDITOR.editorConfig = function(config) {
     * config.extraCss = 'body {color:#FF0000;}';
     */
   config.extraCss = '';
-  config.oembed_WrapperClass = 'embededContent';
   /**
     * Sample extraCss code for the "marinelli" theme.
     */
@@ -69,7 +66,7 @@ CKEDITOR.editorConfig = function(config) {
  */
 
 //Toolbar definition for basic buttons
-Drupal.settings.cke_toolbar_DrupalBasic = [ [ 'Format', 'Bold', 'Italic', '-', 'NumberedList','BulletedList', '-', 'Link', 'Unlink', 'Image', 'oembed' ] ];
+Drupal.settings.cke_toolbar_DrupalBasic = [ [ 'Format', 'Bold', 'Italic', '-', 'NumberedList','BulletedList', '-', 'Link', 'Unlink', 'Image' ] ];
 
 //Toolbar definition for Advanced buttons
 Drupal.settings.cke_toolbar_DrupalAdvanced = [
