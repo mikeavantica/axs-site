@@ -1,0 +1,361 @@
+@import "_init";
+@import "compass";
+
+body {
+  background-color: #ffffff;
+  -webkit-text-size-adjust: none;
+  color: $auxis-brand-gray-fonts;
+  font-family: $google-font-open-sans;
+
+  p, pre {
+    margin: 1.5em 0 0 0;
+  }
+}
+
+.header {
+  // Same as above but with a #ccc at the halfway point
+  background-color: $auxis-brand-blue;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 10px;
+  height: $nav-top-menu-max-height;
+}
+
+.hide {
+  display: none;
+}
+
+.features {
+  margin-bottom: 1.5em;
+  .block-title {
+    display: none;
+  }
+  .feature {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px dotted $auxis-brand-gray-background;
+    img {
+      //display: none;
+      width: 20%;
+    }
+    a {
+      color: $auxis-brand-gray-fonts;
+      font-weight: bold;
+    }
+    p {
+      margin: 0px;
+    }
+    a.fp-style {
+      text-transform: capitalize;
+      font-weight: normal;
+    }
+    a.download-link {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.nav-logo {
+  padding: 5px 0px 0px 40px;
+  .logo-container {
+    color: #ffffff;
+    position: relative;
+    height: $nav-top-menu-max-height;
+    z-index: 50;
+    margin-right: 5px;
+    font-size: 80%;
+    width: 250px;
+    img.header__logo-image {
+      position: absolute;
+      left: 40px;
+      top: 13px;
+    }
+
+    span {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+
+      position: absolute;
+      bottom: 12px;
+      left: 5px;
+    }
+  }
+}
+
+footer {
+  background-color: $auxis-brand-gray-background;
+}
+
+.news-info {
+  color: #ffffff;
+  background-color: $auxis-brand-gray-background;
+  padding: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  h2.block-title {
+    display: none;
+  }
+
+  div.newsticker {
+    font-size: 80%;
+    ul {
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      li {
+        border-bottom: 1px dotted #ffffff;
+        padding: 3px 0px;
+        line-height: 14px;
+        div.views-field-title {
+          margin-bottom: 1px;
+          span.field-content {
+            a {
+              color: #ffffff;
+              font-weight: $auxis-font-weight-bold;
+              margin: 0px;
+            }
+            a:hover {
+              text-decoration: none;
+              font-weight: $auxis-font-weight-bold;
+              color: #47474A;
+            }
+          }
+        }
+        div.field-content p {
+          margin: 0px;
+        }
+      }
+    }
+    div.more-events {
+      text-align:right;
+      a {
+        color: #ffffff;
+      }
+      a:hover {
+        color: $auxis-brand-blue-dark;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.news-clients {
+  border: 2px solid $auxis-brand-gray-background;
+  overflow: hidden;
+  text-align: center;
+
+  h2.block-title {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .carousel-inner {
+    .item {
+      img {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.dkp-menu-wrapper {
+  display: none;
+}
+
+.mm-menu.mm-ismenu {
+    color: #1C201F;
+    background-color: $auxis-brand-gray-background;
+}
+
+.mm-menu {
+  .menu a.active {
+    color: #ffffff;
+  }
+}
+
+.content-details {
+  padding: 0px;
+  a {
+    color: #169588;
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0 0 1.5em 0;
+  }
+}
+
+
+#footer-content {
+  font-family: $arial;
+  padding: 0px;
+  margin-top: 10px;
+  font-size: 90%;
+
+  .form-control:focus {
+    border-color: $auxis-brand-blue;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(223, 0, 74, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(223, 0, 74, .6);
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .level-1 > ul {
+    display: none;
+  }
+
+  .level-1 > a {
+    font-weight: $auxis-font-weight-bold;
+  }
+
+  #block-search-form {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: $space-box-normalize;
+    margin-bottom: $space-box-normalize;
+    input {
+      padding: 5px;
+      color: $auxis-brand-gray-fonts;
+    }
+    input.form-submit {
+      display: none;
+    }
+  }
+
+  #block-social-media-links-social-media-links {
+    margin-top: $space-box-normalize;
+    margin-bottom: $space-box-normalize;
+    .horizontal li {
+      padding-left: 0px;
+      padding-right: 8px;
+    }
+  }
+
+  .block {
+    margin: 0px;
+    color: #ffffff;
+
+    ul.menu {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      line-height: 20px;
+
+      padding: 0px;
+      margin: 0px;
+      li {
+        list-style: none;
+        vertical-align: top;
+        a {
+          color: #ffffff;
+          text-decoration: none;
+        }
+        a:hover {
+          color: #47474A;
+        }
+        ul {
+          padding: 0px;
+
+          li {
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.content-news {
+  margin-bottom: 1.5em;
+
+  .carousel.c-fade .item {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .carousel.c-fade .active.left,
+  .carousel.c-fade .active.right {
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+
+  .carousel.c-fade .next,
+  .carousel.c-fade .prev {
+    left: 0;
+    z-index: 1;
+  }
+
+  .carousel.c-fade .carousel-control {
+    z-index: 3;
+  }
+}
+
+.content-slider {
+
+  .block-title {
+    display: none;
+  }
+
+  .carousel-control {
+    display: none;
+  }
+
+  .carousel-indicators {
+    bottom: -15px;
+    z-index: 1;
+  }
+
+  .carousel-caption {
+    text-align: left;
+    padding: 1%;
+    //right: 25%;
+    //left: 5%;
+    z-index: 0;
+    bottom: 10%;
+    background-color: $auxis-brand-orange;
+
+    h1 {
+      font-size: 100%;
+      line-height: 1em;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    h2 {
+      font-size: 50%;
+      padding: 0px;
+      margin: 0px;
+      line-height: 1.3em;
+    }
+  }
+}
+
+.view .date-nav-wrapper {
+  .date-prev {
+    right: 87px;
+  }
+}
+
+a {
+  color: $auxis-brand-gray-fonts;
+}
+
+a:hover {
+  color: $auxis-brand-orange;
+}
+
+body.not-front {
+  .left-col {
+    display: none;
+  }
+
+  #content {
+    display: block;
+  }
+}

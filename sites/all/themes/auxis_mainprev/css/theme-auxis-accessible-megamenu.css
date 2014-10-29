@@ -1,0 +1,177 @@
+/* Mega menu CSS for Auxis Website */
+/* line 6, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu {
+  font-family: "Open Sans", sans-serif;
+  /* mega menu list */
+  /* a top level navigation item in the mega menu */
+  /* first descendant link within a top level navigation item */
+  /* focus/open states of first descendant link within a top level
+     navigation item */
+  /* open state of first descendant link within a top level
+     navigation item */
+  /* sub-navigation panel */
+  /* sub-navigation panel open state */
+  /* list of items within sub-navigation panel */
+  /* list item within sub-navigation panel */
+}
+/* line 11, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .nav-menu {
+  display: block;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 15;
+}
+/* line 22, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .nav-item {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+/* line 30, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .nav-item > a {
+  text-transform: uppercase;
+  font-size: 115%;
+  color: #fcfcfc;
+  letter-spacing: 2px;
+  padding: 0 0.5em;
+  height: 105px;
+  max-width: 140px;
+  text-decoration: none;
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+/* line 52, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .nav-item > a:focus,
+.dkp-menu .nav-item > a.open,
+.dkp-menu .nav-item > a:hover,
+.dkp-menu .nav-item > a.active-trail {
+  color: #fcfcfc;
+  border-left: 2px solid #06295a;
+}
+/* line 63, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .nav-item > a.open,
+.dkp-menu .nav-item > a:hover,
+.dkp-menu .nav-item > a.active-trail {
+  background-image: -webkit-linear-gradient(180deg, #06295a, #154890);
+  background-image: -moz-linear-gradient(180deg, #06295a, #154890);
+  background-image: -o-linear-gradient(180deg, #06295a, #154890);
+  background-image: linear-gradient(180deg, #06295a, #154890);
+  border-bottom: none;
+  z-index: 1;
+}
+/* line 71, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav {
+  position: absolute;
+  display: none;
+  top: 106px;
+  min-width: 150px;
+  margin-top: -1px;
+  padding: 1em;
+  border-left: 2px solid #06295a;
+  border-right: 2px solid #06295a;
+  border-bottom: 2px solid #06295a;
+  border-radius: 0 0 4px 4px;
+  background-image: -webkit-linear-gradient(180deg, #f5f8fa, #e3e5e5);
+  background-image: -moz-linear-gradient(180deg, #f5f8fa, #e3e5e5);
+  background-image: -o-linear-gradient(180deg, #f5f8fa, #e3e5e5);
+  background-image: linear-gradient(180deg, #f5f8fa, #e3e5e5);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 15px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 15px 1px;
+  box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 15px 1px;
+}
+/* line 87, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav.open {
+  display: block;
+}
+/* line 94, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav ul,
+.dkp-menu .sub-nav ul li.level-2.title-block {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0px;
+}
+/* line 99, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav ul ul,
+.dkp-menu .sub-nav ul li.level-2.title-block ul {
+  margin-left: 20px;
+}
+/* line 101, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav ul ul li.level-4,
+.dkp-menu .sub-nav ul li.level-2.title-block ul li.level-4 {
+  list-style: circle;
+}
+/* line 107, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav.menu-full ul li.level-2 {
+  margin-left: 0px;
+}
+/* line 111, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav ul li.level-2 {
+  margin-left: 20px;
+}
+/* line 116, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav li {
+  list-style: square;
+  margin: 0;
+  padding: 0;
+}
+/* line 122, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav li a {
+  display: block;
+  line-height: 20px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 13px;
+  color: #000000;
+}
+/* line 132, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav li a:hover {
+  color: #154890;
+}
+/* line 137, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu ul.sub-nav-group {
+  display: table;
+}
+/* line 139, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu ul.sub-nav-group li.menu-col {
+  display: inline-table;
+}
+/* line 141, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu ul.sub-nav-group li.menu-col > a {
+  font-weight: bold;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+  color: #06295a;
+  text-transform: uppercase;
+}
+/* line 153, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .sub-nav.menu-full, .dkp-menu .sub-nav.menu-full-4 {
+  left: 0px;
+  width: 100%;
+}
+/* line 160, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .menu-full ul.sub-nav-group li.menu-col {
+  width: 30%;
+  margin-left: 3%;
+}
+/* line 169, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .menu-full-4 ul.sub-nav-group li.menu-col {
+  width: 22%;
+}
+/* line 175, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .last .sub-nav {
+  right: 0px;
+}
+/* line 181, ../sass/theme-auxis-accessible-megamenu.scss */
+.dkp-menu .menu__item .sub-nav a.active {
+  color: #154890;
+}
