@@ -2,279 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b00fcb22-224d-42fa-b5be-f8405c2b1b1b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/auxis_main.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/auxis-main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/components/misc-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/components/misc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/layouts/fixed-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/layouts/fixed.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/layouts/responsive-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/layouts/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/normalize-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/styles-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/theme-auxis-accessible-megamenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/theme-auxis-inner-pages.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/theme-auxis-megamenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/css/theme-auxis.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images-source/screenshot.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/help.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/menu-collapsed-rtl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/menu-collapsed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/menu-expanded.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/menu-leaf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/message-24-error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/message-24-ok.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/message-24-warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/progress.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/images/slider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/js/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/NOTICE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/css/megamenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/index1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/js/jquery-accessibleMegaMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/third-party/jquery/jquery-1.10.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/accessible-mmenu/third-party/jquery/jquery-1.10.1.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-easy-ticker-master/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-easy-ticker-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-easy-ticker-master/easyticker.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-easy-ticker-master/jquery.easy-ticker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-easy-ticker-master/jquery.easy-ticker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-easy-ticker-master/test/jquery.easing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-easy-ticker-master/test/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-easy-ticker-master/test/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/addons/jquery.mmenu.counters.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/addons/jquery.mmenu.dragopen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/addons/jquery.mmenu.header.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/addons/jquery.mmenu.labels.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/addons/jquery.mmenu.offcanvas.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/addons/jquery.mmenu.searchfield.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/addons/jquery.mmenu.toggles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/extensions/jquery.mmenu.effects.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/extensions/jquery.mmenu.fullscreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/extensions/jquery.mmenu.positioning.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/extensions/jquery.mmenu.themes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/extensions/jquery.mmenu.widescreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/jquery.mmenu.all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/jquery.mmenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/jquery.mmenu.oncanvas.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/css/mmenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.counters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.counters.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.dragopen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.dragopen.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.header.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.labels.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.labels.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.offcanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.offcanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.searchfield.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.searchfield.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.toggles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/addons/jquery.mmenu.toggles.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/jquery.mmenu.min.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/jquery.mmenu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/jquery.mmenu.oncanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/jquery.mmenu.oncanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/addons/jquery.mmenu.counters.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/addons/jquery.mmenu.dragopen.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/addons/jquery.mmenu.header.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/addons/jquery.mmenu.labels.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/addons/jquery.mmenu.offcanvas.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/addons/jquery.mmenu.searchfield.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/addons/jquery.mmenu.toggles.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/inc/umd_affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/inc/umd_prefix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/jquery.mmenu.oncanvas.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/jquery.mmenu.umd.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/js/umd/jquery.mmenu.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/addons/jquery.mmenu.counters.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/addons/jquery.mmenu.dragopen.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/addons/jquery.mmenu.header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/addons/jquery.mmenu.labels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/addons/jquery.mmenu.offcanvas.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/addons/jquery.mmenu.searchfield.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/addons/jquery.mmenu.toggles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/addons/jquery.mmenu.toggles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/extensions/jquery.mmenu.effects.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/extensions/jquery.mmenu.fullscreen.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/extensions/jquery.mmenu.positioning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/extensions/jquery.mmenu.themes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/extensions/jquery.mmenu.widescreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/extensions/jquery.mmenu.widescreen.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/inc/_arrows.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/inc/_borders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/inc/_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/inc/_sizing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/inc/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/jquery.mmenu.all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/jquery.mmenu.all.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/jquery.mmenu.oncanvas.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/libraries/jquery-mmenu/scss/jquery.mmenu.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/addons/jquery.mmenu.counters.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/addons/jquery.mmenu.dragopen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/addons/jquery.mmenu.header.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/addons/jquery.mmenu.labels.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/addons/jquery.mmenu.offcanvas.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/addons/jquery.mmenu.searchfield.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/addons/jquery.mmenu.toggles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/extensions/jquery.mmenu.effects.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/extensions/jquery.mmenu.fullscreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/extensions/jquery.mmenu.positioning.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/extensions/jquery.mmenu.themes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/extensions/jquery.mmenu.widescreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/jquery.mmenu.all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/jquery.mmenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/css/jquery.mmenu.oncanvas.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.counters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.counters.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.dragopen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.dragopen.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.header.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.labels.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.labels.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.offcanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.offcanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.searchfield.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.searchfield.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.toggles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/addons/jquery.mmenu.toggles.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/jquery.mmenu.min.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/jquery.mmenu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/jquery.mmenu.oncanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/jquery.mmenu.oncanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/addons/jquery.mmenu.counters.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/addons/jquery.mmenu.dragopen.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/addons/jquery.mmenu.header.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/addons/jquery.mmenu.labels.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/addons/jquery.mmenu.offcanvas.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/addons/jquery.mmenu.searchfield.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/addons/jquery.mmenu.toggles.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/inc/umd_affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/inc/umd_prefix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/jquery.mmenu.oncanvas.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/jquery.mmenu.umd.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/prototype/js/umd/jquery.mmenu.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/DO_NOT_MODIFY" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/lib/zen-grids.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/stylesheets/_zen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/stylesheets/_zen.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/stylesheets/zen/_background.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/stylesheets/zen/_background.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/stylesheets/zen/_grids.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/project/_init.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/project/_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/project/_modules.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/project/_visually-hidden.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/project/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/project/manifest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/project/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/project/styles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/manifest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/function-zen-direction-flip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/function-zen-direction-flip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/function-zen-grid-item-width.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/function-zen-grid-item-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/function-zen-half-gutter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/function-zen-half-gutter.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/function-zen-unit-width.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/function-zen-unit-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-clear.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-clear.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-float.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-grid-background.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-grid-background.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-grid-container.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-grid-container.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-grid-flow-item.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-grid-flow-item.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-grid-item-base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-grid-item-base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-grid-item.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-grid-item.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-nested-container.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/sass/zen-nested-container.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/function-zen-direction-flip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/function-zen-grid-item-width.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/function-zen-half-gutter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/function-zen-unit-width.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/zen-clear.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/zen-float.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/zen-grid-background.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/zen-grid-container.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/zen-grid-flow-item.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/zen-grid-item-base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/zen-grid-item.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/templates/unit-tests/test-results/zen-nested-container.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass-extensions/zen-grids/zen-grids.gemspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/_init.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/_normalize-rtl.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/_print.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/components/_misc-rtl.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/components/_misc.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/layouts/_fixed-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/layouts/_fixed-rtl.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/layouts/_fixed.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/layouts/_responsive-rtl.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/layouts/_responsive.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/styles-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/styles-rtl.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/styles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/theme-auxis-accessible-megamenu.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/theme-auxis-inner-pages.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/sass/theme-auxis.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/template.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/html.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/menu-block-wrapper--1.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/menu-block-wrapper--2.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/menu-block-wrapper--3.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/node--blog.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/page--front.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/page.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/region--footer.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/views-bootstrap-carousel-plugin-style--slider-client-view--block.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/views-view-fields--upcoming-auxis-events-page--page.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/views-view-list--one-event-view--block.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/views-view-list--upcoming-auxis-events-page--page.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/views-view-unformatted--front-page-area-highlights--block.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/views-view-unformatted--slider-client-view--block.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/templates/views-view-unformatted--slider-view--block.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_mainprev/theme-settings.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page--front.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page--front.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="axs-site.iws" />
@@ -298,10 +27,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="44" selection-start="6729" selection-end="6764" vertical-scroll-proportion="0.33333334" vertical-offset="2637" max-vertical-offset="4200">
+            <state line="196" column="44" selection-start="6729" selection-end="6764" vertical-scroll-proportion="3.75" vertical-offset="2940" max-vertical-offset="4200">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="112" column="9" selection-start="4196" selection-end="4196" vertical-scroll-proportion="-27.083334" vertical-offset="940" max-vertical-offset="1695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page--front.tpl.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page--front.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="10" selection-start="3486" selection-end="3486" vertical-scroll-proportion="0.97451276" vertical-offset="790" max-vertical-offset="1545">
               <folding />
             </state>
           </provider>
@@ -360,17 +107,17 @@
         <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/js/script.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/views-view-list--upcoming-auxis-events-page--page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/views-view-list--one-event-view--block.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page--front.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/auxis_main.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/views-bootstrap-carousel-plugin-style--slider-client-view--block.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/readmore/readmore.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/theme-auxis-inner-pages.scss" />
-        <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/sass/layouts/_responsive.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/region--footer.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/template.php" />
         <option value="$PROJECT_DIR$/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page--front.tpl.php" />
       </list>
     </option>
   </component>
@@ -443,6 +190,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -558,10 +306,39 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auxis_main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="axs-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="axs-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -640,7 +417,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30775446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31260097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -649,11 +426,11 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="600" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44752476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -896,19 +673,9 @@
         <state line="463" column="23" selection-start="9504" selection-end="9504" vertical-scroll-proportion="0.2632353" vertical-offset="6766" max-vertical-offset="9705" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page--front.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="43" selection-start="2750" selection-end="2750" vertical-scroll-proportion="0.5808824" vertical-offset="775" max-vertical-offset="1455" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/region--footer.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.3529412" vertical-offset="0" max-vertical-offset="680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="27" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/menu_block/README.txt">
@@ -926,14 +693,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/theme-settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="44" selection-start="6729" selection-end="6764" vertical-scroll-proportion="0.33333334" vertical-offset="2637" max-vertical-offset="4200">
+        <state line="196" column="44" selection-start="6729" selection-end="6764" vertical-scroll-proportion="3.75" vertical-offset="2940" max-vertical-offset="4200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="9" selection-start="4196" selection-end="4196" vertical-scroll-proportion="-27.083334" vertical-offset="940" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/auxis_main/templates/page--front.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="10" selection-start="3486" selection-end="3486" vertical-scroll-proportion="0.97451276" vertical-offset="790" max-vertical-offset="1545">
           <folding />
         </state>
       </provider>
