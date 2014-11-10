@@ -1764,8 +1764,6 @@ function theme_links($variables) {
   $output = '';
 
   if (count($links) > 0) {
-    $output = '';
-
     // Treat the heading first if it is present to prepend it to the
     // list of links.
     if (!empty($heading)) {
