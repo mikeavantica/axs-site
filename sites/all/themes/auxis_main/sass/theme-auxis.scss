@@ -163,14 +163,23 @@ footer {
   display: none;
 }
 
-.mm-menu.mm-ismenu {
-    color: #1C201F;
-    background-color: $auxis-brand-gray-background;
-}
-
 .mm-menu {
+
+  .mm-list > li > a.mm-subclose {
+    color: $auxis-brand-orange-light;
+  }
+
+  li > a {
+    color: #ffffff;
+  }
+
   .menu a.active {
     color: #ffffff;
+  }
+
+  .mm-ismenu {
+    color: #1C201F;
+    background-color: $auxis-brand-gray-background;
   }
 }
 
