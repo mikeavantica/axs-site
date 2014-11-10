@@ -455,7 +455,7 @@ body.not-front {
   .views-bootstrap-tab-plugin-style {
     .nav-tabs > li {
       float: none;
-      margin-bottom: -2px;
+      margin-bottom: 2px;
     }
     .nav-tabs {
       border-bottom: 2px solid $auxis-brand-orange;
@@ -501,6 +501,7 @@ body.not-front {
     .tab-content {
       float: left;
       width: 100%;
+      background-color: #FFFFFF;
     }
 
     div.views-field-field-additional-info {

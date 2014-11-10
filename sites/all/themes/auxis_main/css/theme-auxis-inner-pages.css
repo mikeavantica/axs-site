@@ -468,7 +468,7 @@ body.not-front div.view-whitepapers ul div .field-item > img {
 /* line 456, ../sass/theme-auxis-inner-pages.scss */
 body.not-front .views-bootstrap-tab-plugin-style .nav-tabs > li {
   float: none;
-  margin-bottom: -2px;
+  margin-bottom: 2px;
 }
 /* line 460, ../sass/theme-auxis-inner-pages.scss */
 body.not-front .views-bootstrap-tab-plugin-style .nav-tabs {
@@ -514,15 +514,16 @@ body.not-front .views-bootstrap-tab-plugin-style div.tab-content .field-content 
 body.not-front div.views-bootstrap-tab-plugin-style .tab-content {
   float: left;
   width: 100%;
+  background-color: #FFFFFF;
 }
-/* line 507, ../sass/theme-auxis-inner-pages.scss */
+/* line 508, ../sass/theme-auxis-inner-pages.scss */
 body.not-front div.views-bootstrap-tab-plugin-style div.views-field-field-additional-info .item-list > ul {
   list-style-type: none;
   padding: 0px;
   width: 100%;
   border-top: 1px dashed #848485;
 }
-/* line 513, ../sass/theme-auxis-inner-pages.scss */
+/* line 514, ../sass/theme-auxis-inner-pages.scss */
 body.not-front div.views-bootstrap-tab-plugin-style div.views-field-field-additional-info .item-list > ul > li {
   margin-top: 15px;
   padding-bottom: 15px;
@@ -530,23 +531,23 @@ body.not-front div.views-bootstrap-tab-plugin-style div.views-field-field-additi
   float: left;
   width: 100%;
 }
-/* line 520, ../sass/theme-auxis-inner-pages.scss */
+/* line 521, ../sass/theme-auxis-inner-pages.scss */
 body.not-front div.views-bootstrap-tab-plugin-style div.views-field-field-additional-info .item-list > ul > li .field-name-field-content-image, body.not-front div.views-bootstrap-tab-plugin-style div.views-field-field-additional-info .item-list > ul > li .field-type-video-embed-field {
   float: left;
   margin-right: 15px;
   margin-top: 0px;
 }
-/* line 524, ../sass/theme-auxis-inner-pages.scss */
+/* line 525, ../sass/theme-auxis-inner-pages.scss */
 body.not-front div.views-bootstrap-tab-plugin-style div.views-field-field-additional-info .item-list > ul > li .field-name-field-content-image img, body.not-front div.views-bootstrap-tab-plugin-style div.views-field-field-additional-info .item-list > ul > li .field-type-video-embed-field img {
   width: 150px;
   height: auto;
 }
-/* line 528, ../sass/theme-auxis-inner-pages.scss */
+/* line 529, ../sass/theme-auxis-inner-pages.scss */
 body.not-front div.views-bootstrap-tab-plugin-style div.views-field-field-additional-info .item-list > ul > li .field-name-field-content-image iframe, body.not-front div.views-bootstrap-tab-plugin-style div.views-field-field-additional-info .item-list > ul > li .field-type-video-embed-field iframe {
   width: 150px;
   height: auto;
 }
-/* line 533, ../sass/theme-auxis-inner-pages.scss */
+/* line 534, ../sass/theme-auxis-inner-pages.scss */
 body.not-front div.views-bootstrap-tab-plugin-style div.views-field-field-additional-info .item-list > ul > li .field-name-field-title {
   color: #06295a;
 }
