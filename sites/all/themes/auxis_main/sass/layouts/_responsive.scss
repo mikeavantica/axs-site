@@ -94,7 +94,6 @@ $zen-auto-include-item-base: false;
     .dkp.header {
       margin-bottom: $space-box-normalize;
     }
-
   }
 
 }
@@ -203,6 +202,15 @@ $zen-auto-include-item-base: false;
       }
     }
   }
+
+  body.not-front {
+    .views-bootstrap-tab-plugin-style {
+      ul.nav-tabs > li {
+        float: left;
+      }
+    }
+  }
+
 }
 
 /**
@@ -469,11 +477,11 @@ $zen-auto-include-item-base: false;
     }
   }
 
-
   /**
    * The Internal Body Layout.
    */
   body.not-front {
+
     $zen-column-count: 5;
     .breadcrumb {
       margin-bottom: 10px;
@@ -635,6 +643,12 @@ $zen-auto-include-item-base: false;
             color: #ffffff;
           }
         }
+      }
+    }
+
+    .views-bootstrap-tab-plugin-style {
+      ul.nav-tabs > li {
+        float: left;
       }
     }
   }

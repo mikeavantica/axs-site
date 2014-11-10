@@ -1,7 +1,7 @@
 @import "_init";
 @import "compass";
 
-.not-front {
+body.not-front {
 
   height: 100%;
 
@@ -454,6 +454,7 @@
 
   .views-bootstrap-tab-plugin-style {
     .nav-tabs > li {
+      float: none;
       margin-bottom: -2px;
     }
     .nav-tabs {
